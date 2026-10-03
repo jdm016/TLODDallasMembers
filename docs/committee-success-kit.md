@@ -65,10 +65,10 @@ Each card lists the chair and co-chair from our current roster, the committee's 
 These five thrusts are the heart of our program of work. Top Teens of America is required, and every chapter is encouraged to include as many thrusts as it can for recognition.
 
 **Service to Youth / Top Teens of America (Top Teen Advisor)**
-- **Chair:** In transition (Lady LaSheryl Walker resigned July 31; succession in progress). **Co-Chair:** Lady Cynthia Scott.
+- **Chair:** Lady Kyra McCoy (Top Teen Advisor). **Co-Chair:** Lady Cynthia Scott.
 - **Purpose:** oversee the Top Teens Program of Work per national guidelines and plan leadership training and workshops.
 - **National frame:** the program runs on **ExCEL (Excellence through Culture, Education and Leadership)**, planned with PIVOT-TTA. Anchor national programs include **Me and My Mentor** (see the Chapter Mentorship Program in A3), the **Dorothy Allen Chimney Black History Bowl** (February), the **Vivien Coe Richard Leadership Academy** (STEAM, summer), Teen-led 10 to 15 minute ExCEL workshops at meetings, and at least one joint TTA/TLOD "KISS" activity (one joint activity is required for both).
-- **Focus this year (SWOT):** fill the advisor seat as our top leadership priority; address affordability (dues named as too high); grow local offerings; keep families informed with timely communication.
+- **Focus this year (SWOT):** support Lady Kyra McCoy as our new Top Teen Advisor; address affordability (dues named as too high); grow local offerings; keep families informed with timely communication.
 
 **Status of Women**
 - **Chair:** Lady Jacqueline Anderson-Vaughn. **Co-Chair:** Lady Deitra Mosley.

@@ -68,7 +68,7 @@ The Executive Board, made up of all elected and appointed officers plus the Past
 | Financial Secretary | Lady Shenequa C. Miller | Collects dues, writes receipts, gives all money to the Treasurer for a receipt, keeps the roll of financial members, prepares financial reports |
 | Treasurer | Lady Tallulah Matthews | Receives money from the Financial Secretary, deposits it, pays properly signed orders, reports through June |
 | Editor of the Crown | Lady Rosalind Baylor-Cosey | Compiles and edits chapter news for the Crown |
-| Top Teen Advisor | In transition: Lady LaSheryl Walker resigned July 31, 2026; succession in progress | Supervises the Top Teens Program of Work, activities, leadership training, and volunteer service |
+| Top Teen Advisor | Lady Kyra McCoy | Supervises the Top Teens Program of Work, activities, leadership training, and volunteer service |
 
 ### Appointed officers (Bylaws, Articles IV and VI)
 
@@ -129,7 +129,7 @@ These are not necessarily problems, since several rules allow change by majority
 | Finance Committee chair | The Treasurer | Lady Tunia Hughes chairs; the Treasurer serves on it |
 | Second Vice President | Chairs Projects; coordinates public relations and awards | Leads membership and intake; co-chairs Public Relations |
 | Nominating Committee | Five members elected from the floor in September | Chair and members appointed (Lady Cynthia Scott, chair); voted on September 18, 2025 |
-| Elected Top Teen Advisor | An elected office | Seat in transition after the July 31, 2026 resignation; filling it is the chapter's top leadership priority |
+| Elected Top Teen Advisor | An elected office | Lady Kyra McCoy serves as Top Teen Advisor |
 
 ## Committees and programs
 
@@ -139,7 +139,7 @@ The chapter's service follows National's structure: five National Program Thrust
 
 | Thrust | Chair / Co-Chair | 2025-2026 highlights |
 | --- | --- | --- |
-| Top Teens of America (Service to Youth Committee) | Chair in transition (succession in progress) / Lady Cynthia Scott | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
+| Top Teens of America (Service to Youth Committee) | Lady Kyra McCoy (Top Teen Advisor) / Lady Cynthia Scott | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
 | Senior Citizens | Lady Johnnie Gales / Lady Florene May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
 | Status of Women | Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley | Breast Cancer Awareness (October); "Letters to Her" for Mental Health Awareness Month (May 2026) |
 | Community Beautification | Lady Shelia Pate | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
@@ -236,7 +236,7 @@ Every chair and co-chair works from the Committee Chair and Co-Chair Success Kit
 
 **Chapter Mentorship Program, two tracks.** Me and My Mentor (Teens), owned by Service to Youth with the Lords: every Top Teen paired with a Top Lady mentor (and a Lord where possible), a Mentor/Mentee Profile Sheet for each pair, quarterly activities, TLC (Teens and Ladies Connecting) events, and a profile/activity sheet to National. Sisterly Mentorship (Ladies), owned by Membership and Sisterly Relations: seasoned Ladies paired with new, reinstated, and emerging-leader Ladies, with monthly check-ins.
 
-**Focus this year (from the SWOT).** Each committee's card in the portal carries its national frame and its focus for 2026-2027. The shared themes: fill the Top Teen Advisor seat, communicate earlier and more often, document every activity for 5-Star, and involve more Ladies to strengthen retention.
+**Focus this year (from the SWOT).** Each committee's card in the portal carries its national frame and its focus for 2026-2027. The shared themes: support the new Top Teen Advisor, communicate earlier and more often, document every activity for 5-Star, and involve more Ladies to strengthen retention.
 
 ### Program lifecycle
 
@@ -341,7 +341,7 @@ The 2025-2027 Chapter Directory (master with photos) is the single source for me
 
 The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet on Sundays at 3:00 PM, usually the fourth Sunday, with joint TLOD and TTA meetings in December and June, and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
 
-- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); the Top Teen Advisor seat is in transition after Lady LaSheryl Walker's resignation on July 31, 2026, and filling it is the chapter's top leadership priority. The chapter 1st Vice President mentors the TTA 1st Vice President.
+- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); Lady Kyra McCoy serves as Top Teen Advisor. The chapter 1st Vice President mentors the TTA 1st Vice President.
 - **Roster:** teen and parent contacts, school, grade, and date joined, kept by the TTA advisor. Updated after each TTA induction (recent classes: March 2025 and December 2025) and each August for grade changes.
 - **Signature events:** TTA Induction Ceremony and Etiquette Workshop (December 7, 2025, 3:00 to 5:00 PM); Blue and Silver Ball (moved from December 13, 2025 to March 7, 2026, with practices from late October at St. Philip's); TTA Speak-Off; Joint TLOD/TTA Retreat.
 - **Scholarship:** the Scholarship Committee awards an annual scholarship to a college-bound Top Teen.

@@ -15,7 +15,7 @@ img{max-width:100%}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style id="portal-style">
-/* Layout: a chapter handbook. A navy sidebar lists every section, grouped the way the chapter works (chapter, service, people, reference); content reads in one column with side panels on wide screens. Blue and silver, the colors of the Blue and Silver Ball. */
+/* Layout: a chapter handbook on a white page. A white sidebar lists every section, grouped the way the chapter works (chapter, service, people, reference); content reads in one column with side panels on wide screens. Ladies in pink, Top Teens in blue, navy for controls. Light theme only. */
 :root {
   --ground: #ffffff;
   --sunk: #f6f7fa;
@@ -31,32 +31,18 @@ img{max-width:100%}
   --tta-soft: #e5effc;
   --on-accent: #ffffff;
   --gold: #8a6514;
-  --nav-bg: #14244a;
-  --nav-ink: #d7deeb;
-  --nav-dim: #95a3bf;
-  --nav-active: #ffffff;
-  --nav-active-ink: #14244a;
-  --nav-hover: rgba(255, 255, 255, .08);
+  --nav-bg: #ffffff;
+  --nav-ink: #17203a;
+  --nav-dim: #5f6a80;
+  --nav-active: #fdebf3;
+  --nav-active-ink: #b0285f;
+  --nav-hover: #f3f5f9;
   --good: #23704a;
   --warn: #8a5410;
   --hold: #5a6275;
   --font-display: "Marcellus", "Palatino Linotype", Palatino, Georgia, serif;
   --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
   --radius: 10px;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --ground: #0f1524; --sunk: #131a2b; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
-    --accent: #b3c4ea; --accent-soft: #1f2d4d; --lady: #f49ac1; --lady-soft: #3b1d2c; --tta: #8ec2ff; --tta-soft: #15304f; --on-accent: #0f1524; --gold: #dcb86a;
-    --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
-    --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --ground: #0f1524; --sunk: #131a2b; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
-  --accent: #b3c4ea; --accent-soft: #1f2d4d; --lady: #f49ac1; --lady-soft: #3b1d2c; --tta: #8ec2ff; --tta-soft: #15304f; --on-accent: #0f1524; --gold: #dcb86a;
-  --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
-  --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { background: var(--ground); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
@@ -65,7 +51,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; margin: 0; }
 .wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; }
 .shell { display: grid; grid-template-columns: 252px minmax(0, 1fr); min-height: 100vh; }
-.sidebar { background: var(--nav-bg); color: var(--nav-ink); padding: 24px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto; display: flex; flex-direction: column; gap: 18px; }
+.sidebar { background: var(--nav-bg); color: var(--nav-ink); border-right: 1px solid var(--line); padding: 24px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto; display: flex; flex-direction: column; gap: 18px; }
 .brand { padding: 0 10px; }
 .brand .org { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nav-dim); line-height: 1.4; }
 .brand .name { font-family: var(--font-display); font-size: 22px; line-height: 1.2; margin-top: 6px; color: var(--nav-ink); }
@@ -75,7 +61,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: bala
 .nav-item svg { width: 18px; height: 18px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; opacity: .9; }
 .nav-item:hover { background: var(--nav-hover); }
 .nav-item[aria-current="page"] { background: var(--nav-active); color: var(--nav-active-ink); }
-.side-foot { margin-top: auto; padding: 12px 10px 0; border-top: 1px solid var(--nav-hover); font-size: 13px; color: var(--nav-dim); }
+.side-foot { margin-top: auto; padding: 12px 10px 0; border-top: 1px solid var(--line); font-size: 13px; color: var(--nav-dim); }
 .side-foot .motto { font-family: var(--font-display); font-size: 15px; color: var(--nav-ink); }
 .topbar { display: none; }
 .content { min-width: 0; }
@@ -85,12 +71,13 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: bala
 @media (max-width: 880px) {
   .shell { grid-template-columns: minmax(0, 1fr); }
   .sidebar { position: static; height: auto; padding: 0 16px 12px; gap: 12px; }
-  .sidebar[data-open="false"] .nav-group, .sidebar[data-open="false"] .side-foot { display: none; }
+  .sidebar[data-open="false"] { display: none; }
+  .sidebar { border-right: 0; border-bottom: 1px solid var(--line); padding-top: 12px; }
   .sidebar .brand { display: none; }
-  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--nav-bg); color: var(--nav-ink); padding: 14px 16px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--nav-bg); color: var(--nav-ink); border-bottom: 1px solid var(--line); padding: 14px 16px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
   .topbar .name { font-family: var(--font-display); font-size: 19px; line-height: 1.2; }
   .topbar .org { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--nav-dim); }
-  .menu-btn { font: 600 14px var(--font-body); color: var(--nav-ink); background: transparent; border: 1px solid var(--nav-dim); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  .menu-btn { font: 600 14px var(--font-body); color: var(--nav-ink); background: transparent; border: 1px solid var(--line); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
   .content-inner { padding-inline: 16px; }
 }
 main { padding-block: 32px 64px; }
