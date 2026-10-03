@@ -213,7 +213,7 @@ These chapter efforts support a national thrust or project and are reported unde
 
 ### Chair and co-chair success kit (2026-2027)
 
-Every chair and co-chair works from the Committee Chair and Co-Chair Success Kit, found in the Member Portal on the Leadership and Committees tab and in the repository. In one line: plan it, fund it, do it, and report it.
+Every chair and co-chair works from the Committee Chair and Co-Chair Success Kit, found in the Member Portal under Chair Success Kit and in the repository. In one line: plan it, fund it, do it, and report it.
 
 1. **Own a Program of Work.** Plan the year with PIVOT, aligned to the chapter calendar and mission, and submit it on the Program of Work Submission Form.
 2. **Budget your work.** Give Finance your anticipated needs and operate within the approved line.

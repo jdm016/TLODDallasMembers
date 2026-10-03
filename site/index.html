@@ -15,51 +15,80 @@ img{max-width:100%}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600;700&display=swap">
 <style id="portal-style">
-/* Layout: a chapter "binder": a garnet masthead, tabbed sections, content in one readable column with side panels on wide screens. */
+/* Layout: a chapter handbook. A navy sidebar lists every section, grouped the way the chapter works (chapter, service, people, reference); content reads in one column with side panels on wide screens. Blue and silver, the colors of the Blue and Silver Ball. */
 :root {
-  --ground: #f8f5f4;
+  --ground: #f4f6f9;
   --surface: #ffffff;
-  --ink: #241a1c;
-  --muted: #6b5b5e;
-  --line: #e6dcdc;
-  --garnet: #7d1d2c;
-  --garnet-soft: #f3e4e6;
-  --gold: #9a7431;
-  --on-garnet: #fff7f2;
-  --good: #2f6b4a;
-  --warn: #8a5a12;
-  --hold: #5b5b6b;
+  --ink: #17203a;
+  --muted: #4f5b73;
+  --line: #d9dfe8;
+  --accent: #23468f;
+  --accent-soft: #e6edf8;
+  --on-accent: #ffffff;
+  --gold: #8a6514;
+  --nav-bg: #14244a;
+  --nav-ink: #d7deeb;
+  --nav-dim: #95a3bf;
+  --nav-active: #ffffff;
+  --nav-active-ink: #14244a;
+  --nav-hover: rgba(255, 255, 255, .08);
+  --good: #23704a;
+  --warn: #8a5410;
+  --hold: #5a6275;
   --font-display: "Marcellus", "Palatino Linotype", Palatino, Georgia, serif;
   --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
   --radius: 10px;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --ground: #161113; --surface: #211a1c; --ink: #f3ebe9; --muted: #b9a9ab; --line: #3a2e31;
-    --garnet: #e27f8d; --garnet-soft: #3a2228; --gold: #d8b46e; --on-garnet: #1b1012;
-    --good: #7fc79e; --warn: #e2b260; --hold: #a9a9bb; color-scheme: dark;
+    --ground: #0f1524; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
+    --accent: #93b2ee; --accent-soft: #1f2d4d; --on-accent: #0f1524; --gold: #dcb86a;
+    --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
+    --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --ground: #161113; --surface: #211a1c; --ink: #f3ebe9; --muted: #b9a9ab; --line: #3a2e31;
-  --garnet: #e27f8d; --garnet-soft: #3a2228; --gold: #d8b46e; --on-garnet: #1b1012;
-  --good: #7fc79e; --warn: #e2b260; --hold: #a9a9bb; color-scheme: dark;
+  --ground: #0f1524; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
+  --accent: #93b2ee; --accent-soft: #1f2d4d; --on-accent: #0f1524; --gold: #dcb86a;
+  --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
+  --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 body { background: var(--ground); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
-a { color: var(--garnet); }
-a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; margin: 0; }
 .wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; }
-.masthead { background: var(--garnet); color: var(--on-garnet); padding-block: 28px 0; }
-.masthead .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
-.masthead h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin-top: 4px; }
-.masthead p { margin: 6px 0 0; opacity: .9; max-width: 60ch; }
-.masthead .motto { font-family: var(--font-display); font-size: 15px; opacity: .85; }
-nav.tabs { display: flex; gap: 4px; margin-top: 22px; overflow-x: auto; scrollbar-width: none; }
-nav.tabs button { font: 600 15px var(--font-body); color: var(--on-garnet); background: transparent; border: 0; padding: 10px 14px; border-radius: 8px 8px 0 0; cursor: pointer; white-space: nowrap; opacity: .85; }
-nav.tabs button[aria-selected="true"] { background: var(--ground); color: var(--ink); opacity: 1; }
-main { padding-block: 28px 64px; }
+.shell { display: grid; grid-template-columns: 252px minmax(0, 1fr); min-height: 100vh; }
+.sidebar { background: var(--nav-bg); color: var(--nav-ink); padding: 24px 14px; position: sticky; top: 0; height: 100vh; overflow-y: auto; display: flex; flex-direction: column; gap: 18px; }
+.brand { padding: 0 10px; }
+.brand .org { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nav-dim); line-height: 1.4; }
+.brand .name { font-family: var(--font-display); font-size: 22px; line-height: 1.2; margin-top: 6px; color: var(--nav-ink); }
+.nav-group { display: grid; gap: 2px; }
+.nav-label { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--nav-dim); padding: 0 10px 4px; }
+.nav-item { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; font: 600 15px var(--font-body); color: var(--nav-ink); background: transparent; border: 0; border-radius: 8px; padding: 9px 10px; cursor: pointer; }
+.nav-item svg { width: 18px; height: 18px; flex: none; stroke: currentColor; fill: none; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; opacity: .9; }
+.nav-item:hover { background: var(--nav-hover); }
+.nav-item[aria-current="page"] { background: var(--nav-active); color: var(--nav-active-ink); }
+.side-foot { margin-top: auto; padding: 12px 10px 0; border-top: 1px solid var(--nav-hover); font-size: 13px; color: var(--nav-dim); }
+.side-foot .motto { font-family: var(--font-display); font-size: 15px; color: var(--nav-ink); }
+.topbar { display: none; }
+.content { min-width: 0; }
+.content-inner { max-width: 1120px; margin: 0 auto; padding-inline: 32px; }
+.page-hello h2 { font-size: clamp(26px, 4vw, 34px); }
+.page-hello p { margin: 6px 0 0; color: var(--muted); max-width: 62ch; }
+@media (max-width: 880px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .sidebar { position: static; height: auto; padding: 0 16px 12px; gap: 12px; }
+  .sidebar[data-open="false"] .nav-group, .sidebar[data-open="false"] .side-foot { display: none; }
+  .sidebar .brand { display: none; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; background: var(--nav-bg); color: var(--nav-ink); padding: 14px 16px; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+  .topbar .name { font-family: var(--font-display); font-size: 19px; line-height: 1.2; }
+  .topbar .org { font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--nav-dim); }
+  .menu-btn { font: 600 14px var(--font-body); color: var(--nav-ink); background: transparent; border: 1px solid var(--nav-dim); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  .content-inner { padding-inline: 16px; }
+}
+main { padding-block: 32px 64px; }
 .section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
 .section-head h2 { font-size: 28px; }
 .section-head p { margin: 4px 0 0; color: var(--muted); max-width: 62ch; }
@@ -71,22 +100,22 @@ main { padding-block: 28px 64px; }
 .muted { color: var(--muted); }
 .small { font-size: 14px; }
 .empty { color: var(--muted); font-size: 15px; padding: 10px 0; }
-.btn { font: 600 14px var(--font-body); border-radius: 8px; padding: 8px 14px; cursor: pointer; border: 1px solid var(--garnet); background: var(--garnet); color: var(--on-garnet); }
-.btn.ghost { background: transparent; color: var(--garnet); }
+.btn { font: 600 14px var(--font-body); border-radius: 8px; padding: 8px 14px; cursor: pointer; border: 1px solid var(--accent); background: var(--accent); color: var(--on-accent); }
+.btn.ghost { background: transparent; color: var(--accent); }
 .btn.quiet { background: transparent; color: var(--muted); border-color: var(--line); }
-.btn.danger { background: transparent; color: var(--garnet); border-color: var(--line); }
+.btn.danger { background: transparent; color: var(--accent); border-color: var(--line); }
 .btn[disabled] { opacity: .5; cursor: default; }
 .row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
 /* event list */
 .evt { display: grid; grid-template-columns: 58px minmax(0, 1fr) auto; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); align-items: start; }
 .evt:first-child { border-top: 0; }
 .datechip { text-align: center; border: 1px solid var(--line); border-radius: 8px; padding: 4px 0; font-variant-numeric: tabular-nums; }
-.datechip .m { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--garnet); font-weight: 700; }
+.datechip .m { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
 .datechip .d { font-family: var(--font-display); font-size: 24px; line-height: 1.1; }
 .evt h4 { margin: 0; font-size: 16px; }
 .evt .meta { color: var(--muted); font-size: 14px; }
 .tag { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
-.tag.chapter { color: var(--garnet); border-color: var(--garnet); }
+.tag.chapter { color: var(--accent); border-color: var(--accent); }
 .tag.tta { color: var(--gold); border-color: var(--gold); }
 .tag.deadline { color: var(--warn); border-color: var(--warn); }
 /* calendar */
@@ -98,13 +127,13 @@ main { padding-block: 28px 64px; }
 .cal .day { min-height: 84px; padding: 6px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); font-variant-numeric: tabular-nums; min-width: 0; }
 .cal .day:nth-child(7n+1) { border-left: 0; }
 .cal .day.out { background: var(--ground); color: var(--muted); }
-.cal .day.today .n { background: var(--garnet); color: var(--on-garnet); border-radius: 99px; padding: 0 7px; }
+.cal .day.today .n { background: var(--accent); color: var(--on-accent); border-radius: 99px; padding: 0 7px; }
 .cal .n { font-size: 13px; font-weight: 600; }
-.cal .pill { display: block; margin-top: 4px; font-size: 12px; line-height: 1.3; padding: 2px 6px; border-radius: 6px; background: var(--garnet-soft); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border: 0; width: 100%; text-align: left; cursor: pointer; font-family: var(--font-body); }
+.cal .pill { display: block; margin-top: 4px; font-size: 12px; line-height: 1.3; padding: 2px 6px; border-radius: 6px; background: var(--accent-soft); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border: 0; width: 100%; text-align: left; cursor: pointer; font-family: var(--font-body); }
 @media (max-width: 560px) { .cal .day { min-height: 56px; } .cal .pill { font-size: 0; height: 8px; padding: 0; } }
 .filters { display: flex; flex-wrap: wrap; gap: 6px; }
 .chipbtn { font: 600 13px var(--font-body); padding: 5px 12px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
-.chipbtn[aria-pressed="true"] { border-color: var(--garnet); color: var(--garnet); background: var(--garnet-soft); }
+.chipbtn[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 /* projects */
 .summary { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
 .proj-list { display: grid; gap: 12px; }
@@ -112,9 +141,9 @@ main { padding-block: 28px 64px; }
 .proj h4 { margin: 0; font-size: 17px; }
 .status { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
 .status::before { content: ""; width: 7px; height: 7px; border-radius: 99px; background: currentColor; }
-.st-idea { color: var(--muted); } .st-planning { color: var(--gold); } .st-progress { color: var(--garnet); } .st-complete { color: var(--good); } .st-hold { color: var(--hold); }
+.st-idea { color: var(--muted); } .st-planning { color: var(--gold); } .st-progress { color: var(--accent); } .st-complete { color: var(--good); } .st-hold { color: var(--hold); }
 .bar { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; margin-top: 8px; }
-.bar span { display: block; height: 100%; background: var(--garnet); }
+.bar span { display: block; height: 100%; background: var(--accent); }
 .kv { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 14px; color: var(--muted); margin-top: 4px; font-variant-numeric: tabular-nums; }
 .kv b { color: var(--ink); font-weight: 600; }
 .confirm { font-size: 12px; font-weight: 700; color: var(--warn); }
@@ -137,11 +166,11 @@ dialog form { padding: 20px; display: grid; gap: 12px; }
 dialog h3 { font-size: 22px; }
 label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
 #bylaws-search { max-width: 520px; }
-.area-block { border-left: 3px solid var(--garnet); padding-left: 14px; display: grid; gap: 10px; }
+.area-block { border-left: 3px solid var(--accent); padding-left: 14px; display: grid; gap: 10px; }
 .area-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
 table.swot { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 14px; }
 table.swot th, table.swot td { border: 1px solid var(--line); padding: 8px; vertical-align: top; text-align: left; }
-table.swot thead th { background: var(--garnet-soft); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+table.swot thead th { background: var(--accent-soft); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
 table.swot tbody th { width: 180px; font-weight: 600; }
 .swot-cell { all: unset; display: block; width: 100%; min-height: 40px; cursor: pointer; }
 .swot-cell:focus-visible { outline: 2px solid var(--gold); }
@@ -173,6 +202,32 @@ textarea { min-height: 84px; resize: vertical; }
 .su-req:first-of-type { border-top: 0; }
 .su-msg { margin-top: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--ground); }
 .su-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
+/* leadership and committees */
+.h-sub { font-size: 22px; }
+.officer-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
+.person { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 4px; align-content: start; min-width: 0; }
+.person .role, .org-col .role { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--accent); }
+.person .who, .org-col .who { font-family: var(--font-display); font-size: 20px; line-height: 1.25; }
+.person p { margin: 4px 0 0; font-size: 14px; color: var(--muted); }
+.org-map { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.org-col { display: grid; gap: 10px; align-content: start; }
+.org-col h4 { margin: 6px 0 4px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.org-col ul { margin: 0; padding-left: 18px; font-size: 15px; }
+.org-col li { margin: 2px 0; }
+.cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; background: var(--accent-soft); border-color: transparent; }
+.com-tools { display: grid; gap: 10px; }
+.search { max-width: 420px; background: var(--surface); }
+.com-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; align-items: start; }
+.com-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 8px; min-width: 0; }
+.com-card .grp { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--muted); }
+.com-card h4 { margin: 0; font-size: 18px; line-height: 1.3; }
+.people-rows { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 12px; margin: 0; font-size: 15px; }
+.people-rows dt { color: var(--muted); }
+.people-rows dd { margin: 0; font-weight: 600; }
+.com-card .charge { margin: 0; font-size: 14px; color: var(--muted); }
+.com-card details { border-top: 1px solid var(--line); padding-top: 8px; }
+.com-card summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--accent); }
+.com-card details p { margin: 8px 0 0; font-size: 14px; }
 </style>
 
 </head>
@@ -189,7 +244,20 @@ textarea { min-height: 84px; resize: vertical; }
   const TYPES = ["Chapter", "Executive Board", "Committee", "Program", "Top Teens", "Training", "Deadline", "Area / National", "Social"];
   const GROUPS = ["Governance", "Members", "Forms", "Programs", "Officers and advisors", "References"];
   const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["signup","Committee Sign-Up"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
+  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["leadership","Leadership"],["committees","Committees"],["signup","Committee Sign-Up"],["kit","Chair Success Kit"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
+  const NAV = [["Chapter", ["home", "calendar"]], ["Service", ["projects"]], ["People", ["leadership", "committees", "signup", "kit"]], ["Reference", ["bylaws", "resources", "feedback"]]];
+  const ICONS = {
+    home: "M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z",
+    calendar: "M4 6h16v14H4z M4 10h16 M8 3v4 M16 3v4",
+    projects: "M3 20h18 M6 20v-6 M11 20V8 M16 20v-10",
+    leadership: "M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5z",
+    committees: "M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z M3 20a6 6 0 0 1 12 0 M16 5a3 3 0 0 1 0 6 M18 20a6 6 0 0 0-2.5-4.9",
+    signup: "M9 3h6v3H9z M7 4.5H5V21h14V4.5h-2 M8.5 13.5l2.5 2.5 4.5-4.5",
+    kit: "M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3",
+    bylaws: "M6 3h9l4 4v14H6z M14 3v5h5 M9 12h7 M9 16h7",
+    resources: "M3 6h6l2 2h10v11H3z",
+    feedback: "M4 5h16v11H9l-5 4z"
+  };
   const COMMITTEE_GROUPS = ["Officers", "National Program Thrusts", "National Strategic Partners", "National Projects", "Chapter partnerships", "Standing committees", "Special committees"];
   const AREA_CATEGORIES = ["National Programs (First Vice President)", "National Programs: Strategic Partners", "National Projects (Second Vice President)", "Chapter operations"];
 
@@ -223,7 +291,7 @@ textarea { min-height: 84px; resize: vertical; }
   let tab = (location.hash || "").replace("#", "");
   if (!TABS.some(t => t[0] === tab)) tab = "home";
   let calY = now.getFullYear(), calM = now.getMonth();
-  let typeFilter = "All", statusFilter = "All", showPast = false, bylawsQuery = "";
+  let typeFilter = "All", statusFilter = "All", showPast = false, bylawsQuery = "", comFilter = "All", comQuery = "", navOpen = false;
 
   function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
   function parse(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
@@ -694,20 +762,88 @@ textarea { min-height: 84px; resize: vertical; }
             : el("p", { class: "empty" }, "As feedback comes in, the board posts a summary here along with what changed."))));
   }
 
-  function viewCommittees() {
-    const groups = COMMITTEE_GROUPS.map(g => [g, state.committees.filter(c => c.group === g)]).filter(x => x[1].length);
+  function icon(k) {
+    const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svg.setAttribute("viewBox", "0 0 24 24"); svg.setAttribute("aria-hidden", "true");
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", ICONS[k] || ""); svg.append(path);
+    return svg;
+  }
+  function navLink(k, text) { return el("a", { href: "#" + k, onclick: ev => { ev.preventDefault(); go(k); } }, text); }
+
+  function viewLeadership() {
+    const officers = state.committees.filter(c => c.group === "Officers");
+    const names = g => state.committees.filter(c => c.group === g).map(c => c.name.replace(/ \(.*\)$/, ""));
+    const orgCol = (role, who, groups) => el("section", { class: "panel org-col" },
+      el("div", { class: "role" }, role),
+      el("div", { class: "who" }, who || "To be confirmed"),
+      groups.map(([label, list]) => list.length ? el("div", null, el("h4", null, label), el("ul", null, list.map(n => el("li", null, n)))) : null));
+    const find = n => (officers.find(o => o.name === n) || {}).chair;
+    const committeesCount = state.committees.filter(c => c.group === "Standing committees" || c.group === "Special committees").length;
     return el("div", { class: "stack" },
       el("div", { class: "section-head" },
-        el("div", null, el("h2", null, "Leadership and committees"), el("p", null, "The officers and the chairs who lead each thrust, project, committee, and partnership, with each committee\u2019s national frame and focus for 2026-2027. The Chair and Co-Chair Success Kit is at the bottom of this page. Committee member lists are in the Committee Sign-Up Sheet."))),
-      groups.length ? el("div", { class: "res-groups" }, groups.map(([g, list]) => el("section", { class: "panel" },
-        el("h3", null, g),
-        list.map(c => el("div", { class: "res" },
-          el("div", { style: "min-width:0" },
-            el("span", { style: "font-weight:600" }, c.name),
-            el("p", null, [c.chair, c.cochair].filter(Boolean).join(" / ")),
-            c.charge ? el("p", null, c.charge) : null,
-            c.national ? el("p", { class: "small" }, el("b", null, "National frame: "), c.national) : null,
-            c.focus ? el("p", { class: "small" }, el("b", null, "Focus this year: "), c.focus) : null)))))) : el("p", { class: "empty" }, "Leadership and committee listings will appear here."),
+        el("div", null, el("h2", null, "Chapter leadership"),
+          el("p", null, "The 2025-2027 elected and appointed officers, and how the chapter’s service is organized under them. Looking for a committee chair? See ", navLink("committees", "Committees"), "."))),
+      el("div", { class: "officer-grid" }, officers.map(o => el("article", { class: "person" },
+        el("div", { class: "role" }, o.name),
+        el("div", { class: "who" }, o.chair || "To be confirmed"),
+        o.charge ? el("p", null, o.charge) : null))),
+      el("div", { class: "section-head", style: "margin:12px 0 0" },
+        el("div", null, el("h3", { class: "h-sub" }, "How service is organized"),
+          el("p", null, "The chapter follows National’s Program of Work structure. Each officer below oversees the areas listed."))),
+      el("div", { class: "org-map" },
+        orgCol("First Vice President", find("1st Vice President"), [["National Program Thrusts", names("National Program Thrusts")], ["National Strategic Partners", names("National Strategic Partners")]]),
+        orgCol("Second Vice President", find("2nd Vice President"), [["National Projects", names("National Projects")], ["Chapter partnerships", names("Chapter partnerships")]]),
+        el("section", { class: "panel org-col" },
+          el("div", { class: "role" }, "President"),
+          el("div", { class: "who" }, find("President") || "To be confirmed"),
+          el("div", null, el("h4", null, "Standing and special committees"),
+            el("p", { class: "small", style: "margin:0" }, committeesCount + " committees, each with a chair and a Program of Work. The President appoints committee chairs."),
+            el("p", { class: "small", style: "margin:8px 0 0" }, navLink("committees", "Browse all committees"))))),
+      el("section", { class: "panel cta" },
+        el("div", null, el("h3", { style: "margin:0" }, "Ready to serve?"),
+          el("p", { class: "small muted", style: "margin:4px 0 0" }, "Ask to join a committee, change your role, or be removed from one.")),
+        el("div", { class: "row-actions" },
+          el("button", { class: "btn", onclick: () => go("signup") }, "Go to Committee Sign-Up"),
+          el("button", { class: "btn ghost", onclick: () => go("kit") }, "Chair Success Kit"))));
+  }
+
+  function viewCommittees() {
+    const groups = COMMITTEE_GROUPS.filter(g => g !== "Officers");
+    const all = state.committees.filter(c => c.group !== "Officers");
+    const q = comQuery.trim().toLowerCase();
+    const list = all.filter(c => (comFilter === "All" || c.group === comFilter) &&
+      (!q || [c.name, c.chair, c.cochair, c.charge, c.national, c.focus].join(" ").toLowerCase().includes(q)));
+    const search = el("input", { id: "committee-search", class: "search", type: "search", placeholder: "Search by committee or Lady", "aria-label": "Search committees" });
+    search.value = comQuery;
+    search.addEventListener("input", () => { comQuery = search.value; const pos = search.selectionStart; render(); const s2 = document.getElementById("committee-search"); if (s2) { s2.focus(); try { s2.setSelectionRange(pos, pos); } catch (e) {} } });
+    const chip = (g, label, n) => el("button", { class: "chipbtn", "aria-pressed": String(comFilter === g), onclick: () => { comFilter = g; render(); } }, label + " (" + n + ")");
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Committees"),
+          el("p", null, "Every thrust, project, partnership, and committee, with its chair and co-chair. Open a card for its national frame and this year’s focus. Member lists are in the Committee Sign-Up Sheet.")),
+        el("button", { class: "btn", onclick: () => go("signup") }, "Join or leave a committee")),
+      el("div", { class: "com-tools" }, search,
+        el("div", { class: "filters" }, chip("All", "All", all.length),
+          groups.map(g => { const n = all.filter(c => c.group === g).length; return n ? chip(g, g, n) : null; }))),
+      list.length ? el("div", { class: "com-grid" }, list.map(c => el("article", { class: "com-card" },
+        el("div", { class: "grp" }, c.group),
+        el("h4", null, c.name),
+        el("dl", { class: "people-rows" },
+          el("dt", null, "Chair"), el("dd", null, c.chair || "To be named"),
+          c.cochair ? [el("dt", null, "Co-Chair"), el("dd", null, c.cochair)] : null),
+        c.charge ? el("p", { class: "charge" }, c.charge) : null,
+        c.national || c.focus ? el("details", null, el("summary", null, "National frame and focus"),
+          c.national ? el("p", null, el("b", null, "National frame: "), c.national) : null,
+          c.focus ? el("p", null, el("b", null, "Focus this year: "), c.focus) : null) : null)))
+        : el("p", { class: "empty" }, "No committees match. Try another word or choose All."));
+  }
+
+  function viewKit() {
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Chair and Co-Chair Success Kit"),
+          el("p", null, "What every chair and co-chair does in 2026-2027, the yearly rhythm, PIVOT planning, and templates to copy. Each committee’s focus for the year is on its card under ", navLink("committees", "Committees"), "."))),
       viewSuccessKit());
   }
 
@@ -845,7 +981,7 @@ textarea { min-height: 84px; resize: vertical; }
               el("li", null, "The First Vice President reviews it, works with the Membership Chair as needed, and lets the committee chair know."),
               el("li", null, "The Committee Sign-Up Sheet is updated, and the request is marked Completed."),
               el("li", null, "If you chair or co-chair a committee you are leaving, the officers will plan a hand-off with you.")),
-            el("p", { class: "small", style: "margin-bottom:0" }, "Not sure where to serve? Read each committee’s charge on the ", el("a", { href: "#committees" }, "Leadership & Committees"), " tab.")))),
+            el("p", { class: "small", style: "margin-bottom:0" }, "Not sure where to serve? Read each committee’s charge on the ", navLink("committees", "Committees"), " page.")))),
       officerBox);
   }
 
@@ -854,7 +990,6 @@ textarea { min-height: 84px; resize: vertical; }
     if (!k || !Array.isArray(k.expectations)) return null;
     const tbl = rows => el("table", { class: "kit-table" }, el("tbody", null, rows.map(r => el("tr", null, el("th", { scope: "row" }, r[0]), el("td", null, r[1])))));
     return el("section", { class: "panel kit", id: "success-kit" },
-      el("h3", null, k.title || "Chair and Co-Chair Success Kit"),
       el("p", null, k.preparedBy ? "Prepared by " + k.preparedBy + ". " : "", "Every chair and co-chair works from these expectations and this rhythm. In one line: ", el("b", null, k.summary || "")),
       el("h4", null, "What every chair and co-chair does"),
       el("ol", { class: "kit-list" }, k.expectations.map(e => el("li", null, el("b", null, e[0] + ". "), e[1]))),
@@ -920,18 +1055,26 @@ textarea { min-height: 84px; resize: vertical; }
 
   function render() {
     const app = document.getElementById("app");
-    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, signup: viewSignup, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
-    app.replaceChildren(
-      el("header", { class: "masthead" },
-        el("div", { class: "wrap" },
-          el("div", { class: "eyebrow" }, "Top Ladies of Distinction, Inc. · Dallas Chapter"),
-          el("h1", null, "Member Portal"),
-          el("p", null, "Calendar, programs, resources, and feedback for the Ladies of the Dallas Chapter and our Top Teens of America."),
-          state.settings.motto ? el("p", { class: "motto" }, "\u201C" + state.settings.motto + "\u201D" + (state.settings.theme ? " \u00B7 2025-2027 theme: " + state.settings.theme : "")) : null,
-          el("nav", { class: "tabs", role: "tablist", "aria-label": "Portal sections" },
-            TABS.map(([k, label]) => el("button", { role: "tab", "aria-selected": String(tab === k), onclick: () => go(k) }, label))))),
-      el("main", { class: "wrap" }, view,
-        canEdit ? el("p", { class: "editor-note", style: "margin-top:28px" }, "You have edit access. Saving a change updates the portal for every member.") : null));
+    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, leadership: viewLeadership, committees: viewCommittees, signup: viewSignup, kit: viewKit, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
+    const label = Object.fromEntries(TABS);
+    const hello = tab === "home" && loaded ? el("div", { class: "section-head page-hello" },
+      el("div", null, el("h2", null, "Welcome, Ladies"),
+        el("p", null, "Calendar, programs, resources, and feedback for the Ladies of the Dallas Chapter and our Top Teens of America."))) : null;
+    app.replaceChildren(el("div", { class: "shell" },
+      el("div", { class: "topbar" },
+        el("div", null, el("div", { class: "org" }, "TLOD, Inc. \u00B7 Dallas Chapter"), el("div", { class: "name" }, label[tab] || "Member Portal")),
+        el("button", { class: "menu-btn", "aria-expanded": String(navOpen), "aria-controls": "sidebar", onclick: () => { navOpen = !navOpen; render(); } }, navOpen ? "Close" : "Menu")),
+      el("aside", { class: "sidebar", id: "sidebar", "data-open": String(navOpen) },
+        el("div", { class: "brand" }, el("div", { class: "org" }, "Top Ladies of Distinction, Inc."), el("div", { class: "name" }, "Dallas Chapter Member Portal")),
+        NAV.map(([g, keys]) => el("nav", { class: "nav-group", "aria-label": g },
+          el("div", { class: "nav-label" }, g),
+          keys.map(k => el("button", { class: "nav-item", "aria-current": tab === k ? "page" : null, onclick: () => { navOpen = false; go(k); } }, icon(k), label[k])))),
+        el("div", { class: "side-foot" },
+          state.settings.motto ? el("div", { class: "motto" }, "\u201C" + state.settings.motto + "\u201D") : null,
+          state.settings.theme ? el("div", null, "2025-2027 theme: " + state.settings.theme) : null)),
+      el("div", { class: "content" },
+        el("main", { class: "content-inner" }, hello, view,
+          canEdit ? el("p", { class: "editor-note", style: "margin-top:28px" }, "You have edit access. Saving a change updates the portal for every member.") : null))));
   }
 
   window.addEventListener("hashchange", () => {

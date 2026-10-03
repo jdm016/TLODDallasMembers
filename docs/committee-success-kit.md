@@ -6,7 +6,7 @@
 
 **How to use this kit:** every chair and co-chair reads Part 1 and Part 2, then finds her committee's role card in Part 3. Part 4 has copy-and-use templates. If you take one thing from this kit: plan it, fund it, do it, and report it.
 
-> Repository copy of the kit. Part A2 follows the 2025-2027 TLOD Program of Work Resource Guide structure (Strategic Partners and seven National Projects). The same content appears in the Member Portal on the Leadership and Committees tab.
+> Repository copy of the kit. Part A2 follows the 2025-2027 TLOD Program of Work Resource Guide structure (Strategic Partners and seven National Projects). The same content appears in the Member Portal under Chair Success Kit.
 
 ---
 
