@@ -324,10 +324,10 @@ A regular member has met all chapter obligations, including finance and attendan
 
 ### Joining or leaving a committee
 
-Any Lady may ask to join a committee, change her role, or be removed from a committee at any time through the Committee Sign-Up tab in the Member Portal, or by telling the Membership Chair or any officer.
+Any Lady may ask to join a committee, change her role, or be removed from a committee at any time through the Committee Sign-Up tab in the Member Portal, or by telling the First Vice President or any officer.
 
 1. **Request.** The Lady submits her name, the committee, what she would like (join, removal, or role change), and when it should take effect. A removal request needs no explanation.
-2. **Review.** The Membership Chair and the President review the request and let the committee chair know. Officers with edit access see every request in the portal's officer view; each Lady sees only her own requests and their status.
+2. **Review.** Every request goes to the First Vice President, who reviews it, works with the Membership Chair as needed, and lets the committee chair know. Requests sent through the Netlify site arrive in her email. Officers with edit access see every request in the portal's officer view; each Lady sees only her own requests and their status.
 3. **Update.** The Committee Sign-Up Sheet is updated and the request is marked Completed. A Lady may withdraw a request while it is Received or In review.
 4. **Hand-off.** When a chair or co-chair steps away, the officers plan a hand-off so the committee's files and Program of Work pass to her successor (see the Chair and co-chair success kit).
 

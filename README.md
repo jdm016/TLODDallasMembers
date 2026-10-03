@@ -54,8 +54,8 @@ Give each new item a unique `id` (for example `e34`, `p14`). Keep commas between
 
 The Committee Sign-Up tab lets any Lady ask to join a committee, change her role, or be removed from one.
 
-- **On Netlify:** requests are sent to Netlify Forms under the form name `committee-request`. In the Netlify dashboard, open Forms, enable form detection, and redeploy once. Then add an email notification (Forms, Form notifications) to the Membership Chair and the President so each request arrives in their inbox.
-- **In the Claude artifact:** requests are stored in the artifact's database. Each Lady sees only her own requests and their status; officers with Editor access see every request and update its status. Members need Contributor access to send a request.
+- **On Netlify:** requests are sent to Netlify Forms under the form name `committee-request`. In the Netlify dashboard, open Forms, enable form detection, and redeploy once. Then add an email notification (Forms, Form notifications, Add notification, Email notification) for the `committee-request` form, sent to the First Vice President's email, so each request arrives in her inbox. The address is entered only in the Netlify dashboard and is not stored in this repository, because the repository is public.
+- **In the Claude artifact:** requests are stored in the artifact's database. Each Lady sees only her own requests and their status; the First Vice President (the artifact owner) and officers with Editor access see every request in the officer view and update its status. The artifact does not send email; check the officer view on the Committee Sign-Up tab. Members need Contributor access to send a request.
 
 ## Operations Manual
 

@@ -737,12 +737,12 @@ textarea { min-height: 84px; resize: vertical; }
         const r = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body });
         if (!r.ok) throw new Error(String(r.status));
       } else throw new Error("no_channel");
-      suMsg = "Thank you. Your request was received: " + reqSummary(item) + ". The Membership Chair and the President will follow up, and the committee chair will be told.";
+      suMsg = "Thank you. Your request was received: " + reqSummary(item) + ". It goes to the First Vice President, who will follow up and let the committee chair know.";
       suDraft = { name: d.name, action: REQ_ACTIONS[0], committee: "", role: "Member", timing: "Right away", note: "" };
     } catch (e) {
       const code = e && e.code;
       suMsg = code === "invalid_argument" ? "Your view of the portal cannot send requests yet. Please ask an officer to give you Contributor access, or share your request with the Membership Chair."
-        : "Your request could not be sent. Check your connection and try again, or share it with the Membership Chair or any officer.";
+        : "Your request could not be sent. Check your connection and try again, or share it with the First Vice President or any officer.";
     } finally { suSending = false; render(); }
   }
 
@@ -795,7 +795,7 @@ textarea { min-height: 84px; resize: vertical; }
       el("p", { class: "small muted", style: "margin:10px 0 0" }, "Please do not include phone numbers, addresses, or other personal details. Officers will reach you through the chapter directory."),
       el("div", { class: "row-actions", style: "margin-top:12px" },
         el("button", { type: "submit", class: "btn", disabled: suSending || !canSend }, suSending ? "Sending..." : "Submit request")),
-      !canSend ? el("p", { class: "small muted" }, "Online requests are not available in this view. Please share your request with the Membership Chair or any officer.") : null,
+      !canSend ? el("p", { class: "small muted" }, "Online requests are not available in this view. Please share your request with the First Vice President or any officer.") : null,
       suMsg ? el("div", { class: "su-msg", role: "status" }, suMsg) : null);
 
     const mine = dbApi && myReqs ? [...myReqs].reverse() : null;
@@ -833,7 +833,7 @@ textarea { min-height: 84px; resize: vertical; }
     return el("div", { class: "stack" },
       el("div", { class: "section-head" },
         el("div", null, el("h2", null, "Committee sign-up and removal"),
-          el("p", null, "Ask to join a committee, change your role, or be removed from a committee. Every request goes to the Membership Chair and the President, and the committee chair is told. There is no need to explain a removal request, and every request is handled with care."))),
+          el("p", null, "Ask to join a committee, change your role, or be removed from a committee. Every request goes to the First Vice President, Lady Jessica D. Maine-Jackson, and the committee chair is told. There is no need to explain a removal request, and every request is handled with care."))),
       el("div", { class: "grid-home" },
         el("section", { class: "panel" }, el("h3", null, "Send a request"), form),
         el("div", { class: "stack" },
@@ -842,7 +842,7 @@ textarea { min-height: 84px; resize: vertical; }
             el("h3", null, "How requests are handled"),
             el("ol", { class: "kit-list" },
               el("li", null, "Your request is logged as Received."),
-              el("li", null, "The Membership Chair and President review it and let the committee chair know."),
+              el("li", null, "The First Vice President reviews it, works with the Membership Chair as needed, and lets the committee chair know."),
               el("li", null, "The Committee Sign-Up Sheet is updated, and the request is marked Completed."),
               el("li", null, "If you chair or co-chair a committee you are leaving, the officers will plan a hand-off with you.")),
             el("p", { class: "small", style: "margin-bottom:0" }, "Not sure where to serve? Read each committee’s charge on the ", el("a", { href: "#committees" }, "Leadership & Committees"), " tab.")))),
