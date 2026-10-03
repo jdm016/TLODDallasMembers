@@ -27,6 +27,8 @@ img{max-width:100%}
   --accent-soft: #eceff6;
   --lady: #b0285f;
   --lady-soft: #fdebf3;
+  --lady-card: #fff4f8;
+  --lady-line: #f3cfdf;
   --tta: #1565c0;
   --tta-soft: #e5effc;
   --on-accent: #ffffff;
@@ -227,6 +229,13 @@ textarea { min-height: 84px; resize: vertical; }
 .com-card details { border-top: 1px solid var(--line); padding-top: 8px; }
 .com-card summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--accent); }
 .com-card details p { margin: 8px 0 0; font-size: 14px; }
+/* pink cards for the Ladies */
+.person, .com-card, .org-col { background: var(--lady-card); border-color: var(--lady-line); }
+.com-card details { border-top-color: var(--lady-line); }
+.members { border-top: 1px solid var(--lady-line); padding-top: 8px; }
+.members-label { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; font-weight: 700; color: var(--muted); }
+.members ul { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 14px; }
+.com-card.is-tta .members, .com-card.is-tta details { border-top-color: var(--line); }
 /* Ladies in pink, Top Teens in blue */
 .area-block.area-lady { border-left-color: var(--lady); }
 .area-block.area-tta { border-left-color: var(--tta); }
@@ -828,7 +837,7 @@ textarea { min-height: 84px; resize: vertical; }
     const all = state.committees.filter(c => c.group !== "Officers");
     const q = comQuery.trim().toLowerCase();
     const list = all.filter(c => (comFilter === "All" || c.group === comFilter) &&
-      (!q || [c.name, c.chair, c.cochair, c.charge, c.national, c.focus].join(" ").toLowerCase().includes(q)));
+      (!q || [c.name, c.chair, c.cochair, c.charge, c.national, c.focus, ...(c.members || [])].join(" ").toLowerCase().includes(q)));
     const search = el("input", { id: "committee-search", class: "search", type: "search", placeholder: "Search by committee or Lady", "aria-label": "Search committees" });
     search.value = comQuery;
     search.addEventListener("input", () => { comQuery = search.value; const pos = search.selectionStart; render(); const s2 = document.getElementById("committee-search"); if (s2) { s2.focus(); try { s2.setSelectionRange(pos, pos); } catch (e) {} } });
@@ -836,7 +845,7 @@ textarea { min-height: 84px; resize: vertical; }
     return el("div", { class: "stack" },
       el("div", { class: "section-head" },
         el("div", null, el("h2", null, "Committees"),
-          el("p", null, "Every thrust, project, partnership, and committee, with its chair and co-chair. Open a card for its national frame and this year’s focus. Member lists are in the Committee Sign-Up Sheet.")),
+          el("p", null, "Every thrust, project, partnership, and committee, with its chair, co-chair, and members. Open a card for its national frame and this year’s focus. To join or leave a committee, use Committee Sign-Up.")),
         el("button", { class: "btn", onclick: () => go("signup") }, "Join or leave a committee")),
       el("div", { class: "com-tools" }, search,
         el("div", { class: "filters" }, chip("All", "All", all.length),
@@ -847,6 +856,9 @@ textarea { min-height: 84px; resize: vertical; }
         el("dl", { class: "people-rows" },
           el("dt", null, "Chair"), el("dd", null, ladyText(c.chair || "To be named")),
           c.cochair ? [el("dt", null, "Co-Chair"), el("dd", null, ladyText(c.cochair))] : null),
+        (c.members || []).length ? el("div", { class: "members" },
+          el("div", { class: "members-label" }, "Members (" + c.members.length + ")"),
+          el("ul", null, c.members.map(m => el("li", null, ladyText(m))))) : null,
         c.charge ? el("p", { class: "charge" }, c.charge) : null,
         c.national || c.focus ? el("details", null, el("summary", null, "National frame and focus"),
           c.national ? el("p", null, el("b", null, "National frame: "), c.national) : null,

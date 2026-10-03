@@ -4,7 +4,8 @@
   "theme": "Continuity of Service in Action",
   "motto": "Serving Youth and Adults",
   "slogan": "One Sisterhood, One Chapter, One Team, Leading in Service",
-  "nationalMission": "To enhance and enrich the lives of youth and adults through the implementation of community-based programs and projects. We measure our success by the improved quality of life experienced by the people we serve."
+  "nationalMission": "To enhance and enrich the lives of youth and adults through the implementation of community-based programs and projects. We measure our success by the improved quality of life experienced by the people we serve.",
+  "membersSource": "Committee Chairs, Co-Chairs and Members tab of the 2025-2027 Dallas Chapter Member Information workbook"
  },
  "announcements": [],
  "events": [
@@ -1398,7 +1399,7 @@
   {
    "group": "Officers",
    "name": "Corresponding Secretary",
-   "chair": "Lady Lois Smith (to be confirmed)",
+   "chair": "Lady Lois Smith",
    "cochair": "",
    "charge": "Appointed; reads and answers chapter correspondence."
   },
@@ -1412,7 +1413,7 @@
   {
    "group": "Officers",
    "name": "Parliamentarian",
-   "chair": "Lady Shirley Ison-Newsome",
+   "chair": "To be named",
    "cochair": "",
    "charge": "Interprets the bylaws under Robert's Rules; chairs the Bylaws Committee."
   },
@@ -1423,7 +1424,18 @@
    "cochair": "Lady Cynthia Scott",
    "charge": "Oversees the Top Teens Program of Work under national guidelines and plans leadership training and workshops.",
    "national": "Runs on ExCEL (Excellence through Culture, Education and Leadership), planned with PIVOT-TTA. Anchor programs: Me and My Mentor, the Dorothy Allen Chimney Black History Bowl (February), the Vivien Coe Richard Leadership Academy (STEAM, summer), Teen-led 10 to 15 minute ExCEL workshops at meetings, and at least one joint TTA/TLOD \"KISS\" activity.",
-   "focus": "Support Lady Kyra McCoy as the new Top Teen Advisor; address affordability (dues named as too high); grow local offerings; keep families informed with timely communication."
+   "focus": "Support Lady Kyra McCoy as the new Top Teen Advisor; address affordability (dues named as too high); grow local offerings; keep families informed with timely communication.",
+   "members": [
+    "Lady Nneka Hobbs",
+    "Lady Harnell Williams",
+    "Lady Elandra Gilmore",
+    "Lady Stephanie Brooks",
+    "Lady Racquel Davis",
+    "Lady Renita Hill",
+    "Lady Tarrance Jones",
+    "Lady Orethann Price",
+    "Lady Florene May"
+   ]
   },
   {
    "group": "National Program Thrusts",
@@ -1432,7 +1444,19 @@
    "cochair": "Lady Florene May",
    "charge": "Plans programs to aid the optimal living of senior citizens.",
    "national": "Companionship and outreach, enrichment and educational workshops, support services, intergenerational programs, and health screenings. Recognize Grandparents Day and Senior Citizens Week, and consider crowning a Senior Diva.",
-   "focus": "Boost TLOD and Top Teen participation; extend outreach to residences and housing communities; publish the schedule early to avoid conflicts. The Grand Parents Day tribute fits here."
+   "focus": "Boost TLOD and Top Teen participation; extend outreach to residences and housing communities; publish the schedule early to avoid conflicts. The Grand Parents Day tribute fits here.",
+   "members": [
+    "Lady M. Erlene Williams",
+    "Lady Cheryl Williams",
+    "Lady Racquel Davis",
+    "Lady Harnell Williams",
+    "Lady Deitra Mosley",
+    "Lady Loren Gilbert-Smith",
+    "Lady Orethann Price",
+    "Lady Deardra Hayes-Whigham",
+    "Lady Elandra Gilmore",
+    "Lady Marilynn Mayse"
+   ]
   },
   {
    "group": "National Program Thrusts",
@@ -1441,7 +1465,19 @@
    "cochair": "Lady Deitra Mosley",
    "charge": "Selects and implements programs and workshops to improve the status of women.",
    "national": "Empower women through education, mentorship, and advocacy: empowerment workshops, mentorship and networking, women's health, advocacy, and scholarships.",
-   "focus": "Lean into mental and emotional health programming; hold regular committee meetings; partner with agencies more often; combine projects and programs; strengthen communication."
+   "focus": "Lean into mental and emotional health programming; hold regular committee meetings; partner with agencies more often; combine projects and programs; strengthen communication.",
+   "members": [
+    "Lady Shenequa Miller",
+    "Lady Deardra Hayes-Whigham",
+    "Lady Tallulah Matthews",
+    "Lady Orethann Price",
+    "Lady Stephanie Brooks",
+    "Lady Lorri Spells Dotson",
+    "Lady Karen Fowler",
+    "Lady Hertha Echols",
+    "Lady Shirley Ison-Newsome",
+    "Lady Marjorie O’Neal"
+   ]
   },
   {
    "group": "National Program Thrusts",
@@ -1459,7 +1495,13 @@
    "cochair": "Lady Hertha Echols",
    "charge": "Seeks equal, collaborative partnerships with community, business, education, and government to attain TLOD's goals.",
    "national": "Identify common goals, build relationships, develop partnership proposals, run joint events, and sustain long-term commitments.",
-   "focus": "Expand outreach; pursue joint ventures with metroplex chapters; document and report partnerships."
+   "focus": "Expand outreach; pursue joint ventures with metroplex chapters; document and report partnerships.",
+   "members": [
+    "Lady Lou Ann Phillips",
+    "Lady Elmarie V. Brown",
+    "Lady Cheryl Williams",
+    "Lady Karen Fowler"
+   ]
   },
   {
    "group": "Standing committees",
@@ -1467,21 +1509,35 @@
    "chair": "Lady Nneka Hobbs",
    "cochair": "Lady Nettye Medlock",
    "charge": "Keeps an active file on chapter activities and member contributions, including scrapbooks and Top Lady of the Year.",
-   "focus": "Central to documentation and 5-Star reporting. Make it simple for chairs to hand you records."
+   "focus": "Central to documentation and 5-Star reporting. Make it simple for chairs to hand you records.",
+   "members": [
+    "Lady Orethann Price",
+    "Lady Racquel Davis"
+   ]
   },
   {
    "group": "Standing committees",
    "name": "Bylaws",
    "chair": "Lady Shirley Ison-Newsome",
    "cochair": "Lady Karen Parson",
-   "charge": "Solicits and proposes changes to the Bylaws and Standard Operating Procedures."
+   "charge": "Solicits and proposes changes to the Bylaws and Standard Operating Procedures.",
+   "members": [
+    "Lady Lisa Curry",
+    "Lady Orethann Price",
+    "Lady Lorraine Griffin Johnson",
+    "Lady Hertha Echols"
+   ]
   },
   {
    "group": "Standing committees",
    "name": "Finance",
    "chair": "Lady Tunia Hughes",
    "cochair": "Lady Beverly Randall",
-   "charge": "Presents the budget at the September meeting, accounts for funds received and disbursed, recommends revisions, and files financial reports. Supports the Treasurer in filing Form 990 by August 1 (a 5-Star requirement). Advisor: Lady Lois Smith."
+   "charge": "Presents the budget at the September meeting, accounts for funds received and disbursed, recommends revisions, and files financial reports. Supports the Treasurer in filing Form 990 by August 1 (a 5-Star requirement). Advisor: Lady Lois Smith.",
+   "members": [
+    "Lady Lois Smith (Advisor)",
+    "Lady Sonya Bracken"
+   ]
   },
   {
    "group": "Standing committees",
@@ -1489,7 +1545,12 @@
    "chair": "Lady Stephanie Edwards",
    "cochair": "",
    "charge": "Promotes recruitment, retention, and reactivation of members. Members include Lady Evelyn Hamilton, Lady Elandra Gilmore, and Lady Sonya Bracken.",
-   "focus": "The engine against the retention threat: own the written retention plan, the February reactivation push, warm onboarding, and (with Sisterly Relations) the Sisterly Mentorship track."
+   "focus": "The engine against the retention threat: own the written retention plan, the February reactivation push, warm onboarding, and (with Sisterly Relations) the Sisterly Mentorship track.",
+   "members": [
+    "Lady Evelyn Hamilton",
+    "Lady Elandra Gilmore",
+    "Lady Sonya Bracken"
+   ]
   },
   {
    "group": "Standing committees",
@@ -1504,7 +1565,10 @@
    "name": "Scholarship",
    "chair": "Lady Karen Parson",
    "cochair": "Lady Lisa Curry",
-   "charge": "Sets criteria for the annual Top Teens scholarship, reviews applications, selects judges, and announces winners."
+   "charge": "Sets criteria for the annual Top Teens scholarship, reviews applications, selects judges, and announces winners.",
+   "members": [
+    "Lady Cynthia Scott"
+   ]
   },
   {
    "group": "Special committees",
@@ -1512,14 +1576,22 @@
    "chair": "Lady Evelyn Hamilton",
    "cochair": "Lady Kyra McCoy",
    "charge": "Keeps an accurate history of the organization and serves as custodian of all records.",
-   "focus": "Documentation backbone; standardize how events are captured."
+   "focus": "Documentation backbone; standardize how events are captured.",
+   "members": [
+    "Lady Tameka Selders",
+    "Lady Deitra Mosley"
+   ]
   },
   {
    "group": "Special committees",
    "name": "Blue and Silver Ball",
    "chair": "Lady Deardra Hayes-Whigham",
    "cochair": "Lady Jacqueline Anderson-Vaughn",
-   "charge": "Oversees all aspects of the Ball for the Teens."
+   "charge": "Oversees all aspects of the Ball for the Teens.",
+   "members": [
+    "Lady Stephanie Brooks",
+    "Lady Marjorie O’Neal"
+   ]
   },
   {
    "group": "Special committees",
@@ -1554,7 +1626,11 @@
    "name": "Juanita M. Johns Luncheon",
    "chair": "Lady Verna Farmer",
    "cochair": "Lady Karen Parson",
-   "charge": "Organizes the luncheon, budget, and program."
+   "charge": "Organizes the luncheon, budget, and program.",
+   "members": [
+    "Lady Orethann Price",
+    "Lady Florene May"
+   ]
   },
   {
    "group": "Special committees",
@@ -1628,7 +1704,13 @@
    "name": "Nominating",
    "chair": "Lady Cynthia Scott",
    "cochair": "",
-   "charge": "Five members elected from the floor at the September meeting; presents a slate of officers for the April vote."
+   "charge": "Five members elected from the floor at the September meeting; presents a slate of officers for the April vote.",
+   "members": [
+    "Lady Deitra Mosley",
+    "Lady Beverly Randall",
+    "Lady Kyra McCoy",
+    "Lady Marilynn Mayse"
+   ]
   },
   {
    "group": "Special committees",
@@ -1649,7 +1731,8 @@
    "name": "March of Dimes",
    "chair": "Lady Lisa Curry",
    "cochair": "Lady Orethann Price",
-   "charge": "National Strategic Partner: March for Babies walk (March or April) and the TTA Healthy Choices Conference."
+   "charge": "National Strategic Partner: March for Babies walk (March or April) and the TTA Healthy Choices Conference.",
+   "members": []
   },
   {
    "group": "National Projects",
@@ -1670,7 +1753,11 @@
    "name": "St. Jude Children's Research Hospital",
    "chair": "Lady Harnell Williams",
    "cochair": "",
-   "charge": "National Strategic Partner: support the St. Jude Walk (September or October)."
+   "charge": "National Strategic Partner: support the St. Jude Walk (September or October).",
+   "members": [
+    "Lady Orethann Price",
+    "Lady Florene May"
+   ]
   },
   {
    "group": "Chapter partnerships",
@@ -1691,7 +1778,10 @@
    "name": "UNCF",
    "chair": "Lady Karen Fowler",
    "cochair": "",
-   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; support the UNCF North Texas Walk (September 19) and a UNCF or HBCU college tour or fair for Teens."
+   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; support the UNCF North Texas Walk (September 19) and a UNCF or HBCU college tour or fair for Teens.",
+   "members": [
+    "Lady Veronica Nesbitt"
+   ]
   },
   {
    "group": "National Projects",
@@ -1719,14 +1809,26 @@
    "name": "Foster Care",
    "chair": "Lady Jearlene Miller",
    "cochair": "Lady Tallulah Matthews",
-   "charge": "Supports the National TTA/TLOD Foster Care Initiative."
+   "charge": "Supports the National TTA/TLOD Foster Care Initiative.",
+   "members": [
+    "Lady Orethann Price",
+    "Lady Chryste Gaines",
+    "Lady Florene May",
+    "Lady Bridgette Grosvenor",
+    "Lady Ameryllis Petway"
+   ]
   },
   {
    "group": "Chapter partnerships",
    "name": "ACT-SO (with NAACP)",
    "chair": "To be named",
    "cochair": "",
-   "charge": "Supports the NAACP national project."
+   "charge": "Supports the NAACP national project.",
+   "members": [
+    "Lady Ameryllis Petway",
+    "Lady Chryste Gaines",
+    "Lady Bridgette Grosvenor"
+   ]
   },
   {
    "group": "Special committees",

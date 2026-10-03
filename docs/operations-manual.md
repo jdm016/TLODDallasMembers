@@ -74,8 +74,8 @@ The Executive Board, made up of all elected and appointed officers plus the Past
 
 | Office | 2025-2027 | Duties under the bylaws |
 | --- | --- | --- |
-| Parliamentarian | Lady Shirley Ison-Newsome | Interprets the National and Chapter bylaws under Robert's Rules of Order; chairs the Bylaws Committee |
-| Corresponding Secretary | Lady Lois Smith (gives the Correspondence Report; Confirm) | Reads and answers chapter correspondence; prepares the newsletter with the President's approval |
+| Parliamentarian | To be named | Interprets the National and Chapter bylaws under Robert's Rules of Order; chairs the Bylaws Committee |
+| Corresponding Secretary | Lady Lois Smith (gives the Correspondence Report) | Reads and answers chapter correspondence; prepares the newsletter with the President's approval |
 | Chaplain | Confirm | Leads devotion at all regular and public meetings |
 | Sergeant-at-Arms | Confirm | Keeps the meeting room in order and serves on the door |
 | Historian | Confirm | Chapter history (with the Archives Committee) |
