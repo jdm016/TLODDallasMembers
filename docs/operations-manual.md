@@ -476,6 +476,60 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 - Event sign-in sheets, evaluations, and photos: 3 years (photos that tell the chapter's history go to Archives)
 - Youth permission forms: 3 years after the teen leaves TTA (Confirm with national policy)
 
+## National programs and 5-Star recognition
+
+The national TLOD Program of Work Resource Guide (2023-2025 edition, pages 16 to 76) sets what chapters deliver and report. Confirm any changes for 2025-2027 with the National First and Second Vice Presidents.
+
+### Programs versus activities
+
+A program is an ongoing plan that meets a need, with short- and long-term objectives and measurable outcomes; an activity (bingo, cards, shopping) is a one-time supplement. Write every program to be SMART: Specific (who, what, when, where, how), Measurable (how many, how often, what changed), Achievable, Realistic and relevant to the population served, and Timely within the two-year program year. Blending programs across thrusts and projects (for example, Top Teens and Senior Citizens gardening together) counts toward both and stretches chapter resources.
+
+### National requirements by thrust and project
+
+| Area | National requirement or expectation |
+| --- | --- |
+| Top Teens of America: ExCEL (Excellence through Culture, Education and Leadership) | Mentoring; Black History Bowl; joint chapter retreats; Teens lead 10 to 15 minute ExCEL workshops at meetings; Teen participation at local, Area, and Syn-Lod; leadership, etiquette, career, and scholastic workshops; fundraising; branding; at least one joint TLOD and TTA program; membership; awards; scholarship and Leadership Academy applications |
+| Me and My Mentor | TTA Advisors and Service to Youth match every Teen with a Top Lady; complete Mentor and Mentee Profile Sheets; quarterly activities and benchmarks; Lords may mentor |
+| Dorothy Allen Chimney Black History Bowl | Annual chapter competition in February; Area and Syn-Lod competitions follow |
+| Vivien Coe Richard Leadership Academy | Week-long summer academy for Top Teens in grades 9 to 11 (first-time applicants); chapters encouraged to submit at least one application |
+| TTA and TLOD Foster Care Initiative | Each chapter adopts a foster care facility or program, signs the agreement form, and runs activities (workshops, Suit Up, luggage drives, donations) |
+| Pink and Blue National Day of Service | Martin Luther King Jr. Day; chapter and TTA First Vice Presidents lead care packages for seniors with the Senior Citizens chairs; report under "Pink and Blue Day of Service" (#TLODPinkandBlue) |
+| Senior Citizens | Recognize Grandparents Day and Senior Citizens Week; crown a chapter Senior Diva |
+| Status of Women, Community Beautification, Community Partnerships | Suggested strategies only; Beautification asks chapters to register with Keep America Beautiful |
+| NAACP, NCNW, UNCF | Each requires a $50 chapter contribution with the April 1 financial report; NAACP asks at least two Top Teens to compete in ACT-SO |
+| St. Jude | Support the St. Jude Walk on the third Saturday in May |
+| March of Dimes | March for Babies walk on the program calendar; Top Teens host a Healthy Choices Conference that includes Sickle Cell awareness |
+| Sickle Cell | National Sickle Cell Day of Giving in September; World Sickle Cell Day (June 19) posts; testing and blood drives |
+| TLOD Literacy | Read Across America Week (March); TTA financial literacy workshop in April (Financial Literacy Month) |
+| Membership | The 3 Rs: recruitment, retention, reactivation; targets of 90% retention, 20% recruitment, and 10% reclamation a year; National Reactivation Day in February |
+
+### Post-Event Evaluation reporting
+
+- Submit the national Post-Event Evaluation Form after every program, project, event, or activity, as events happen.
+- Volunteer hours = number of TLOD and TTA members x hours, counting planning through follow-up (for example, 15 members x 2 hours = 30 hours). Only member hours count.
+- When two committees collaborate, each submits its own form and they agree in advance how to split hours and attendees so nothing is counted twice.
+- Record donations received, funds allocated or disbursed, and in-kind services.
+- The President, First and Second Vice Presidents, and TTA Advisor agree on who enters data to avoid duplicates. Keep flyers, agendas, social posts, and sign-in sheets as proof.
+- In 2023-2025, the year-one status check was due May 1 and the final check March 31 before Syn-Lod. Confirm the 2025-2027 dates.
+
+### 5-Star Chapter levels
+
+Chapters apply for one level by the stated deadline and are recognized at Syn-Lod. The levels rise from Orchid to Emerald, Sapphire, Ruby, and Diamond; the national guide recommends working up one level at a time.
+
+| Requirement | Orchid (entry level) | Diamond (highest) |
+| --- | --- | --- |
+| Joint work with Top Teens | 1 joint meeting a year; annual joint retreat; Founders' Day and Rededication with Teens | 2 joint meetings and 3 joint service activities a year, plus the same |
+| Operations | Monthly meetings (July and August optional) with opening and closing ceremonies; Form 990 by August 1 | Same |
+| Programs and projects | 3 of 5 thrusts and 3 of 5 projects; a UNCF or HBCU event; 1 health topic (such as heart disease or mental health) | All 5 thrusts and 5 projects; 5 health topics |
+| Partner memberships | 1 Lady in NAACP, NCNW, or the Sickle Cell Disease Association | Chapter, Lady, and Teen memberships in NAACP and NCNW, plus SCDA and an NCNW life membership |
+| Donations | $300 to March for Babies, Alzheimer's Association, Sickle Cell, American Heart Association, or St. Jude | $1,000 |
+| Top Teens | ExCEL requirements 1 to 5; every Teen has a mentor and 10% of Ladies mentor; 1 Leadership Academy applicant; Black History Bowl event and 1 Area participant; March for Babies or other fundraiser; annual chapter TTA scholarship | All 6 ExCEL requirements each year; 50% of Ladies mentor; 2 mentoring activities; Healthy Choices Conference with Sickle Cell; more Bowl and Syn-Lod participants |
+| Membership | At least one induction | Induction with 10% growth, 85% retention, and one reclaimed member |
+| Conferences | 1 Lady and 1 Teen at Area and Syn-Lod; President or designee at ParliamenTop | 5 Ladies and 4 Teens (or 10%) at Syn-Lod; President, TTA Advisor, and two financial officers at ParliamenTop |
+| Publicity and awards | 5 programs advertised publicly; 1 award submission | 10 programs advertised including radio or TV, articles in the Area newsletter, the Crown, and a local paper; chapter, Lady, and 3 Teen award submissions |
+
+The portal's Programs and Projects tab tracks the chapter against the Orchid requirements.
+
 ## Appendices
 
 ### Forms and source documents
@@ -505,4 +559,4 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 - [ ] National youth protection policy for TTA
 - [ ] Drive link to the bylaws PDF
 
-Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers.
+Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers; TLOD Program of Work Resource Guide (2023-2025, pages 16 to 76).

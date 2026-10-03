@@ -655,6 +655,61 @@
    "type": "Area / National",
    "contact": "",
    "details": "September 25 to 28, 2025."
+  },
+  {
+   "id": "n1",
+   "title": "Pink and Blue National Day of Service (MLK Day)",
+   "date": "2027-01-18",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "First Vice President and Senior Citizens Chair",
+   "details": "Ladies and Teens assemble care packages for seniors. Report under \"Pink and Blue Day of Service\" (#TLODPinkandBlue)."
+  },
+  {
+   "id": "n2",
+   "title": "Chapter financial report with NAACP, NCNW, and UNCF contributions",
+   "date": "2027-04-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Treasurer",
+   "details": "$50 chapter contribution each for NAACP, NCNW, and UNCF, with the April 1 financial report (national guide)."
+  },
+  {
+   "id": "n3",
+   "title": "St. Jude Walk (third Saturday in May)",
+   "date": "2027-05-15",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "St. Jude Chair",
+   "details": "Per the TLOD and St. Jude agreement."
+  },
+  {
+   "id": "n4",
+   "title": "World Sickle Cell Day",
+   "date": "2027-06-19",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Sickle Cell Chair",
+   "details": "Top Teens post Sickle Cell awareness messages on chapter social media."
+  },
+  {
+   "id": "n5",
+   "title": "Form 990 spreadsheet due to National",
+   "date": "2027-08-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Treasurer",
+   "details": "Required for 5-Star status; upload through the national form."
   }
  ],
  "projects": [
@@ -909,6 +964,20 @@
    "title": "TTA 2026 Retreat Call List",
    "url": "https://docs.google.com/spreadsheets/d/1riBSB0kx21kBypOuGO92nRgxP5ccABT775Z9S5X94zc/edit",
    "note": "Retreat outreach tracking."
+  },
+  {
+   "id": "r11",
+   "group": "Forms",
+   "title": "National Post-Event Evaluation Form",
+   "url": "https://forms.gle/7otXC77iaFnvFers8",
+   "note": "Submit after every program, project, or event. Link from the 2023-2025 national guide; confirm it is current."
+  },
+  {
+   "id": "r12",
+   "group": "References",
+   "title": "TLOD Program of Work Resource Guide",
+   "url": "https://drive.google.com/file/d/1DFwwHWHDPVubmgDJ12JCvbKPrmfR7ns3/view",
+   "note": "National program requirements, 5-Star levels, and reporting rules (2023-2025 edition)."
   }
  ],
  "heard": [
@@ -1474,6 +1543,199 @@
    "Raise program execution and visibility in our communities",
    "Advance leadership development and continuity planning",
    "Strengthen our collective voice through unified communication"
+  ]
+ },
+ "observances": [
+  {
+   "when": "January (MLK Day)",
+   "what": "Pink and Blue National Day of Service",
+   "lead": "First Vice President, Senior Citizens"
+  },
+  {
+   "when": "February",
+   "what": "Dorothy Allen Chimney Black History Bowl (chapter competition); National Reactivation Day",
+   "lead": "Top Teen Advisor; Membership"
+  },
+  {
+   "when": "March",
+   "what": "Read Across America Week",
+   "lead": "TLOD Literacy"
+  },
+  {
+   "when": "April",
+   "what": "Financial Literacy Month (TTA workshop); April 1 financial report with NAACP, NCNW, UNCF contributions",
+   "lead": "TLOD Literacy; Treasurer"
+  },
+  {
+   "when": "May (third Saturday)",
+   "what": "St. Jude Walk",
+   "lead": "St. Jude Chair"
+  },
+  {
+   "when": "June 19",
+   "what": "World Sickle Cell Day",
+   "lead": "Sickle Cell Chair"
+  },
+  {
+   "when": "Summer",
+   "what": "Vivien Coe Richard TTA Leadership Academy (grades 9 to 11; apply winter or spring)",
+   "lead": "Top Teen Advisor"
+  },
+  {
+   "when": "August 1",
+   "what": "Form 990 spreadsheet due to National",
+   "lead": "Treasurer"
+  },
+  {
+   "when": "September",
+   "what": "Grandparents Day; National Sickle Cell Day of Giving",
+   "lead": "Senior Citizens; Sickle Cell Chair"
+  },
+  {
+   "when": "Ongoing",
+   "what": "Post-Event Evaluation Form after every event; March for Babies walk; Senior Citizens Week and chapter Senior Diva",
+   "lead": "All chairs"
+  }
+ ],
+ "fiveStar": {
+  "level": "Orchid",
+  "source": "TLOD Program of Work Resource Guide (2023-2025 edition). Confirm 2025-2027 requirements with National.",
+  "groups": [
+   {
+    "name": "Chapter operations",
+    "items": [
+     {
+      "req": "At least one joint meeting with Top Teens each year",
+      "status": "On track",
+      "note": "Joint meetings December 3, 2026 and June 3, 2027"
+     },
+     {
+      "req": "Annual joint chapter retreat with Ladies and Teens",
+      "status": "Met",
+      "note": "Rooted and Rising retreat, August 1, 2026"
+     },
+     {
+      "req": "Founders' Day and Rededication program with Top Teens",
+      "status": "On track",
+      "note": "June 3, 2027 joint meeting"
+     },
+     {
+      "req": "Form 990 submitted by August 1",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "Monthly meetings with opening and closing ceremonies",
+      "status": "Met",
+      "note": "Shown on chapter agendas"
+     }
+    ]
+   },
+   {
+    "name": "National programs and projects",
+    "items": [
+     {
+      "req": "3 of 5 thrusts in chapter programs",
+      "status": "Met",
+      "note": "All five thrusts active"
+     },
+     {
+      "req": "3 of 5 projects in chapter programs",
+      "status": "Met",
+      "note": "St. Jude, March of Dimes, NCNW, NAACP, UNCF partnerships"
+     },
+     {
+      "req": "UNCF or HBCU event",
+      "status": "Met",
+      "note": "UNCF Walk for Education, September 13, 2025"
+     },
+     {
+      "req": "At least one health topic program",
+      "status": "Met",
+      "note": "Heart health (February 2026); mental health (May 2026)"
+     },
+     {
+      "req": "At least 1 Lady member of NAACP, NCNW, or SCDA",
+      "status": "Met",
+      "note": "Recorded in the Member Information workbook"
+     },
+     {
+      "req": "$300 donated to March for Babies, Alzheimer's Association, Sickle Cell, AHA, or St. Jude",
+      "status": "Confirm",
+      "note": ""
+     }
+    ]
+   },
+   {
+    "name": "Top Teens of America",
+    "items": [
+     {
+      "req": "ExCEL requirements 1 to 5 over the two years",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "Every Teen has a TLOD mentor; at least 10% of Ladies mentor; one mentoring activity",
+      "status": "On track",
+      "note": "Me and My Mentor assessments under way"
+     },
+     {
+      "req": "At least one Vivien Coe Richard Leadership Academy applicant",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "Black History Bowl chapter event and one Area participant",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "March for Babies walk or other fundraiser",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "Annual chapter TTA scholarship awarded",
+      "status": "On track",
+      "note": "Applications April 25, 2027"
+     }
+    ]
+   },
+   {
+    "name": "Membership, conferences, publicity, awards",
+    "items": [
+     {
+      "req": "At least one induction",
+      "status": "Met",
+      "note": "2025 induction class"
+     },
+     {
+      "req": "1 Lady and 1 Teen at the Area Conference",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "1 Lady and 1 Teen at Syn-Lod",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "President or designee at ParliamenTop",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "At least 5 chapter programs advertised in public media",
+      "status": "Confirm",
+      "note": ""
+     },
+     {
+      "req": "At least one Area or National award submission",
+      "status": "Confirm",
+      "note": ""
+     }
+    ]
+   }
   ]
  }
 }

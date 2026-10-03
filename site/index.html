@@ -180,6 +180,8 @@ textarea { min-height: 84px; resize: vertical; }
     if (!state.swot || typeof state.swot !== "object") state.swot = {};
     for (const k of ["areas", "healthAreas", "priorities"]) if (!Array.isArray(state.swot[k])) state.swot[k] = [];
     for (const k of ["cells", "health"]) if (!state.swot[k] || typeof state.swot[k] !== "object") state.swot[k] = {};
+    if (!Array.isArray(state.observances)) state.observances = [];
+    if (!state.fiveStar || !Array.isArray(state.fiveStar.groups)) state.fiveStar = { groups: [] };
   }
   normalize();
 
@@ -486,6 +488,11 @@ textarea { min-height: 84px; resize: vertical; }
             el("button", { class: "btn quiet", onclick: () => { calY = now.getFullYear(); calM = now.getMonth(); render(); } }, "Today"),
             el("button", { class: "btn quiet", onclick: () => { calM++; if (calM > 11) { calM = 0; calY++; } render(); } }, "Next"))),
         el("div", { class: "cal-scroll" }, el("div", { class: "cal" }, cells))),
+      state.observances.length ? el("section", { class: "panel" },
+        el("h3", null, "National observances and recurring deadlines"),
+        state.observances.map(o => el("div", { class: "res" },
+          el("div", { style: "min-width:0" }, el("span", { style: "font-weight:600" }, o.when), el("p", null, o.what)),
+          el("span", { class: "small muted", style: "text-align:right" }, o.lead)))) : null,
       el("section", { class: "panel" },
         el("h3", null, "In " + MONTHS[calM]),
         monthList.length ? monthList.map(eventRow) : el("p", { class: "empty" }, "Nothing scheduled this month yet.")),
@@ -506,7 +513,39 @@ textarea { min-height: 84px; resize: vertical; }
         ["All", ...STATUSES].map(s => el("button", { class: "chipbtn", "aria-pressed": String(statusFilter === s), onclick: () => { statusFilter = s; render(); } },
           s + (s === "All" ? " (" + state.projects.length + ")" : " (" + state.projects.filter(p => p.status === s).length + ")")))),
       el("div", { class: "proj-list" }, list.length ? list.map(projectCard) : el("p", { class: "empty" }, "No projects with this status.")),
+      viewFiveStar(),
       viewSwot());
+  }
+
+  const STAR_STATUS = ["Met", "On track", "Not started", "Confirm"];
+  const STAR_CLASS = { "Met": "st-complete", "On track": "st-progress", "Not started": "st-idea", "Confirm": "st-planning" };
+
+  function editStar(gi, ii) {
+    const it = state.fiveStar.groups[gi].items[ii];
+    openDialog("Update requirement", [
+      { name: "status", label: it.req, type: "select", options: STAR_STATUS },
+      { name: "note", label: "Evidence or next step", type: "textarea" }
+    ], it, v => { Object.assign(it, v); render(); save("Requirement updated"); });
+  }
+
+  function viewFiveStar() {
+    const fs = state.fiveStar;
+    if (!fs.groups.length) return null;
+    const all = fs.groups.flatMap(g => g.items), met = all.filter(i => i.status === "Met").length;
+    return el("section", { class: "panel", id: "five-star" },
+      el("div", { class: "section-head", style: "margin-bottom:8px" },
+        el("div", null, el("h3", { style: "margin:0" }, "5-Star Chapter tracker: " + (fs.level || "Orchid") + " level"),
+          el("p", { class: "small" }, met + " of " + all.length + " requirements met. " + (fs.source || ""))),
+        el("div", { class: "bar", style: "width:220px;max-width:100%" }, el("span", { style: "width:" + Math.round(met / Math.max(all.length, 1) * 100) + "%" }))),
+      fs.groups.map((g, gi) => el("div", { style: "margin-top:12px" },
+        el("h4", { style: "margin:0 0 4px" }, g.name),
+        g.items.map((it, ii) => el("div", { class: "res" },
+          el("div", { style: "min-width:0" },
+            el("span", null, it.req),
+            it.note ? el("p", null, it.note) : null),
+          el("div", { style: "display:flex;gap:8px;align-items:start;flex-wrap:wrap;justify-content:end" },
+            el("span", { class: "status " + (STAR_CLASS[it.status] || "st-idea") }, it.status),
+            canEdit ? el("button", { class: "btn quiet", onclick: () => editStar(gi, ii) }, "Update") : null))))));
   }
 
   const SWOT_KEYS = [["s", "Strengths"], ["w", "Weaknesses"], ["o", "Opportunities"], ["t", "Threats"]];
