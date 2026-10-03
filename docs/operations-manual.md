@@ -131,7 +131,7 @@ The chapter's service runs through four program thrusts, standing and special co
 
 | Thrust | Chair / Co-Chair | 2025-2026 highlights |
 | --- | --- | --- |
-| Service to Youth (Top Teens of America) | Co-Chair: Lady Cynthia Scott (Chair: Confirm) | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (Dec 13, 2025), cards for seniors (May 2026) |
+| Service to Youth (Top Teens of America) | Co-Chair: Lady Cynthia Scott (Chair: Confirm) | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
 | Senior Citizens | Lady Johnnie Gales / Lady Florene May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
 | Status of Women | Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley | Breast Cancer Awareness (October); "Letters to Her" for Mental Health Awareness Month (May 2026) |
 | Community Beautification | Lady Shelia Pate (Lady Thomasine Beck, interim support) | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
@@ -209,7 +209,7 @@ Chapter business runs on a monthly rhythm. In 2025-2026, most chapter meetings f
 | Chapter meeting | Monthly; bylaws set the first Wednesday at 6:00 PM unless changed by majority vote (2025-2026 meetings were mostly third Thursdays; confirm 2026-2027) | All Ladies | Votes, officer and committee reports, minutes |
 | Executive Board | Before each chapter meeting (Confirm day) | Officers | Chapter meeting agenda |
 | Program Committee | Monthly, virtual, 6:30 PM (kickoff Oct 9, 2025) | 1st Vice President, thrust chairs and co-chairs | Reporting compliance, collaboration, goal tracking |
-| Top Teens of America | Third Sunday at 3:00 PM in 2026-2027 (fourth Sunday in 2025-2026) | Top Teens, advisors | TTA activities and planning |
+| Top Teens of America | Sundays at 3:00 PM, usually the fourth Sunday (see the 2026-2027 TTA calendar), plus joint TLOD and TTA meetings at 6:30 PM on December 3, 2026 and June 3, 2027 | Top Teens, advisors | TTA activities and planning |
 | Committee meetings | As set by each chair | Committee members | Program of Work progress |
 
 ### Chapter meeting order of business
@@ -277,11 +277,11 @@ The 2025-2027 Chapter Directory (master with photos) is the single source for me
 
 ## Top Teens of America
 
-The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet the third Sunday of each month at 3:00 PM in 2026-2027 (the fourth Sunday in 2025-2026), and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
+The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet on Sundays at 3:00 PM, usually the fourth Sunday, with joint TLOD and TTA meetings in December and June, and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
 
 - **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); TTA leads for 2026 are Lady LaSheryl Walker and Lady Tiara Tyler (confirm who holds each office). The chapter 1st Vice President mentors the TTA 1st Vice President.
 - **Roster:** teen and parent contacts, school, grade, and date joined, kept by the TTA advisor. Updated after each TTA induction (recent classes: March 2025 and December 2025) and each August for grade changes.
-- **Signature events:** TTA Induction Ceremony and Etiquette Workshop (December 7, 2025, 3:00 to 5:00 PM); Blue and Silver Ball (December 13, 2025, with practices from late October at St. Philip's); TTA Speak-Off; Joint TLOD/TTA Retreat.
+- **Signature events:** TTA Induction Ceremony and Etiquette Workshop (December 7, 2025, 3:00 to 5:00 PM); Blue and Silver Ball (moved from December 13, 2025 to March 7, 2026, with practices from late October at St. Philip's); TTA Speak-Off; Joint TLOD/TTA Retreat.
 - **Scholarship:** the Scholarship Committee awards an annual scholarship to a college-bound Top Teen.
 - **Lords:** the Lords Committee invites the Lords to encourage the Teens, especially the young men.
 - **Reporting:** teen events are reported under both TLOD and TTA for credit; only TLOD and TTA member hours count toward chapter totals.
@@ -289,18 +289,19 @@ The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet the third Sun
 
 ### 2026-2027 TTA meeting calendar
 
-| Date | Time | Theme |
-| --- | --- | --- |
-| September 20, 2026 | 3:00 PM | TLOD Awards |
-| October 18, 2026 | 3:00 PM | TTA Award participants |
-| November 15, 2026 | 3:00 PM | Thanksgiving |
-| December 13, 2026 | 3:00 PM | Holiday Break |
-| January 17, 2027 | 3:00 PM | |
-| February 21, 2027 | 3:00 PM | Dues due |
-| March 21, 2027 | 3:00 PM | Area Conference |
-| April 18, 2027 | 3:00 PM | Scholarship Application |
-| May 16, 2027 | 3:00 PM | |
-| June 20, 2027 | 3:00 PM | |
+| Date | Time | Theme | Notes |
+| --- | --- | --- | --- |
+| Sunday, September 27, 2026 | 3:00 PM | TLOD Awards; Grandparent weeks | |
+| Sunday, October 25, 2026 | 3:00 PM | TTA Award participants | |
+| Sunday, November 15, 2026 | 3:00 PM | Thanksgiving | |
+| Thursday, December 3, 2026 | 6:30 PM | Holiday Break / Joint Meeting | |
+| Saturday, December 5, 2026 | 6:00 PM | Blue and Silver Ball | Hilton DoubleTree, Market Center |
+| Sunday, January 24, 2027 | 3:00 PM | | |
+| Sunday, February 28, 2027 | 3:00 PM | Dues due | |
+| Sunday, March 7, 2027 | 3:00 PM | Area Conference | |
+| Sunday, April 25, 2027 | 3:00 PM | Scholarship Application | |
+| Sunday, May 16, 2027 | 3:00 PM | | |
+| Thursday, June 3, 2027 | 6:30 PM | Joint / Rededication / Founders' Day Meeting | Chartering date for the Teens |
 
 ### Youth safety standards
 
@@ -369,7 +370,7 @@ The portal calendar is the one chapter calendar: if a date is not there, members
 | West Cluster Work Day | October 18, 2025 | Area I / West Cluster |
 | Community Beautification at Gwen's Garden | November 15, 2025, 9:00 to 11:00 AM | Community Beautification |
 | TTA Induction and Etiquette Workshop | December 7, 2025, 3:00 to 5:00 PM | Service to Youth |
-| Blue and Silver Ball | December 13, 2025 | Blue and Silver Ball Committee |
+| Blue and Silver Ball | March 7, 2026 (moved from December 13, 2025) | Blue and Silver Ball Committee |
 | "Ready, Set, Report!" workshop | February 10, 2026 | 1st and 2nd Vice Presidents |
 | Joint Heart Health Community Program | February 14, 2026, St. Philip's | Community Partnerships |
 | Area I Conference | April 16 to 19, 2026 | Area I |
@@ -384,10 +385,13 @@ The portal calendar is the one chapter calendar: if a date is not there, members
 | --- | --- | --- |
 | Grandparents Day photo submissions due | September 1, 2026 | Senior Citizens |
 | National Grandparents Day celebration (photos of Ladies with their grandchildren) | September 13, 2026 | Senior Citizens |
-| TTA meetings | Third Sundays, 3:00 PM, September 20, 2026 to June 20, 2027 | Top Teen Advisor |
-| TTA dues due | February 21, 2027 | Top Teen Advisor |
-| Area Conference | Around March 21, 2027 (Confirm) | Area I |
-| TTA scholarship applications | April 18, 2027 | Scholarship Committee |
+| TTA meetings | Sundays at 3:00 PM, September 27, 2026 to May 16, 2027 (see the TTA calendar) | Top Teen Advisor |
+| Joint TLOD and TTA meeting (Holiday Break) | Thursday, December 3, 2026, 6:30 PM | President and Top Teen Advisor |
+| Blue and Silver Ball | Saturday, December 5, 2026, 6:00 PM, Hilton DoubleTree, Market Center | Blue and Silver Ball Committee |
+| TTA dues due | February 28, 2027 | Top Teen Advisor |
+| TTA meeting on the Area Conference | March 7, 2027 | Top Teen Advisor |
+| TTA scholarship applications | April 25, 2027 | Scholarship Committee |
+| Joint, Rededication, and Founders' Day meeting (TTA chartering date) | Thursday, June 3, 2027, 6:30 PM | Founders' Day Committee |
 
 ### Retreat model
 
@@ -463,7 +467,7 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 | Area I nominations (for example, Senior Diva: one nominee age 70 or older) | Per Area call (March 1, 2026 for the 2026 Area I Conference) | Senior Citizens Chair with the 1st Vice President |
 | Awards, scrapbooks, Top Lady of the Year | Per national and Area deadlines | Awards Committee |
 | Annual financial reports | Confirm national deadline | Finance Committee, Treasurer |
-| IRS filing | Confirm filing type and date | Treasurer |
+| IRS filing | Confirm filing type and date; National also collects each chapter's Form 990 spreadsheet through its online form (due August 1 in 2025) | Treasurer |
 
 ### Records retention
 

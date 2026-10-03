@@ -208,13 +208,13 @@
   {
    "id": "e19",
    "title": "Blue and Silver Ball",
-   "date": "2025-12-13",
+   "date": "2026-03-07",
    "start": "",
    "end": "",
    "location": "",
    "type": "Top Teens",
    "contact": "Blue and Silver Ball Committee",
-   "details": ""
+   "details": "Moved from December 13, 2025 (chapter internal calendar)."
   },
   {
    "id": "e20",
@@ -394,8 +394,8 @@
   },
   {
    "id": "t1",
-   "title": "Top Teens of America Meeting: TLOD Awards",
-   "date": "2026-09-20",
+   "title": "Top Teens of America Meeting: TLOD Awards; Grandparent weeks",
+   "date": "2026-09-27",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -406,7 +406,7 @@
   {
    "id": "t2",
    "title": "Top Teens of America Meeting: TTA Award participants",
-   "date": "2026-10-18",
+   "date": "2026-10-25",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -427,8 +427,8 @@
   },
   {
    "id": "t4",
-   "title": "Top Teens of America Meeting: Holiday Break",
-   "date": "2026-12-13",
+   "title": "Top Teens of America Meeting",
+   "date": "2027-01-24",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -438,8 +438,8 @@
   },
   {
    "id": "t5",
-   "title": "Top Teens of America Meeting",
-   "date": "2027-01-17",
+   "title": "Top Teens of America Meeting: Dues due",
+   "date": "2027-02-28",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -449,8 +449,8 @@
   },
   {
    "id": "t6",
-   "title": "Top Teens of America Meeting: Dues due",
-   "date": "2027-02-21",
+   "title": "Top Teens of America Meeting: Area Conference",
+   "date": "2027-03-07",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -460,8 +460,8 @@
   },
   {
    "id": "t7",
-   "title": "Top Teens of America Meeting: Area Conference",
-   "date": "2027-03-21",
+   "title": "Top Teens of America Meeting: Scholarship Application",
+   "date": "2027-04-25",
    "start": "15:00",
    "end": "",
    "location": "",
@@ -471,17 +471,6 @@
   },
   {
    "id": "t8",
-   "title": "Top Teens of America Meeting: Scholarship Application",
-   "date": "2027-04-18",
-   "start": "15:00",
-   "end": "",
-   "location": "",
-   "type": "Top Teens",
-   "contact": "Top Teen Advisor",
-   "details": ""
-  },
-  {
-   "id": "t9",
    "title": "Top Teens of America Meeting",
    "date": "2027-05-16",
    "start": "15:00",
@@ -492,15 +481,180 @@
    "details": ""
   },
   {
-   "id": "t10",
-   "title": "Top Teens of America Meeting",
-   "date": "2027-06-20",
-   "start": "15:00",
+   "id": "t9",
+   "title": "Joint TLOD and TTA Meeting: Holiday Break",
+   "date": "2026-12-03",
+   "start": "18:30",
    "end": "",
    "location": "",
-   "type": "Top Teens",
-   "contact": "Top Teen Advisor",
+   "type": "Chapter",
+   "contact": "President and Top Teen Advisor",
    "details": ""
+  },
+  {
+   "id": "t10",
+   "title": "Blue and Silver Ball",
+   "date": "2026-12-05",
+   "start": "18:00",
+   "end": "",
+   "location": "Hilton DoubleTree, Market Center",
+   "type": "Top Teens",
+   "contact": "Blue and Silver Ball Committee",
+   "details": ""
+  },
+  {
+   "id": "t11",
+   "title": "Joint, Rededication, and Founders' Day Meeting",
+   "date": "2027-06-03",
+   "start": "18:30",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "Founders' Day Committee",
+   "details": "Chartering date for the Teens."
+  },
+  {
+   "id": "h1",
+   "title": "Leadership Transition Meeting",
+   "date": "2025-07-21",
+   "start": "17:00",
+   "end": "19:00",
+   "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas (Chapel)",
+   "type": "Chapter",
+   "contact": "",
+   "details": "Outgoing and incoming officers, chairs, and co-chairs."
+  },
+  {
+   "id": "h2",
+   "title": "TTA Orientation and Meet and Greet",
+   "date": "2025-08-24",
+   "start": "15:00",
+   "end": "17:00",
+   "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas",
+   "type": "Top Teens",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "h3",
+   "title": "Membership vote on prospective Ladies",
+   "date": "2025-08-26",
+   "start": "18:30",
+   "end": "20:00",
+   "location": "Zoom",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "h4",
+   "title": "UNCF North Texas Walk/Run for Education",
+   "date": "2025-09-13",
+   "start": "08:00",
+   "end": "11:00",
+   "location": "1300 N Zang Blvd, Dallas",
+   "type": "Program",
+   "contact": "",
+   "details": "Dallas TLOD/TTA Steppers team."
+  },
+  {
+   "id": "h5",
+   "title": "Executive Board Meeting",
+   "date": "2025-09-17",
+   "start": "18:00",
+   "end": "19:30",
+   "location": "1808 S Good Latimer Expressway, Dallas",
+   "type": "Executive Board",
+   "contact": "",
+   "details": "All elected and appointed officers and former presidents."
+  },
+  {
+   "id": "h6",
+   "title": "\"Hook, Line, Don't Be a Sinker\" (membership candidates' senior service project)",
+   "date": "2025-09-19",
+   "start": "11:00",
+   "end": "13:00",
+   "location": "Martin Luther King Jr. Center, 2922 Martin Luther King Jr Blvd, Dallas",
+   "type": "Program",
+   "contact": "",
+   "details": "Financial literacy and scam awareness for seniors."
+  },
+  {
+   "id": "h7",
+   "title": "6000 Sisters, 6000 Steps for Hope Breast Cancer Walk and Health Expo",
+   "date": "2025-09-27",
+   "start": "08:00",
+   "end": "12:00",
+   "location": "Friendship West Baptist Church, 2020 W Wheatland Rd, Dallas",
+   "type": "Program",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "h8",
+   "title": "Senior Soiree with St. Philip's",
+   "date": "2025-10-04",
+   "start": "14:00",
+   "end": "17:30",
+   "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas",
+   "type": "Program",
+   "contact": "",
+   "details": "TLOD volunteers and Top Teens for 40 to 60 seniors."
+  },
+  {
+   "id": "h9",
+   "title": "Rachel's House donation delivery (Foster Care)",
+   "date": "2025-10-27",
+   "start": "11:30",
+   "end": "13:00",
+   "location": "302 East 4th Street, Arlington",
+   "type": "Program",
+   "contact": "",
+   "details": "Luggage and bedding for young adults aging out of foster care."
+  },
+  {
+   "id": "h10",
+   "title": "\"Exquisite Shades of Pink\" Reception for new Ladies",
+   "date": "2025-11-01",
+   "start": "17:00",
+   "end": "19:00",
+   "location": "Crowne Plaza Hotel Love Field, 7050 N Stemmons Fwy, Dallas",
+   "type": "Social",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "h11",
+   "title": "Chapter Monthly Meeting and Founders' Day Celebration Dinner",
+   "date": "2026-06-04",
+   "start": "18:30",
+   "end": "20:30",
+   "location": "Culinary Dropout, 150 Turtle Creek Blvd, Dallas",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "h12",
+   "title": "Form 990 spreadsheet due to National",
+   "date": "2025-08-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Treasurer",
+   "details": "Upload through the national Google form; emailed spreadsheets are not accepted."
+  },
+  {
+   "id": "h13",
+   "title": "ParliamenTop 2025 (National)",
+   "date": "2025-09-25",
+   "start": "",
+   "end": "",
+   "location": "Savannah, Georgia",
+   "type": "Area / National",
+   "contact": "",
+   "details": "September 25 to 28, 2025."
   }
  ],
  "projects": [
