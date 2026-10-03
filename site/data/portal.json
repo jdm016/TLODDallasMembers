@@ -827,26 +827,30 @@
   {
    "id": "p1",
    "name": "Ladies Mentorship Program",
-   "committee": "1st Vice President",
+   "committee": "Membership and First Vice President",
    "lead": "Lady Jessica D. Maine-Jackson",
    "status": "In progress",
    "start": "2026-08-01",
    "due": "",
    "progress": 25,
    "notes": "Assessment forms are ready. Ladies return them to the 1st Vice President for matching. Mentors are always someone other than the sponsor; pairs connect at least monthly.",
-   "confirm": true
+   "confirm": true,
+   "area": "ops",
+   "alsoCounts": []
   },
   {
    "id": "p2",
-   "name": "Me and My Mentor (Top Teens)",
-   "committee": "Service to Youth",
+   "name": "Me and My Mentor",
+   "committee": "Top Teens of America",
    "lead": "Lady Jessica D. Maine-Jackson",
    "status": "In progress",
    "start": "2026-08-01",
    "due": "",
    "progress": 25,
    "notes": "Every Top Teen is paired with a TLOD mentor. Teen and parent complete the assessment form.",
-   "confirm": true
+   "confirm": true,
+   "area": "tta",
+   "alsoCounts": []
   },
   {
    "id": "p3",
@@ -858,7 +862,9 @@
    "due": "",
    "progress": 15,
    "notes": "Draft updated with chapter records. Fill the items marked Confirm, then adopt by board vote.",
-   "confirm": false
+   "confirm": false,
+   "area": "ops",
+   "alsoCounts": []
   },
   {
    "id": "p4",
@@ -870,7 +876,9 @@
    "due": "",
    "progress": 30,
    "notes": "Add officers as editors, enter the 2026-2027 calendar, and share the link with members.",
-   "confirm": false
+   "confirm": false,
+   "area": "ops",
+   "alsoCounts": []
   },
   {
    "id": "p5",
@@ -882,7 +890,9 @@
    "due": "2025-10-23",
    "progress": 100,
    "notes": "Thrust and committee plans collected by October 21 and submitted to National October 23, 2025.",
-   "confirm": false
+   "confirm": false,
+   "area": "ops",
+   "alsoCounts": []
   },
   {
    "id": "p6",
@@ -894,7 +904,11 @@
    "due": "2026-02-14",
    "progress": 100,
    "notes": "Held February 14, 2026 at St. Philip's with NCNW Dallas Southwest Section, South Dallas BPW, C.V. Roman Medical Society, and Good Health Wins.",
-   "confirm": false
+   "confirm": false,
+   "area": "cp",
+   "alsoCounts": [
+    "ncnw"
+   ]
   },
   {
    "id": "p7",
@@ -906,7 +920,9 @@
    "due": "",
    "progress": 20,
    "notes": "15-month partnership giving the chapter a second community event space alongside St. Philip's.",
-   "confirm": true
+   "confirm": true,
+   "area": "cp",
+   "alsoCounts": []
   },
   {
    "id": "p8",
@@ -918,7 +934,9 @@
    "due": "",
    "progress": 50,
    "notes": "Thanksgiving and Christmas outreach (2025); sock drive at the May 30, 2026 gathering.",
-   "confirm": true
+   "confirm": true,
+   "area": "sc",
+   "alsoCounts": []
   },
   {
    "id": "p9",
@@ -930,7 +948,9 @@
    "due": "",
    "progress": 0,
    "notes": "Planned for spring 2026 at St. Philip's; date to be set.",
-   "confirm": true
+   "confirm": true,
+   "area": "sc",
+   "alsoCounts": []
   },
   {
    "id": "p10",
@@ -942,7 +962,11 @@
    "due": "",
    "progress": 0,
    "notes": "Planned for spring 2026; date to be set.",
-   "confirm": true
+   "confirm": true,
+   "area": "sc",
+   "alsoCounts": [
+    "lit"
+   ]
   },
   {
    "id": "p11",
@@ -954,7 +978,9 @@
    "due": "",
    "progress": 75,
    "notes": "Letters collected through May 25, 2026 for women in Dallas shelters and community centers; delivery date to be announced.",
-   "confirm": true
+   "confirm": true,
+   "area": "sow",
+   "alsoCounts": []
   },
   {
    "id": "p12",
@@ -966,7 +992,9 @@
    "due": "2026-05-31",
    "progress": 100,
    "notes": "Ladies and Teens planted for themselves or a neighbor in May 2026 and shared photos for a chapter collage.",
-   "confirm": true
+   "confirm": true,
+   "area": "cb",
+   "alsoCounts": []
   },
   {
    "id": "p13",
@@ -978,7 +1006,11 @@
    "due": "2026-08-01",
    "progress": 100,
    "notes": "Held August 1, 2026 at St. Philip's. Post-event evaluation due within 30 days.",
-   "confirm": true
+   "confirm": true,
+   "area": "ops",
+   "alsoCounts": [
+    "tta"
+   ]
   },
   {
    "id": "p14",
@@ -990,7 +1022,9 @@
    "due": "2026-09-13",
    "progress": 100,
    "notes": "Ladies submitted photos with their grandchildren by September 1 for the September 13, 2026 celebration. Post-event evaluation due within 30 days.",
-   "confirm": true
+   "confirm": true,
+   "area": "sc",
+   "alsoCounts": []
   },
   {
    "id": "p15",
@@ -1002,6 +1036,210 @@
    "due": "",
    "progress": 20,
    "notes": "From the retreat's SWOT and Steady session (facilitated with Lady Marjorie O'Neal). Record group results in the SWOT grid below and turn the closing priorities into Program of Work goals.",
+   "confirm": false,
+   "area": "ops",
+   "alsoCounts": []
+  },
+  {
+   "id": "p16",
+   "name": "Top Teens Induction and Etiquette Workshop",
+   "area": "tta",
+   "alsoCounts": [],
+   "committee": "Top Teens of America",
+   "lead": "Top Teen Advisor",
+   "status": "Complete",
+   "start": "2025-12-07",
+   "due": "2025-12-07",
+   "progress": 100,
+   "notes": "December 7, 2025.",
+   "confirm": false
+  },
+  {
+   "id": "p17",
+   "name": "Blue and Silver Ball 2026",
+   "area": "tta",
+   "alsoCounts": [],
+   "committee": "Blue and Silver Ball Committee",
+   "lead": "Lady Deardra Hayes-Whigham",
+   "status": "Planning",
+   "start": "",
+   "due": "2026-12-05",
+   "progress": 30,
+   "notes": "Saturday, December 5, 2026, 6:00 PM, Hilton DoubleTree Market Center.",
+   "confirm": false
+  },
+  {
+   "id": "p18",
+   "name": "Dorothy Allen Chimney Black History Bowl 2027",
+   "area": "tta",
+   "alsoCounts": [],
+   "committee": "Top Teens of America",
+   "lead": "Top Teen Advisor",
+   "status": "Idea",
+   "start": "",
+   "due": "2027-02-28",
+   "progress": 0,
+   "notes": "Chapter competition in February; at least 2 Teens in a chapter and an Area Bowl for 5-Star.",
+   "confirm": true
+  },
+  {
+   "id": "p19",
+   "name": "National TTA/TLOD Foster Care Initiative: Rachel's House",
+   "area": "tta",
+   "alsoCounts": [],
+   "committee": "Foster Care Committee",
+   "lead": "Lady Jearlene Miller",
+   "status": "In progress",
+   "start": "2025-10-27",
+   "due": "",
+   "progress": 40,
+   "notes": "Luggage and bedding delivered to Rachel's House (Arlington), October 27, 2025, for young adults aging out of foster care. Confirm the signed agreement form with National.",
+   "confirm": true
+  },
+  {
+   "id": "p20",
+   "name": "\"Hook, Line, Don't Be a Sinker\" for seniors",
+   "area": "sc",
+   "alsoCounts": [
+    "lit"
+   ],
+   "committee": "Senior Citizens",
+   "lead": "Membership candidates",
+   "status": "Complete",
+   "start": "2025-09-19",
+   "due": "2025-09-19",
+   "progress": 100,
+   "notes": "Financial literacy and scam awareness at the Martin Luther King Jr. Center, presented by the 2025 membership candidates.",
+   "confirm": false
+  },
+  {
+   "id": "p21",
+   "name": "Senior Soiree with St. Philip's",
+   "area": "sc",
+   "alsoCounts": [
+    "tta"
+   ],
+   "committee": "Senior Citizens",
+   "lead": "Lady Johnnie Gales",
+   "status": "Complete",
+   "start": "2025-10-04",
+   "due": "2025-10-04",
+   "progress": 100,
+   "notes": "TLOD volunteers and Top Teens served 40 to 60 seniors.",
+   "confirm": false
+  },
+  {
+   "id": "p22",
+   "name": "Gwen's Garden beautification",
+   "area": "cb",
+   "alsoCounts": [
+    "tta"
+   ],
+   "committee": "Community Beautification",
+   "lead": "Lady Shelia Pate",
+   "status": "Complete",
+   "start": "2025-11-03",
+   "due": "2025-11-15",
+   "progress": 100,
+   "notes": "Cleanup and winter preparation with Top Teens at St. Philip's Gwen's Garden.",
+   "confirm": false
+  },
+  {
+   "id": "p23",
+   "name": "6000 Sisters, 6000 Steps Breast Cancer Walk",
+   "area": "sow",
+   "alsoCounts": [],
+   "committee": "Breast Cancer Awareness",
+   "lead": "Lady Orethann Price",
+   "status": "Complete",
+   "start": "2025-09-27",
+   "due": "2025-09-27",
+   "progress": 100,
+   "notes": "Walk and health expo at Friendship West Baptist Church.",
+   "confirm": false
+  },
+  {
+   "id": "p24",
+   "name": "UNCF Walk for Education",
+   "area": "uncf",
+   "alsoCounts": [
+    "tta"
+   ],
+   "committee": "UNCF",
+   "lead": "Lady Karen Fowler",
+   "status": "Complete",
+   "start": "2025-09-13",
+   "due": "2025-09-13",
+   "progress": 100,
+   "notes": "Dallas TLOD/TTA Steppers team. Counts toward the 5-Star UNCF or HBCU event if Teens took part.",
+   "confirm": true
+  },
+  {
+   "id": "p25",
+   "name": "Pink and Blue Day of Service 2027: First Responder Appreciation Kits",
+   "area": "pb",
+   "alsoCounts": [
+    "cp",
+    "tta"
+   ],
+   "committee": "Community Partnerships",
+   "lead": "First Vice President",
+   "status": "Planning",
+   "start": "",
+   "due": "2027-01-18",
+   "progress": 10,
+   "notes": "Choose the agency and confirm its needs; Ladies and Teens assemble and deliver kits on January 18, 2027.",
+   "confirm": false
+  },
+  {
+   "id": "p26",
+   "name": "March for Babies 2027",
+   "area": "mod",
+   "alsoCounts": [
+    "tta"
+   ],
+   "committee": "March of Dimes",
+   "lead": "Lady Lisa Curry",
+   "status": "Idea",
+   "start": "",
+   "due": "",
+   "progress": 0,
+   "notes": "Put the local walk on the calendar; Top Teens announce it at meetings 3 to 4 months ahead.",
+   "confirm": true
+  },
+  {
+   "id": "p27",
+   "name": "St. Jude Walk 2026",
+   "area": "stj",
+   "alsoCounts": [
+    "tta"
+   ],
+   "committee": "St. Jude",
+   "lead": "Lady Harnell Williams",
+   "status": "Idea",
+   "start": "",
+   "due": "",
+   "progress": 0,
+   "notes": "National moved the walk to September or October. Confirm whether the chapter took part this fall.",
+   "confirm": true
+  },
+  {
+   "id": "p28",
+   "name": "Partner contributions with the April 1 financial report",
+   "area": "ops",
+   "alsoCounts": [
+    "naacp",
+    "ncnw",
+    "uncf",
+    "scd"
+   ],
+   "committee": "Finance",
+   "lead": "Treasurer",
+   "status": "Planning",
+   "start": "",
+   "due": "2027-04-01",
+   "progress": 0,
+   "notes": "$50 each to NAACP, NCNW, UNCF, and Sickle Cell.",
    "confirm": false
   }
  ],
@@ -1179,35 +1417,35 @@
    "charge": "Interprets the bylaws under Robert's Rules; chairs the Bylaws Committee."
   },
   {
-   "group": "Program thrusts",
-   "name": "Service to Youth (Top Teens of America)",
+   "group": "National Program Thrusts",
+   "name": "Top Teens of America (Service to Youth Committee)",
    "chair": "To be confirmed",
    "cochair": "Lady Cynthia Scott",
    "charge": "Oversees the Top Teens Program of Work under national guidelines."
   },
   {
-   "group": "Program thrusts",
+   "group": "National Program Thrusts",
    "name": "Senior Citizens",
    "chair": "Lady Johnnie Gales",
    "cochair": "Lady Florene May",
    "charge": "Honors, supports, and uplifts senior citizens."
   },
   {
-   "group": "Program thrusts",
+   "group": "National Program Thrusts",
    "name": "Status of Women",
    "chair": "Lady Jacqueline Anderson-Vaughn",
    "cochair": "Lady Deitra Mosley",
    "charge": "Programs and workshops that improve the status of women."
   },
   {
-   "group": "Program thrusts",
+   "group": "National Program Thrusts",
    "name": "Community Beautification",
    "chair": "Lady Shelia Pate",
    "cochair": "",
    "charge": "Environmental service; Lady Thomasine Beck provides interim support."
   },
   {
-   "group": "Program thrusts",
+   "group": "National Program Thrusts",
    "name": "Community Partnerships",
    "chair": "Lady Loren Gilbert-Smith",
    "cochair": "Lady Hertha Echols",
@@ -1382,81 +1620,95 @@
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "Chapter partnerships",
    "name": "Alzheimer's Walk",
    "chair": "Lady Mydes Gordon",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Strategic Partners",
    "name": "March of Dimes",
    "chair": "Lady Lisa Curry",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Projects",
    "name": "NAACP",
    "chair": "Lady Marilynn Mayse",
    "cochair": "Lady Bertchell Green",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
-   "name": "NCNW",
+   "group": "National Projects",
+   "name": "National Council of Negro Women (NCNW)",
    "chair": "Lady Racquel Davis",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Strategic Partners",
    "name": "St. Jude Children's Research Hospital",
    "chair": "Lady Harnell Williams",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "Chapter partnerships",
    "name": "Breast Cancer Awareness",
    "chair": "Lady Orethann Price",
    "cochair": "Lady Florene May",
-   "charge": ""
+   "charge": "Supports the Status of Women thrust."
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Projects",
    "name": "TLOD Literacy",
    "chair": "Lady Stephanie Edwards",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Projects",
    "name": "UNCF",
    "chair": "Lady Karen Fowler",
    "cochair": "",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
-   "name": "Sickle Cell",
+   "group": "National Projects",
+   "name": "Sickle Cell Disease Awareness",
    "chair": "Lady Yvonne Brown",
    "cochair": "Lady Mari Hamilton",
    "charge": ""
   },
   {
-   "group": "Projects and partnerships",
+   "group": "National Projects",
+   "name": "When We All Vote",
+   "chair": "To be named",
+   "cochair": "",
+   "charge": "National project: voter registration and education."
+  },
+  {
+   "group": "National Projects",
+   "name": "Legislative Action",
+   "chair": "To be named",
+   "cochair": "",
+   "charge": "New 2025-2027 national project: advocacy and civic engagement."
+  },
+  {
+   "group": "Chapter partnerships",
    "name": "Foster Care",
    "chair": "Lady Jearlene Miller",
    "cochair": "Lady Tallulah Matthews",
-   "charge": ""
+   "charge": "Supports the National TTA/TLOD Foster Care Initiative."
   },
   {
-   "group": "Projects and partnerships",
+   "group": "Chapter partnerships",
    "name": "ACT-SO (with NAACP)",
    "chair": "To be named",
    "cochair": "",
-   "charge": ""
+   "charge": "Supports the NAACP national project."
   }
  ],
  "bylaws": {
@@ -1768,12 +2020,12 @@
      {
       "req": "3 of 5 thrusts in chapter programs",
       "status": "Met",
-      "note": "All five thrusts active"
+      "note": "All five National Program Thrusts have chapter activity (see Programs & Projects)"
      },
      {
       "req": "3 of 5 projects in chapter programs",
       "status": "Met",
-      "note": "NAACP, NCNW, UNCF, Sickle Cell, and Literacy activity"
+      "note": "UNCF (Walk for Education), NCNW (joint Heart Health program), and TLOD Literacy (senior financial literacy); Sickle Cell, NAACP, When We All Vote, and Legislative Action have no activity recorded yet"
      },
      {
       "req": "Teens in a UNCF or HBCU college tour or event",
@@ -1868,5 +2120,119 @@
     ]
    }
   ]
- }
+ },
+ "nationalAreas": [
+  {
+   "id": "tta",
+   "category": "National Programs (First Vice President)",
+   "name": "Top Teens of America",
+   "chair": "Service to Youth Committee (Co-Chair: Lady Cynthia Scott); Top Teen Advisor",
+   "national": "ExCEL Program of Work; Me and My Mentor (every Teen matched, list due Dec 31); Black History Bowl (February); Vivien Coe Richard Leadership Academy; National TTA/TLOD Foster Care Initiative; TTA Recognition Month (January)"
+  },
+  {
+   "id": "sow",
+   "category": "National Programs (First Vice President)",
+   "name": "Status of Women",
+   "chair": "Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley",
+   "national": "Empowerment, mentorship, women's health, advocacy, and leadership programs"
+  },
+  {
+   "id": "sc",
+   "category": "National Programs (First Vice President)",
+   "name": "Senior Citizens",
+   "chair": "Lady Johnnie Gales / Lady Florene May",
+   "national": "Companionship, enrichment, health, intergenerational programs; Grandparents Day, Senior Citizens Week, chapter Senior Diva"
+  },
+  {
+   "id": "cb",
+   "category": "National Programs (First Vice President)",
+   "name": "Community Beautification",
+   "chair": "Lady Shelia Pate (Lady Thomasine Beck, interim support)",
+   "national": "Register with Keep America Beautiful; cleanups, gardens, green and public art projects with Top Teens"
+  },
+  {
+   "id": "cp",
+   "category": "National Programs (First Vice President)",
+   "name": "Community Partnerships",
+   "chair": "Lady Loren Gilbert-Smith / Lady Hertha Echols",
+   "national": "Alliances with like-minded organizations; joint events; co-leads Pink and Blue Day of Service"
+  },
+  {
+   "id": "pb",
+   "category": "National Programs (First Vice President)",
+   "name": "Pink and Blue National Day of Service",
+   "chair": "First Vice President with the Community Partnerships Chair",
+   "national": "MLK Day (January 18, 2027): First Responder Appreciation Kits with Top Teens; report kits and members engaged"
+  },
+  {
+   "id": "mod",
+   "category": "National Programs: Strategic Partners",
+   "name": "March of Dimes",
+   "chair": "Lady Lisa Curry",
+   "national": "March for Babies walk (March or April); TTA Healthy Choices Conference with Sickle Cell awareness"
+  },
+  {
+   "id": "stj",
+   "category": "National Programs: Strategic Partners",
+   "name": "St. Jude Children's Research Hospital",
+   "chair": "Lady Harnell Williams",
+   "national": "St. Jude Walk (September or October); Teen awareness and fundraising"
+  },
+  {
+   "id": "ncnw",
+   "category": "National Projects (Second Vice President)",
+   "name": "National Council of Negro Women (NCNW)",
+   "chair": "Lady Racquel Davis",
+   "national": "$50 chapter contribution with the April 1 report; NCNW Membership Census Form; membership drives; health fair"
+  },
+  {
+   "id": "naacp",
+   "category": "National Projects (Second Vice President)",
+   "name": "NAACP",
+   "chair": "Lady Marilynn Mayse / Lady Bertchell Green",
+   "national": "$50 chapter contribution with the April 1 report; NAACP Membership Census Form; ACT-SO for 1 to 2 Teens; voter registration"
+  },
+  {
+   "id": "wwav",
+   "category": "National Projects (Second Vice President)",
+   "name": "When We All Vote",
+   "chair": "To be named",
+   "national": "Voter registration and education; Teen-led My School Votes club; voter registration in at least one community activity"
+  },
+  {
+   "id": "la",
+   "category": "National Projects (Second Vice President)",
+   "name": "Legislative Action",
+   "chair": "To be named",
+   "national": "Day at the Capitol with NAACP and NCNW; bill tracking; town halls; legislative writing campaigns"
+  },
+  {
+   "id": "uncf",
+   "category": "National Projects (Second Vice President)",
+   "name": "UNCF",
+   "chair": "Lady Karen Fowler",
+   "national": "$50 chapter contribution with the April 1 report; UNCF walks, UNCF Sunday, HBCU college tours and fairs"
+  },
+  {
+   "id": "lit",
+   "category": "National Projects (Second Vice President)",
+   "name": "TLOD Literacy",
+   "chair": "Lady Stephanie Edwards",
+   "national": "Reading and financial literacy; Read Across America; TTA financial literacy workshop in April"
+  },
+  {
+   "id": "scd",
+   "category": "National Projects (Second Vice President)",
+   "name": "Sickle Cell Disease Awareness",
+   "chair": "Lady Yvonne Brown / Lady Mari Hamilton",
+   "national": "$50 chapter contribution with the April 1 report; Building Bridges grant; two Red Cross blood drives a year; Day of Giving (Sept 30)"
+  },
+  {
+   "id": "ops",
+   "category": "Chapter operations",
+   "name": "Chapter operations and membership",
+   "chair": "Executive Board and Program Committee",
+   "national": "Programs of Work, 5-Star reporting, retreat, membership, sisterly relations, chapter tools"
+  }
+ ]
 }

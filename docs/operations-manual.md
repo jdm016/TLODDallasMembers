@@ -9,7 +9,7 @@ Draft as of October 3, 2026 · Prepared by Lady Jessica D. Maine-Jackson, 1st Vi
 This manual is how the Dallas Chapter runs from year to year, so any Lady stepping into a role knows what to do, when, and where to find it. It sits alongside the TLOD, Inc. national Constitution and Bylaws and never replaces them; where the two differ, national governs.
 
 - **Who it is for:** every Lady of the chapter, with extra detail for officers, committee chairs, and Top Teens of America advisors.
-- **Where it lives:** linked from the Member Portal under Resources, so there is one current copy.
+- **Where it lives:** linked from the [Member Portal](https://claude.ai/artifact/BV5uJHxkQxfpVhvDL3YWt3) under Resources, so there is one current copy.
 - **How it changes:** any Lady can suggest an edit through a comment or the portal's feedback form. The Executive Board reviews suggestions quarterly and adopts changes by vote.
 - **Annual review:** the incoming President and Secretary review the full manual at officer transition (June to July) and update names, dates, and the chapter calendar.
 
@@ -17,7 +17,7 @@ Items marked **Confirm** below are places where chapter or national practice sho
 
 ## About the chapter
 
-The Dallas Chapter of Top Ladies of Distinction, Inc. serves North Texas through four program thrusts, national partnerships, and its youth affiliate, Top Teens of America (TTA). The chapter is part of Area I and the West Cluster, and works toward 5-Star Chapter recognition each biennium.
+The Dallas Chapter of Top Ladies of Distinction, Inc. serves North Texas through National's five Program Thrusts, two Strategic Partners, and seven National Projects, along with its youth affiliate, Top Teens of America (TTA). The chapter is part of Area I and the West Cluster, and works toward 5-Star Chapter recognition each biennium.
 
 ### National mission and founding
 
@@ -48,10 +48,11 @@ TLOD was chartered in Texas on September 8, 1964, after a first organizing meeti
 | Youth affiliate | Top Teens of America, Dallas Chapter (27 teens on the 2026 roster) |
 | Membership | About 85 active Ladies (2025-2027 directory) |
 | Forms of address | "Lady" for members; "Top Teen" for TTA members; "Lords" for the men who support the Teens |
-| Program thrusts | Service to Youth, Senior Citizens, Status of Women, Community Beautification, Community Partnerships |
-| National focus areas, 2025-2027 | Literacy and Education, Mentorship, Sickle Cell Awareness, St. Jude partnership |
+| Program thrusts | National Program Thrusts: Top Teens of America, Status of Women, Senior Citizens, Community Beautification, Community Partnerships; Strategic Partners: March of Dimes and St. Jude |
+| National Projects, 2025-2027 | NCNW, NAACP, When We All Vote, Legislative Action, UNCF, TLOD Literacy, Sickle Cell Disease Awareness |
 | Home base | St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas, TX 75215 |
 | Governing documents | TLOD, Inc. National Constitution and Bylaws; Dallas Chapter Bylaws (amended March 8, 2023; approved by the Area One Parliamentarian March 14, 2023) |
+
 ## Leadership and roles
 
 The Executive Board, made up of all elected and appointed officers plus the Past Presidents, oversees every part of chapter operations, and its actions go to the chapter for approval or ratification (Bylaws, Article VII, Section 1). Names below are the 2025-2027 officers from chapter records.
@@ -129,15 +130,16 @@ These are not necessarily problems, since several rules allow change by majority
 | Second Vice President | Chairs Projects; coordinates public relations and awards | Leads membership and intake; co-chairs Public Relations |
 | Nominating Committee | Five members elected from the floor in September | Chair and members appointed (Lady Cynthia Scott, chair); voted on September 18, 2025 |
 | Elected Top Teen Advisor | An elected office | TTA led by Lady LaSheryl Walker and Lady Tiara Tyler; confirm titles |
+
 ## Committees and programs
 
-The chapter's service runs through four program thrusts, standing and special committees, and national partnership chairs; every one has a named chair and a Program of Work on file with the 1st Vice President. Full member lists live in the Committee Sign-Up Sheet and the Member Information workbook.
+The chapter's service follows National's structure: five National Program Thrusts and two Strategic Partners under the First Vice President, seven National Projects under the Second Vice President, and the chapter's standing and special committees; every one has a named chair and a Program of Work on file with the 1st Vice President. Full member lists live in the Committee Sign-Up Sheet and the Member Information workbook.
 
-### Program thrusts (Program Committee)
+### National Program Thrusts (First Vice President and Program Committee)
 
 | Thrust | Chair / Co-Chair | 2025-2026 highlights |
 | --- | --- | --- |
-| Service to Youth (Top Teens of America) | Co-Chair: Lady Cynthia Scott (Chair: Confirm) | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
+| Top Teens of America (Service to Youth Committee) | Co-Chair: Lady Cynthia Scott (Chair: Confirm) | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
 | Senior Citizens | Lady Johnnie Gales / Lady Florene May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
 | Status of Women | Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley | Breast Cancer Awareness (October); "Letters to Her" for Mental Health Awareness Month (May 2026) |
 | Community Beautification | Lady Shelia Pate (Lady Thomasine Beck, interim support) | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
@@ -177,21 +179,37 @@ The chapter's service runs through four program thrusts, standing and special co
 | Nominating | Lady Cynthia Scott |
 | Tellers | To be named |
 
-### Projects and partnerships
+### National Strategic Partners (First Vice President)
 
-| Partnership | Chair / Co-Chair |
+| Strategic Partner | Chair | National expectation |
+| --- | --- | --- |
+| March of Dimes | Lady Lisa Curry | March for Babies walk (March or April); TTA Healthy Choices Conference with Sickle Cell awareness |
+| St. Jude Children's Research Hospital | Lady Harnell Williams | St. Jude Walk (September or October) |
+
+The Pink and Blue National Day of Service (MLK Day) is also a National Program, led by the First Vice President with the Community Partnerships Chair.
+
+### National Projects (Second Vice President)
+
+| National Project | Chair / Co-Chair |
 | --- | --- |
-| Alzheimer's Walk | Lady Mydes Gordon |
-| March of Dimes | Lady Lisa Curry |
+| National Council of Negro Women (NCNW) | Lady Racquel Davis |
 | NAACP | Lady Marilynn Mayse / Lady Bertchell Green |
-| NCNW | Lady Racquel Davis |
-| St. Jude Children's Research Hospital | Lady Harnell Williams |
-| Breast Cancer Awareness | Lady Orethann Price / Lady Florene May |
-| TLOD Literacy | Lady Stephanie Edwards |
+| When We All Vote | To be named |
+| Legislative Action (new for 2025-2027) | To be named |
 | UNCF | Lady Karen Fowler |
-| Sickle Cell | Lady Yvonne Brown / Lady Mari Hamilton |
-| Foster Care | Lady Jearlene Miller / Lady Tallulah Matthews |
-| ACT-SO (with NAACP) | To be named |
+| TLOD Literacy | Lady Stephanie Edwards |
+| Sickle Cell Disease Awareness | Lady Yvonne Brown / Lady Mari Hamilton |
+
+### Chapter partnerships
+
+These chapter efforts support a national thrust or project and are reported under it.
+
+| Partnership | Chair / Co-Chair | Reports under |
+| --- | --- | --- |
+| Foster Care | Lady Jearlene Miller / Lady Tallulah Matthews | Top Teens of America: National TTA/TLOD Foster Care Initiative |
+| ACT-SO (with NAACP) | To be named | NAACP |
+| Breast Cancer Awareness | Lady Orethann Price / Lady Florene May | Status of Women |
+| Alzheimer's Walk | Lady Mydes Gordon | Senior Citizens |
 
 ### Program lifecycle
 
@@ -297,16 +315,16 @@ The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet on Sundays at
 
 | Date | Time | Theme | Notes |
 | --- | --- | --- | --- |
-| Sunday, September 27, 2026 | 3:00 PM | TLOD Awards; Grandparent weeks | |
-| Sunday, October 25, 2026 | 3:00 PM | TTA Award participants | |
-| Sunday, November 15, 2026 | 3:00 PM | Thanksgiving | |
-| Thursday, December 3, 2026 | 6:30 PM | Holiday Break / Joint Meeting | |
+| Sunday, September 27, 2026 | 3:00 PM | TLOD Awards; Grandparent weeks |  |
+| Sunday, October 25, 2026 | 3:00 PM | TTA Award participants |  |
+| Sunday, November 15, 2026 | 3:00 PM | Thanksgiving |  |
+| Thursday, December 3, 2026 | 6:30 PM | Holiday Break / Joint Meeting |  |
 | Saturday, December 5, 2026 | 6:00 PM | Blue and Silver Ball | Hilton DoubleTree, Market Center |
-| Sunday, January 24, 2027 | 3:00 PM | | |
-| Sunday, February 28, 2027 | 3:00 PM | Dues due | |
-| Sunday, March 7, 2027 | 3:00 PM | Area Conference | |
-| Sunday, April 25, 2027 | 3:00 PM | Scholarship Application | |
-| Sunday, May 16, 2027 | 3:00 PM | | |
+| Sunday, January 24, 2027 | 3:00 PM |  |  |
+| Sunday, February 28, 2027 | 3:00 PM | Dues due |  |
+| Sunday, March 7, 2027 | 3:00 PM | Area Conference |  |
+| Sunday, April 25, 2027 | 3:00 PM | Scholarship Application |  |
+| Sunday, May 16, 2027 | 3:00 PM |  |  |
 | Thursday, June 3, 2027 | 6:30 PM | Joint / Rededication / Founders' Day Meeting | Chartering date for the Teens |
 
 ### Youth safety standards
@@ -341,7 +359,7 @@ The chapter keeps four bank accounts by purpose: Ladies (operating), Teens (TTA)
 | Induction fee | $800 | August 2025 financial summary |
 | West Cluster registration | $50 | August 2025 financial summary |
 | Joint Retreat ticket | $50 (same as 2025) | Retreat committee recommendation, June 2026 |
-| Annual dues and assessments | Confirm | |
+| Annual dues and assessments | Confirm |  |
 
 ### Budget and controls
 

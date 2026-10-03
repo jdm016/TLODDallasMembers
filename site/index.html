@@ -137,6 +137,8 @@ dialog form { padding: 20px; display: grid; gap: 12px; }
 dialog h3 { font-size: 22px; }
 label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
 #bylaws-search { max-width: 520px; }
+.area-block { border-left: 3px solid var(--garnet); padding-left: 14px; display: grid; gap: 10px; }
+.area-head { display: flex; justify-content: space-between; gap: 12px; align-items: start; }
 table.swot { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 14px; }
 table.swot th, table.swot td { border: 1px solid var(--line); padding: 8px; vertical-align: top; text-align: left; }
 table.swot thead th { background: var(--garnet-soft); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
@@ -166,7 +168,8 @@ textarea { min-height: 84px; resize: vertical; }
   const GROUPS = ["Governance", "Members", "Forms", "Programs", "Officers and advisors", "References"];
   const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
   const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
-  const COMMITTEE_GROUPS = ["Officers", "Program thrusts", "Standing committees", "Special committees", "Projects and partnerships"];
+  const COMMITTEE_GROUPS = ["Officers", "National Program Thrusts", "National Strategic Partners", "National Projects", "Chapter partnerships", "Standing committees", "Special committees"];
+  const AREA_CATEGORIES = ["National Programs (First Vice President)", "National Programs: Strategic Partners", "National Projects (Second Vice President)", "Chapter operations"];
 
   let state = {};
   const embedded = document.getElementById("portal-state");
@@ -181,6 +184,7 @@ textarea { min-height: 84px; resize: vertical; }
     for (const k of ["areas", "healthAreas", "priorities"]) if (!Array.isArray(state.swot[k])) state.swot[k] = [];
     for (const k of ["cells", "health"]) if (!state.swot[k] || typeof state.swot[k] !== "object") state.swot[k] = {};
     if (!Array.isArray(state.observances)) state.observances = [];
+    if (!Array.isArray(state.nationalAreas)) state.nationalAreas = [];
     if (!state.fiveStar || !Array.isArray(state.fiveStar.groups)) state.fiveStar = { groups: [] };
   }
   normalize();
@@ -319,10 +323,14 @@ textarea { min-height: 84px; resize: vertical; }
     }, isNew ? null : () => { state.events = state.events.filter(x => x.id !== e.id); render(); save("Event deleted"); });
   }
 
+  let projectsAreaDefault = "";
+  function areaName(id) { return (state.nationalAreas.find(a => a.id === id) || {}).name || ""; }
+
   function editProject(p) {
     const isNew = !p;
     openDialog(isNew ? "Add program or project" : "Update project", [
       { name: "name", label: "Name", required: true },
+      state.nationalAreas.length ? { name: "area", label: "National thrust or project", type: "select", options: state.nationalAreas.map(a => a.name) } : null,
       { name: "committee", label: "Committee or owner group", half: true },
       { name: "lead", label: "Chair or lead", half: true },
       { name: "status", label: "Status", type: "select", options: STATUSES, half: true },
@@ -330,8 +338,9 @@ textarea { min-height: 84px; resize: vertical; }
       { name: "start", label: "Start date", type: "date", half: true },
       { name: "due", label: "Due date", type: "date", half: true },
       { name: "notes", label: "Notes and next steps", type: "textarea" }
-    ], p || { status: "Idea", progress: 0 }, v => {
+    ].filter(Boolean), p ? Object.assign({}, p, { area: areaName(p.area) }) : { status: "Idea", progress: 0, area: areaName(projectsAreaDefault) }, v => {
       v.progress = Math.max(0, Math.min(100, Number(v.progress) || 0));
+      if (v.area !== undefined) v.area = (state.nationalAreas.find(a => a.name === v.area) || {}).id || v.area;
       if (isNew) state.projects.push({ id: uid("p"), confirm: false, ...v });
       else Object.assign(state.projects.find(x => x.id === p.id), v, { confirm: false });
       render(); save(isNew ? "Project added" : "Project updated");
@@ -411,6 +420,7 @@ textarea { min-height: 84px; resize: vertical; }
           p.start ? el("span", null, "Started: ", el("b", null, niceDate(p.start))) : null,
           p.due ? el("span", null, "Due: ", el("b", null, niceDate(p.due))) : null),
         p.notes ? el("p", { class: "small", style: "margin:8px 0 0" }, p.notes) : null,
+        (p.alsoCounts || []).length ? el("div", { class: "small muted", style: "margin-top:6px" }, "Also counts toward: " + p.alsoCounts.map(areaName).filter(Boolean).join(", ")) : null,
         p.confirm ? el("div", { class: "confirm" }, "Details to confirm by the chair") : null,
         el("div", { class: "bar", role: "img", "aria-label": (p.progress || 0) + " percent complete" }, el("span", { style: "width:" + (p.progress || 0) + "%" }))),
       el("div", { style: "display:grid;gap:8px;justify-items:end;align-content:start" },
@@ -503,16 +513,35 @@ textarea { min-height: 84px; resize: vertical; }
   }
 
   function viewProjects() {
-    const list = state.projects.filter(p => statusFilter === "All" || p.status === statusFilter)
-      .sort((a, b) => STATUSES.indexOf(a.status) - STATUSES.indexOf(b.status) || a.name.localeCompare(b.name));
+    const matches = p => statusFilter === "All" || p.status === statusFilter;
+    const sortP = list => list.sort((a, b) => STATUSES.indexOf(a.status) - STATUSES.indexOf(b.status) || a.name.localeCompare(b.name));
+    const areaIds = new Set(state.nationalAreas.map(a => a.id));
+    const unassigned = sortP(state.projects.filter(p => !areaIds.has(p.area) && matches(p)));
+    const sections = AREA_CATEGORIES.map(cat => [cat, state.nationalAreas.filter(a => a.category === cat)]).filter(x => x[1].length);
     return el("div", { class: "stack" },
       el("div", { class: "section-head" },
-        el("div", null, el("h2", null, "Programs and projects"), el("p", null, "Every program has a chair, dates, and a status so the whole chapter can see where things stand. Chairs update their own entries; results feed the annual report.")),
-        canEdit ? el("button", { class: "btn", onclick: () => editProject(null) }, "Add project") : null),
+        el("div", null, el("h2", null, "Programs and projects"), el("p", null, "Organized the way National organizes the Program of Work: the five National Program Thrusts and Strategic Partners under the First Vice President, and the National Projects under the Second Vice President. Each area shows the national expectation and the chapter's work toward it.")),
+        canEdit ? el("button", { class: "btn", onclick: () => { projectsAreaDefault = ""; editProject(null); } }, "Add project") : null),
       el("div", { class: "filters", role: "group", "aria-label": "Filter by status" },
-        ["All", ...STATUSES].map(s => el("button", { class: "chipbtn", "aria-pressed": String(statusFilter === s), onclick: () => { statusFilter = s; render(); } },
-          s + (s === "All" ? " (" + state.projects.length + ")" : " (" + state.projects.filter(p => p.status === s).length + ")")))),
-      el("div", { class: "proj-list" }, list.length ? list.map(projectCard) : el("p", { class: "empty" }, "No projects with this status.")),
+        ["All", ...STATUSES].map(st => el("button", { class: "chipbtn", "aria-pressed": String(statusFilter === st), onclick: () => { statusFilter = st; render(); } },
+          st + " (" + (st === "All" ? state.projects.length : state.projects.filter(p => p.status === st).length) + ")"))),
+      sections.map(([cat, areas]) => el("section", { class: "stack", style: "gap:12px" },
+        el("h3", { style: "font-size:22px;margin-top:8px" }, cat),
+        areas.map(a => {
+          const list = sortP(state.projects.filter(p => p.area === a.id && matches(p)));
+          const also = state.projects.filter(p => (p.alsoCounts || []).includes(a.id) && p.area !== a.id);
+          return el("div", { class: "area-block" },
+            el("div", { class: "area-head" },
+              el("div", { style: "min-width:0" },
+                el("h4", { style: "margin:0;font-size:18px" }, a.name),
+                el("div", { class: "small muted" }, "Chair: " + a.chair),
+                el("div", { class: "small", style: "margin-top:2px" }, el("b", null, "National: "), a.national)),
+              canEdit ? el("button", { class: "btn quiet", onclick: () => { projectsAreaDefault = a.id; editProject(null); } }, "Add") : null),
+            list.length ? el("div", { class: "proj-list" }, list.map(projectCard))
+              : el("p", { class: "empty", style: "margin:4px 0 0" }, statusFilter === "All" ? "No chapter activity recorded yet." : "None with this status."),
+            also.length ? el("p", { class: "small muted", style: "margin:6px 0 0" }, "Also supported by: " + also.map(p => p.name).join("; ")) : null);
+        }))),
+      unassigned.length ? el("section", { class: "stack" }, el("h3", null, "Not yet assigned to a national area"), el("div", { class: "proj-list" }, unassigned.map(projectCard))) : null,
       viewFiveStar(),
       viewSwot());
   }
