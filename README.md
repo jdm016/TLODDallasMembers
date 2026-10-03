@@ -50,6 +50,13 @@ Event types: Chapter, Executive Board, Committee, Program, Top Teens, Training, 
 
 Give each new item a unique `id` (for example `e34`, `p14`). Keep commas between items; GitHub shows an error if the file stops being valid JSON.
 
+## Committee sign-up and removal requests
+
+The Committee Sign-Up tab lets any Lady ask to join a committee, change her role, or be removed from one.
+
+- **On Netlify:** requests are sent to Netlify Forms under the form name `committee-request`. In the Netlify dashboard, open Forms, enable form detection, and redeploy once. Then add an email notification (Forms, Form notifications) to the Membership Chair and the President so each request arrives in their inbox.
+- **In the Claude artifact:** requests are stored in the artifact's database. Each Lady sees only her own requests and their status; officers with Editor access see every request and update its status. Members need Contributor access to send a request.
+
 ## Operations Manual
 
 `docs/operations-manual.md` is the repository copy. The living version, where Ladies comment and edit, is the Claude doc linked at the top of the file. When the doc changes, refresh this copy so both match.

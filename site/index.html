@@ -10,15 +10,6 @@
 body{margin:0}
 img{max-width:100%}
 [hidden]{display:none!important}
-  .kit h4 { margin: 18px 0 6px; font-size: 15px; }
-  .kit-list { margin: 0; padding-left: 20px; }
-  .kit-list li { margin: 4px 0; }
-  .kit-table { width: 100%; border-collapse: collapse; font-size: 14px; }
-  .kit-table th, .kit-table td { text-align: left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--line, #ddd); }
-  .kit-table th { white-space: nowrap; width: 1%; }
-  .kit-templates { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-  .kit-tpl ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; }
-  @media (max-width: 560px) { .kit-table th { white-space: normal; } }
 </style>
 <title>TLOD Dallas Member Portal</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -163,11 +154,33 @@ textarea { min-height: 84px; resize: vertical; }
 .detail dt { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-top: 8px; }
 .detail dd { margin: 2px 0 0; white-space: pre-wrap; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+.kit h4 { margin: 18px 0 6px; font-size: 15px; }
+.kit-list { margin: 0; padding-left: 20px; }
+.kit-list li { margin: 4px 0; }
+.kit-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.kit-table th, .kit-table td { text-align: left; vertical-align: top; padding: 6px 8px; border-top: 1px solid var(--line, #ddd); }
+.kit-table th { white-space: nowrap; width: 1%; }
+.kit-templates { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+.kit-tpl ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; }
+@media (max-width: 560px) { .kit-table th { white-space: normal; } }
+.su-form label { display: block; margin: 10px 0 0; font-weight: 600; font-size: 14px; }
+.su-form input, .su-form select, .su-form textarea { display: block; width: 100%; box-sizing: border-box; margin-top: 4px; font: inherit; font-weight: 400; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.su-form textarea { min-height: 80px; }
+.su-choice { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.su-choice label { display: flex; align-items: center; gap: 6px; margin: 0; font-weight: 400; border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.su-choice input { width: auto; margin: 0; }
+.su-req { border-top: 1px solid var(--line); padding: 10px 0; }
+.su-req:first-of-type { border-top: 0; }
+.su-msg { margin-top: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--ground); }
+.su-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
 </style>
 
 </head>
 <body>
 <div id="app"></div>
+<form name="committee-request" data-netlify="true" netlify-honeypot="bot-field" hidden>
+  <input name="bot-field"><input name="name"><input name="action"><input name="committee"><input name="role"><input name="timing"><textarea name="note"></textarea>
+</form>
 
 <script id="portal-app">
 (() => {
@@ -176,7 +189,7 @@ textarea { min-height: 84px; resize: vertical; }
   const TYPES = ["Chapter", "Executive Board", "Committee", "Program", "Top Teens", "Training", "Deadline", "Area / National", "Social"];
   const GROUPS = ["Governance", "Members", "Forms", "Programs", "Officers and advisors", "References"];
   const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
+  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["signup","Committee Sign-Up"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
   const COMMITTEE_GROUPS = ["Officers", "National Program Thrusts", "National Strategic Partners", "National Projects", "Chapter partnerships", "Standing committees", "Special committees"];
   const AREA_CATEGORIES = ["National Programs (First Vice President)", "National Programs: Strategic Partners", "National Projects (Second Vice President)", "Chapter operations"];
 
@@ -199,6 +212,12 @@ textarea { min-height: 84px; resize: vertical; }
   normalize();
 
   let canEdit = false, artifactApi = null, commentsApi = null, saving = false;
+  // Committee sign-up: requests live in the artifact database (db) when the portal runs as a Claude artifact,
+  // and go to Netlify Forms when the portal runs on Netlify. Each Lady sees only her own requests; officers see all.
+  const REQ_STATUSES = ["Received", "In review", "Approved", "Completed", "Not approved", "Withdrawn"];
+  const REQ_ACTIONS = ["Join a committee", "Be removed from a committee", "Change my role on a committee"];
+  let dbApi = null, myId = null, isOfficer = false, myReqs = null, allReqs = null, fromStatic = false, suSending = false, suMsg = "", suFilter = "Open";
+  let suDraft = { name: "", action: REQ_ACTIONS[0], committee: "", role: "Member", timing: "Right away", note: "" };
   const now = new Date();
   const todayStr = ymd(now);
   let tab = (location.hash || "").replace("#", "");
@@ -692,6 +711,144 @@ textarea { min-height: 84px; resize: vertical; }
       viewSuccessKit());
   }
 
+  function signupCommittees() {
+    return state.committees.filter(c => c.group !== "Officers" && !["Nominating", "Tellers"].includes(c.name)).map(c => c.name)
+      .filter((n, i, a) => a.indexOf(n) === i).sort((a, b) => a.localeCompare(b));
+  }
+
+  function reqSummary(r) {
+    const verb = r.action === REQ_ACTIONS[1] ? "Remove from" : r.action === REQ_ACTIONS[2] ? "Change role on" : "Join";
+    return verb + " " + (r.committee || "a committee") + (r.action !== REQ_ACTIONS[1] && r.role ? " (" + r.role + ")" : "");
+  }
+  function reqClass(st) { return "status " + (st === "Completed" || st === "Approved" ? "st-complete" : st === "In review" ? "st-planning" : st === "Not approved" || st === "Withdrawn" ? "st-hold" : "st-idea"); }
+
+  async function submitSignup() {
+    if (suSending) return;
+    const d = { ...suDraft };
+    if (!d.name.trim() || !d.committee) { suMsg = "Please add your name and choose a committee."; render(); return; }
+    suSending = true; suMsg = ""; render();
+    const item = { id: uid("q"), name: d.name.trim(), action: d.action, committee: d.committee, role: d.action === REQ_ACTIONS[1] ? "" : d.role, timing: d.timing, note: d.note.trim(), submitted: todayStr, status: "Received", officerNote: "", updated: todayStr };
+    try {
+      if (dbApi && myId) {
+        const items = [...(myReqs || []), item];
+        await dbApi.doc("requests/" + myId).set({ items });
+      } else if (fromStatic) {
+        const body = new URLSearchParams({ "form-name": "committee-request", "bot-field": "", name: item.name, action: item.action, committee: item.committee, role: item.role, timing: item.timing, note: item.note }).toString();
+        const r = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body });
+        if (!r.ok) throw new Error(String(r.status));
+      } else throw new Error("no_channel");
+      suMsg = "Thank you. Your request was received: " + reqSummary(item) + ". The Membership Chair and the President will follow up, and the committee chair will be told.";
+      suDraft = { name: d.name, action: REQ_ACTIONS[0], committee: "", role: "Member", timing: "Right away", note: "" };
+    } catch (e) {
+      const code = e && e.code;
+      suMsg = code === "invalid_argument" ? "Your view of the portal cannot send requests yet. Please ask an officer to give you Contributor access, or share your request with the Membership Chair."
+        : "Your request could not be sent. Check your connection and try again, or share it with the Membership Chair or any officer.";
+    } finally { suSending = false; render(); }
+  }
+
+  async function withdrawReq(id) {
+    if (!dbApi || !myId || !myReqs) return;
+    const items = myReqs.map(r => r.id === id ? { ...r, status: "Withdrawn", updated: todayStr } : r);
+    try { await dbApi.doc("requests/" + myId).set({ items }); toast("Request withdrawn"); }
+    catch (e) { toast("Could not withdraw. Please try again."); }
+  }
+
+  function updateReq(owner, r) {
+    openDialog("Update request", [
+      { name: "status", label: "Status", type: "select", options: REQ_STATUSES },
+      { name: "officerNote", label: "Note to the member (optional)", type: "textarea" }
+    ], r, async v => {
+      const doc = (allReqs || []).find(x => x.uid === owner);
+      if (!doc) return;
+      const items = doc.items.map(x => x.id === r.id ? { ...x, status: v.status, officerNote: v.officerNote, updated: todayStr } : x);
+      try { await dbApi.doc("requests/" + owner).set({ items }); toast("Request updated"); }
+      catch (e) { toast("Could not update. Please try again."); }
+    });
+  }
+
+  function viewSignup() {
+    const names = signupCommittees();
+    const set = (k, v) => { suDraft[k] = v; };
+    const field = (label, input) => el("label", null, label, input);
+    const nameIn = el("input", { type: "text", autocomplete: "name", required: true, placeholder: "Lady First Last" }); nameIn.value = suDraft.name;
+    nameIn.addEventListener("input", () => set("name", nameIn.value));
+    const actionBox = el("div", { class: "su-choice", role: "radiogroup", "aria-label": "What would you like to do?" },
+      REQ_ACTIONS.map(a => { const r = el("input", { type: "radio", name: "su-action", value: a }); r.checked = suDraft.action === a;
+        r.addEventListener("change", () => { set("action", a); render(); }); return el("label", null, r, a); }));
+    const comSel = el("select", { required: true }, el("option", { value: "" }, "Choose a committee"), names.map(n => el("option", { value: n }, n)));
+    comSel.value = suDraft.committee; comSel.addEventListener("change", () => set("committee", comSel.value));
+    const removing = suDraft.action === REQ_ACTIONS[1];
+    const roleSel = el("select", null, ["Member", "Interested in serving as co-chair", "Interested in serving as chair"].map(n => el("option", { value: n }, n)));
+    roleSel.value = suDraft.role; roleSel.addEventListener("change", () => set("role", roleSel.value));
+    const timeSel = el("select", null, ["Right away", "At the end of the program year (May 31)", "On a date I note below"].map(n => el("option", { value: n }, n)));
+    timeSel.value = suDraft.timing; timeSel.addEventListener("change", () => set("timing", timeSel.value));
+    const noteIn = el("textarea", { placeholder: removing ? "Optional. Anything you would like the chair to know, such as handing off tasks." : "Optional. Skills, interests, or anything you would like the chair to know." });
+    noteIn.value = suDraft.note; noteIn.addEventListener("input", () => set("note", noteIn.value));
+    const canSend = !!(dbApi && myId) || fromStatic;
+    const form = el("form", { class: "su-form", onsubmit: ev => { ev.preventDefault(); submitSignup(); } },
+      field("Your name", nameIn),
+      el("div", { style: "margin-top:10px" }, el("span", { style: "font-weight:600;font-size:14px" }, "What would you like to do?"), actionBox),
+      field(removing ? "Committee to be removed from" : "Committee", comSel),
+      removing ? null : field("Role", roleSel),
+      field(removing ? "When should the removal take effect?" : "When would you like to start?", timeSel),
+      field("Note", noteIn),
+      el("p", { class: "small muted", style: "margin:10px 0 0" }, "Please do not include phone numbers, addresses, or other personal details. Officers will reach you through the chapter directory."),
+      el("div", { class: "row-actions", style: "margin-top:12px" },
+        el("button", { type: "submit", class: "btn", disabled: suSending || !canSend }, suSending ? "Sending..." : "Submit request")),
+      !canSend ? el("p", { class: "small muted" }, "Online requests are not available in this view. Please share your request with the Membership Chair or any officer.") : null,
+      suMsg ? el("div", { class: "su-msg", role: "status" }, suMsg) : null);
+
+    const mine = dbApi && myReqs ? [...myReqs].reverse() : null;
+    const mineBox = mine ? el("section", { class: "panel" },
+      el("h3", null, "Your requests"),
+      mine.length ? mine.map(r => el("div", { class: "su-req" },
+        el("div", { style: "display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline" },
+          el("span", { style: "font-weight:600" }, reqSummary(r)), el("span", { class: reqClass(r.status) }, r.status)),
+        el("div", { class: "small muted" }, "Sent " + niceDate(r.submitted) + (r.updated && r.updated !== r.submitted ? " · updated " + niceDate(r.updated) : "") + " · " + r.timing),
+        r.officerNote ? el("p", { class: "small", style: "margin:6px 0 0" }, el("b", null, "From the officers: "), r.officerNote) : null,
+        r.status === "Received" || r.status === "In review" ? el("button", { class: "btn quiet", style: "margin-top:6px", onclick: () => withdrawReq(r.id) }, "Withdraw this request") : null))
+        : el("p", { class: "empty" }, "Requests you send will appear here with their status.")) : null;
+
+    let officerBox = null;
+    if (isOfficer && dbApi) {
+      const flat = (allReqs || []).flatMap(d => d.items.map(r => ({ owner: d.uid, r })));
+      const open = x => !["Completed", "Not approved", "Withdrawn"].includes(x.r.status);
+      const list = flat.filter(x => suFilter === "All" ? true : suFilter === "Open" ? open(x) : x.r.action === suFilter)
+        .sort((a, b) => (b.r.submitted || "").localeCompare(a.r.submitted || ""));
+      officerBox = el("section", { class: "panel" },
+        el("h3", null, "Officer view: all requests"),
+        el("p", { class: "small muted", style: "margin-top:0" }, "Visible only to officers with edit access. After a change is complete, update the Committee Sign-Up Sheet and let the committee chair know, then mark the request Completed."),
+        el("div", { class: "su-filter" }, ["Open", "All", ...REQ_ACTIONS].map(f => el("button", { class: "btn " + (suFilter === f ? "" : "ghost"), onclick: () => { suFilter = f; render(); } }, f === "Open" ? "Open (" + flat.filter(open).length + ")" : f))),
+        allReqs === null ? el("p", { class: "empty" }, "Loading requests...")
+          : list.length ? list.map(({ owner, r }) => el("div", { class: "su-req" },
+            el("div", { style: "display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline" },
+              el("span", { style: "font-weight:600" }, r.name + ": " + reqSummary(r)), el("span", { class: reqClass(r.status) }, r.status)),
+            el("div", { class: "small muted" }, "Sent " + niceDate(r.submitted) + " · " + r.timing),
+            r.note ? el("p", { class: "small", style: "margin:6px 0 0" }, r.note) : null,
+            r.officerNote ? el("p", { class: "small", style: "margin:6px 0 0" }, el("b", null, "Officer note: "), r.officerNote) : null,
+            el("button", { class: "btn quiet", style: "margin-top:6px", onclick: () => updateReq(owner, r) }, "Update status")))
+          : el("p", { class: "empty" }, "No requests in this view."));
+    }
+
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Committee sign-up and removal"),
+          el("p", null, "Ask to join a committee, change your role, or be removed from a committee. Every request goes to the Membership Chair and the President, and the committee chair is told. There is no need to explain a removal request, and every request is handled with care."))),
+      el("div", { class: "grid-home" },
+        el("section", { class: "panel" }, el("h3", null, "Send a request"), form),
+        el("div", { class: "stack" },
+          mineBox,
+          el("section", { class: "panel" },
+            el("h3", null, "How requests are handled"),
+            el("ol", { class: "kit-list" },
+              el("li", null, "Your request is logged as Received."),
+              el("li", null, "The Membership Chair and President review it and let the committee chair know."),
+              el("li", null, "The Committee Sign-Up Sheet is updated, and the request is marked Completed."),
+              el("li", null, "If you chair or co-chair a committee you are leaving, the officers will plan a hand-off with you.")),
+            el("p", { class: "small", style: "margin-bottom:0" }, "Not sure where to serve? Read each committee’s charge on the ", el("a", { href: "#committees" }, "Leadership & Committees"), " tab.")))),
+      officerBox);
+  }
+
   function viewSuccessKit() {
     const k = state.successKit;
     if (!k || !Array.isArray(k.expectations)) return null;
@@ -763,7 +920,7 @@ textarea { min-height: 84px; resize: vertical; }
 
   function render() {
     const app = document.getElementById("app");
-    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
+    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, signup: viewSignup, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
     app.replaceChildren(
       el("header", { class: "masthead" },
         el("div", { class: "wrap" },
@@ -787,7 +944,7 @@ textarea { min-height: 84px; resize: vertical; }
   if (!loaded) {
     fetch("data/portal.json", { cache: "no-store" })
       .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
-      .then(d => { state = d || {}; normalize(); loaded = true; render(); })
+      .then(d => { state = d || {}; normalize(); loaded = true; fromStatic = true; render(); })
       .catch(() => { document.getElementById("app").append(el("p", { class: "wrap empty" }, "The portal data could not load. Refresh the page, or contact the 1st Vice President.")); });
   }
 
@@ -800,6 +957,24 @@ textarea { min-height: 84px; resize: vertical; }
     } catch (e) { canEdit = false; }
     try { commentsApi = await window.claude?.use?.("comments"); } catch (e) { commentsApi = null; }
     render();
+    try {
+      const user = await window.claude?.use?.("user");
+      const db = await window.claude?.use?.("db");
+      if (user && db) {
+        myId = await user.id();
+        isOfficer = (await user.canEdit?.()) ?? false;
+        dbApi = db;
+        db.doc("requests/" + myId).onSnapshot(snap => {
+          myReqs = snap.exists && Array.isArray(snap.data().items) ? snap.data().items : [];
+          render();
+        }, () => { myReqs = myReqs || []; render(); });
+        if (isOfficer) db.collection("requests").onSnapshot(qs => {
+          allReqs = qs.docs.filter(d => d.exists).map(d => ({ uid: d.id, items: Array.isArray(d.data().items) ? d.data().items : [] }));
+          render();
+        }, () => { allReqs = null; render(); });
+        render();
+      }
+    } catch (e) { dbApi = null; }
   })();
 })();
 </script>
