@@ -137,6 +137,12 @@ dialog form { padding: 20px; display: grid; gap: 12px; }
 dialog h3 { font-size: 22px; }
 label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
 #bylaws-search { max-width: 520px; }
+table.swot { border-collapse: collapse; width: 100%; min-width: 720px; font-size: 14px; }
+table.swot th, table.swot td { border: 1px solid var(--line); padding: 8px; vertical-align: top; text-align: left; }
+table.swot thead th { background: var(--garnet-soft); font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+table.swot tbody th { width: 180px; font-weight: 600; }
+.swot-cell { all: unset; display: block; width: 100%; min-height: 40px; cursor: pointer; }
+.swot-cell:focus-visible { outline: 2px solid var(--gold); }
 input, select, textarea { font: 15px var(--font-body); color: var(--ink); background: var(--ground); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
 textarea { min-height: 84px; resize: vertical; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -171,6 +177,9 @@ textarea { min-height: 84px; resize: vertical; }
     if (!state.settings) state.settings = { feedbackFormUrl: "" };
     if (!state.bylaws || typeof state.bylaws !== "object") state.bylaws = {};
     if (!Array.isArray(state.bylaws.sections)) state.bylaws.sections = [];
+    if (!state.swot || typeof state.swot !== "object") state.swot = {};
+    for (const k of ["areas", "healthAreas", "priorities"]) if (!Array.isArray(state.swot[k])) state.swot[k] = [];
+    for (const k of ["cells", "health"]) if (!state.swot[k] || typeof state.swot[k] !== "object") state.swot[k] = {};
   }
   normalize();
 
@@ -496,7 +505,51 @@ textarea { min-height: 84px; resize: vertical; }
       el("div", { class: "filters", role: "group", "aria-label": "Filter by status" },
         ["All", ...STATUSES].map(s => el("button", { class: "chipbtn", "aria-pressed": String(statusFilter === s), onclick: () => { statusFilter = s; render(); } },
           s + (s === "All" ? " (" + state.projects.length + ")" : " (" + state.projects.filter(p => p.status === s).length + ")")))),
-      el("div", { class: "proj-list" }, list.length ? list.map(projectCard) : el("p", { class: "empty" }, "No projects with this status.")));
+      el("div", { class: "proj-list" }, list.length ? list.map(projectCard) : el("p", { class: "empty" }, "No projects with this status.")),
+      viewSwot());
+  }
+
+  const SWOT_KEYS = [["s", "Strengths"], ["w", "Weaknesses"], ["o", "Opportunities"], ["t", "Threats"]];
+
+  function editSwotCell(area, key, label) {
+    const cur = (state.swot.cells[area] || {})[key] || "";
+    openDialog(area + ": " + label, [{ name: "text", label: label + " (one per line)", type: "textarea" }], { text: cur }, v => {
+      state.swot.cells[area] = Object.assign({}, state.swot.cells[area], { [key]: v.text });
+      render(); save("SWOT updated");
+    });
+  }
+
+  function editHealth() {
+    openDialog("Chapter health ratings (1 to 5)", state.swot.healthAreas.map((h, i) => ({ name: "h" + i, label: h, type: "number", min: 1, max: 5, half: true })),
+      Object.fromEntries(state.swot.healthAreas.map((h, i) => ["h" + i, state.swot.health[h] ?? ""])), v => {
+        state.swot.healthAreas.forEach((h, i) => { const n = Number(v["h" + i]); if (n >= 1 && n <= 5) state.swot.health[h] = n; else delete state.swot.health[h]; });
+        render(); save("Ratings updated");
+      });
+  }
+
+  function viewSwot() {
+    const sw = state.swot;
+    if (!sw.areas.length) return null;
+    const head = el("tr", null, el("th", { scope: "col" }, "Service area"), SWOT_KEYS.map(([, l]) => el("th", { scope: "col" }, l)));
+    const rows = sw.areas.map(a => el("tr", null, el("th", { scope: "row" }, a), SWOT_KEYS.map(([k, l]) => {
+      const txt = (sw.cells[a] || {})[k] || "";
+      const inner = txt ? txt.split("\n").filter(Boolean).map(line => el("div", null, line)) : el("span", { class: "muted" }, canEdit ? "Add" : "\u2013");
+      return el("td", null, canEdit ? el("button", { class: "swot-cell", onclick: () => editSwotCell(a, k, l), "aria-label": "Edit " + l + " for " + a }, inner) : inner);
+    })));
+    return el("section", { class: "panel", id: "swot" },
+      el("div", { class: "section-head", style: "margin-bottom:8px" },
+        el("div", null, el("h3", { style: "margin:0" }, sw.title || "Chapter SWOT"),
+          el("p", { class: "small" }, "Rooted strengths and weaknesses; rising opportunities and threats, for each service area. Results from the 2026 retreat pulse session go here and are revisited each year."))),
+      el("div", { class: "cal-scroll" }, el("table", { class: "swot" }, el("thead", null, head), el("tbody", null, rows))),
+      el("div", { class: "grid-home", style: "margin-top:16px" },
+        el("div", null,
+          el("h4", { style: "margin:0 0 6px" }, "Chapter health (1 = needs attention, 5 = thriving)"),
+          sw.healthAreas.map(h => el("div", { class: "kv", style: "justify-content:space-between;border-top:1px solid var(--line);padding:6px 0;margin:0" },
+            el("span", null, h), el("b", null, sw.health[h] ? sw.health[h] + " / 5" : "Not rated"))),
+          canEdit ? el("button", { class: "btn quiet", style: "margin-top:8px", onclick: editHealth }, "Enter ratings") : null),
+        el("div", null,
+          el("h4", { style: "margin:0 0 6px" }, "Chapter priorities"),
+          sw.priorities.length ? el("ol", { style: "margin:0;padding-left:20px" }, sw.priorities.map(x => el("li", null, x))) : el("p", { class: "empty" }, "Priorities will appear here."))));
   }
 
   function viewResources() {
@@ -565,7 +618,8 @@ textarea { min-height: 84px; resize: vertical; }
       { name: "topic", label: "Topic", required: true },
       { name: "reference", label: "Article and section (for example, Article IV, Section 2)" },
       { name: "source", label: "Source", type: "select", options: ["Bylaws", "Chapter records", "Add from the bylaws"] },
-      { name: "summary", label: "Quick-reference summary", type: "textarea" }
+      { name: "summary", label: "Quick-reference summary", type: "textarea" },
+      { name: "note", label: "Chapter practice note (optional)", type: "textarea" }
     ], b || { source: "Bylaws" }, v => {
       if (isNew) state.bylaws.sections.push({ id: uid("b"), ...v });
       else Object.assign(state.bylaws.sections.find(x => x.id === b.id), v);
@@ -595,7 +649,7 @@ textarea { min-height: 84px; resize: vertical; }
           url ? el("a", { class: "btn", href: url, target: "_blank", rel: "noopener", style: "text-decoration:none" }, "Open the full bylaws") : null,
           canEdit ? el("button", { class: "btn ghost", onclick: editBylawsLink }, url ? "Change link" : "Add bylaws link") : null,
           canEdit ? el("button", { class: "btn ghost", onclick: () => editBylawSection(null) }, "Add topic") : null)),
-      !url ? el("p", { class: "panel small" }, "The bylaws document has not been linked yet. ", by.keeper ? "Keepers: " + by.keeper + "." : "", " Topics marked \u201CChapter records\u201D come from chapter agendas and reports and should be checked against the bylaws; topics marked \u201CAdd from the bylaws\u201D are waiting for the text.") : null,
+      el("p", { class: "panel small" }, by.documentTitle ? "Source: " + by.documentTitle + ". " : "", by.keeper ? "Questions go to the " + by.keeper + ". " : "", "Notes marked \u201CChapter practice\u201D show where recent chapter practice differs from the written bylaws.", !url ? " The full PDF link will be added here." : ""),
       search,
       el("div", { class: "proj-list" }, list.length ? list.map(b => el("article", { class: "panel" },
         el("div", { style: "display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline" },
@@ -603,6 +657,7 @@ textarea { min-height: 84px; resize: vertical; }
           el("span", { class: srcClass(b.source) }, b.source || "Bylaws")),
         b.reference ? el("div", { class: "small muted", style: "margin-top:2px" }, b.reference) : null,
         b.summary ? el("p", { style: "margin:8px 0 0" }, b.summary) : null,
+        b.note ? el("p", { class: "small", style: "margin:8px 0 0;color:var(--warn)" }, el("b", null, "Chapter practice: "), b.note.replace(/^2025-2026 practice:\s*/i, "2025-2026, ")) : null,
         canEdit ? el("button", { class: "btn quiet", style: "margin-top:8px", onclick: () => editBylawSection(b) }, "Edit") : null))
         : el("p", { class: "empty" }, q ? "No topics match that search." : "Bylaws topics will appear here.")));
   }
@@ -618,7 +673,7 @@ textarea { min-height: 84px; resize: vertical; }
           el("div", { class: "eyebrow" }, "Top Ladies of Distinction, Inc. · Dallas Chapter"),
           el("h1", null, "Member Portal"),
           el("p", null, "Calendar, programs, resources, and feedback for the Ladies of the Dallas Chapter and our Top Teens of America."),
-          state.settings.motto ? el("p", { class: "motto" }, "\u201C" + state.settings.motto + "\u201D" + (state.settings.theme ? " \u00B7 National theme: " + state.settings.theme : "")) : null,
+          state.settings.motto ? el("p", { class: "motto" }, "\u201C" + state.settings.motto + "\u201D" + (state.settings.theme ? " \u00B7 2025-2027 theme: " + state.settings.theme : "")) : null,
           el("nav", { class: "tabs", role: "tablist", "aria-label": "Portal sections" },
             TABS.map(([k, label]) => el("button", { role: "tab", "aria-selected": String(tab === k), onclick: () => go(k) }, label))))),
       el("main", { class: "wrap" }, view,

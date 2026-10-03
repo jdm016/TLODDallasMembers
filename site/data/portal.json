@@ -2,7 +2,8 @@
  "settings": {
   "feedbackFormUrl": "",
   "theme": "Continuity of Service in Action",
-  "motto": "One Sisterhood, One Chapter, One Team, Leading in Service"
+  "motto": "Serving Youth and Adults",
+  "slogan": "One Sisterhood, One Chapter, One Team, Leading in Service"
  },
  "announcements": [],
  "events": [
@@ -367,7 +368,139 @@
    "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas",
    "type": "Top Teens",
    "contact": "Lady Jessica D. Maine-Jackson, Retreat Chair",
-   "details": "Check-in at 9:30 AM. 90s-inspired dress. Leadership, protocol, parliamentary procedure, mentorship, and program year planning for Ladies and Teens."
+   "details": "\"Different paths. Shared purpose.\" Check-in at 9:30 AM. 90s-inspired dress with a best dressed competition (Most Iconic 90s Look, Best Dressed Top Teen, Best Dressed Lady, Most Creative Interpretation, Best Group Look). Sessions on leadership, protocol, parliamentary procedure, mentorship, the SWOT and Steady chapter pulse, and program year planning."
+  },
+  {
+   "id": "e34",
+   "title": "Grandparents Day photos due",
+   "date": "2026-09-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Senior Citizens Committee",
+   "details": "Ladies submit a picture with their grandchild to be included in the National Grandparents Day celebration."
+  },
+  {
+   "id": "e35",
+   "title": "National Grandparents Day celebration",
+   "date": "2026-09-13",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Senior Citizens Committee",
+   "details": "Celebrating Ladies and their grandchildren with submitted photos."
+  },
+  {
+   "id": "t1",
+   "title": "Top Teens of America Meeting: TLOD Awards",
+   "date": "2026-09-20",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t2",
+   "title": "Top Teens of America Meeting: TTA Award participants",
+   "date": "2026-10-18",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t3",
+   "title": "Top Teens of America Meeting: Thanksgiving",
+   "date": "2026-11-15",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t4",
+   "title": "Top Teens of America Meeting: Holiday Break",
+   "date": "2026-12-13",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t5",
+   "title": "Top Teens of America Meeting",
+   "date": "2027-01-17",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t6",
+   "title": "Top Teens of America Meeting: Dues due",
+   "date": "2027-02-21",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t7",
+   "title": "Top Teens of America Meeting: Area Conference",
+   "date": "2027-03-21",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t8",
+   "title": "Top Teens of America Meeting: Scholarship Application",
+   "date": "2027-04-18",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t9",
+   "title": "Top Teens of America Meeting",
+   "date": "2027-05-16",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
+  },
+  {
+   "id": "t10",
+   "title": "Top Teens of America Meeting",
+   "date": "2027-06-20",
+   "start": "15:00",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Top Teen Advisor",
+   "details": ""
   }
  ],
  "projects": [
@@ -526,6 +659,30 @@
    "progress": 100,
    "notes": "Held August 1, 2026 at St. Philip's. Post-event evaluation due within 30 days.",
    "confirm": true
+  },
+  {
+   "id": "p14",
+   "name": "National Grandparents Day photo celebration",
+   "committee": "Senior Citizens",
+   "lead": "Lady Johnnie Gales",
+   "status": "Complete",
+   "start": "2026-08-15",
+   "due": "2026-09-13",
+   "progress": 100,
+   "notes": "Ladies submitted photos with their grandchildren by September 1 for the September 13, 2026 celebration. Post-event evaluation due within 30 days.",
+   "confirm": true
+  },
+  {
+   "id": "p15",
+   "name": "Chapter SWOT and pulse follow-up",
+   "committee": "Program Committee",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "In progress",
+   "start": "2026-08-01",
+   "due": "",
+   "progress": 20,
+   "notes": "From the retreat's SWOT and Steady session (facilitated with Lady Marjorie O'Neal). Record group results in the SWOT grid below and turn the closing priorities into Program of Work goals.",
+   "confirm": false
   }
  ],
  "resources": [
@@ -539,9 +696,9 @@
   {
    "id": "r2",
    "group": "Governance",
-   "title": "TLOD, Inc. Constitution and Bylaws",
+   "title": "Dallas Chapter Bylaws (amended March 2023)",
    "url": "",
-   "note": "Quick reference is on the Bylaws tab. The Parliamentarian adds the document link."
+   "note": "Quick reference with article and section citations is on the Bylaws tab. Add the Drive link to the full PDF."
   },
   {
    "id": "r3",
@@ -600,7 +757,15 @@
    "note": "Retreat outreach tracking."
   }
  ],
- "heard": [],
+ "heard": [
+  {
+   "id": "h1",
+   "date": "2025-10-18",
+   "status": "Addressed",
+   "heard": "West Cluster Work Day evaluation: about 94 responses; 27 exceeded expectations, 64 met, 3 did not. Ladies asked for longer and more interactive sessions, time for cross-chapter collaboration, tips for new members, registration lists, and a session on the bylaws most often missed.",
+   "response": "The portal now has a Bylaws quick reference with article and section citations, and the Operations Manual covers new member steps. Longer, interactive sessions were built into the 2026 Joint Retreat."
+  }
+ ],
  "committees": [
   {
    "group": "Officers",
@@ -614,14 +779,14 @@
    "name": "1st Vice President",
    "chair": "Lady Jessica D. Maine-Jackson",
    "cochair": "",
-   "charge": "Chairs the Program Committee; Programs of Work, 5-Star reporting, mentorship."
+   "charge": "Assists the President; chairs the program thrusts and the Program Committee; Programs of Work, 5-Star reporting, mentorship."
   },
   {
    "group": "Officers",
    "name": "2nd Vice President",
    "chair": "Lady Keyshay Mozee",
    "cochair": "",
-   "charge": "Membership, intake, and induction."
+   "charge": "Chairs the Projects Committee; coordinates public relations and awards (bylaws). Has also led membership and intake."
   },
   {
    "group": "Officers",
@@ -646,10 +811,38 @@
   },
   {
    "group": "Officers",
+   "name": "Editor of the Crown",
+   "chair": "Lady Rosalind Baylor-Cosey",
+   "cochair": "",
+   "charge": "Elected officer; compiles and edits chapter news for the Crown."
+  },
+  {
+   "group": "Officers",
+   "name": "Top Teen Advisor",
+   "chair": "To be confirmed",
+   "cochair": "",
+   "charge": "Elected officer; supervises the Top Teens Program of Work. 2026 TTA leads: Lady LaSheryl Walker and Lady Tiara Tyler."
+  },
+  {
+   "group": "Officers",
+   "name": "Corresponding Secretary",
+   "chair": "Lady Lois Smith (to be confirmed)",
+   "cochair": "",
+   "charge": "Appointed; reads and answers chapter correspondence."
+  },
+  {
+   "group": "Officers",
+   "name": "President's Council",
+   "chair": "Lady Jearlene Miller",
+   "cochair": "",
+   "charge": "Former presidents who advise the President and Executive Board."
+  },
+  {
+   "group": "Officers",
    "name": "Parliamentarian",
    "chair": "Lady Shirley Ison-Newsome",
    "cochair": "",
-   "charge": "Procedure, bylaws questions, elections."
+   "charge": "Interprets the bylaws under Robert's Rules; chairs the Bylaws Committee."
   },
   {
    "group": "Program thrusts",
@@ -934,100 +1127,199 @@
  ],
  "bylaws": {
   "documentUrl": "",
-  "documentTitle": "TLOD, Inc. Constitution and Bylaws (with Dallas Chapter bylaws or SOPs)",
-  "keeper": "Parliamentarian (Lady Shirley Ison-Newsome) and Bylaws Committee (Lady Shirley Ison-Newsome, Lady Karen Parson)",
+  "documentTitle": "Dallas Chapter Bylaws (amended March 8, 2023; approved by the Area One Parliamentarian March 14, 2023)",
+  "keeper": "Parliamentarian (Lady Shirley Ison-Newsome), chair of the Bylaws Committee",
   "sections": [
    {
     "id": "b1",
-    "topic": "Officers and terms",
-    "summary": "Elected officers serve a two-year administration (2025-2027): President, 1st Vice President, 2nd Vice President, Recording Secretary, Financial Secretary, Treasurer, and Parliamentarian. Confirm the full list of elected offices and term limits.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Mission",
+    "reference": "Article II",
+    "source": "Bylaws",
+    "summary": "Serve the community; sponsor Top Teens of America; promote meaningful living for senior citizens; improve the status of women; preserve the physical beauty of America; and collaborate with community, business, educational, and governmental partners.",
+    "note": ""
    },
    {
     "id": "b2",
-    "topic": "Elections",
-    "summary": "The Nominating Committee presents a slate of qualified candidates; the Tellers Committee collects, counts, and reports votes. Confirm eligibility rules, timing, and voting method.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Membership eligibility",
+    "reference": "Article III, Section 1",
+    "source": "Bylaws",
+    "summary": "Candidates subscribe to TLOD principles, bring a range of talents and skills, and are willing to serve. A college degree is not required. A convicted felon is not eligible. Applications go to the Membership Chair by the stated deadline.",
+    "note": ""
    },
    {
     "id": "b3",
-    "topic": "Quorum",
-    "summary": "Every chapter meeting includes a quorum check before business. Add the quorum number.",
-    "reference": "",
-    "source": "Add from the bylaws"
+    "topic": "Regular and Life membership",
+    "reference": "Article III, Section 2",
+    "source": "Bylaws",
+    "summary": "Regular members meet all chapter obligations (finance, attendance, other requirements), pay chapter, Area, and National dues and assessments, and take part in programs. Life Members have 10+ years of membership, were continuously active the 5 years before applying, paid the one-time life fee, and pay annual chapter dues.",
+    "note": ""
    },
    {
     "id": "b4",
-    "topic": "Order of business",
-    "summary": "Call to order, opening ceremony, agenda, quorum check, meditation, roll call, minutes, correspondence, officer reports, financial and committee reports, unfinished business, new business, announcements, closing ceremony.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Applying and induction",
+    "reference": "Article III, Sections 3 and 4",
+    "source": "Bylaws",
+    "summary": "Two letters of recommendation; chapter vote by secret ballot; written notice of acceptance and fees; orientation at least 10 days before induction; two weeks to accept in writing. Fees are non-refundable and non-transferable. Induction is in the fall and/or spring using the National ritual, conducted by a National officer or Parliament-Top appointee. No pictures during the ceremony.",
+    "note": ""
    },
    {
     "id": "b5",
-    "topic": "Parliamentary authority",
-    "summary": "Add the parliamentary authority named in the bylaws (for example, Robert's Rules of Order).",
-    "reference": "",
-    "source": "Add from the bylaws"
+    "topic": "Elected officers",
+    "reference": "Article IV, Section 1",
+    "source": "Bylaws",
+    "summary": "President, First Vice President, Second Vice President, Recording Secretary, Financial Secretary, Treasurer, Editor of the Crown, and Top Teen Advisor.",
+    "note": ""
    },
    {
     "id": "b6",
-    "topic": "Budget and finances",
-    "summary": "The Finance Committee presents the next year's budget at the September chapter meeting and the chapter votes. Add signature, approval, and audit requirements.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Appointed officers",
+    "reference": "Article IV, Section 2",
+    "source": "Bylaws",
+    "summary": "Parliamentarian, Historian, Sergeant-at-Arms, Chaplain, Corresponding Secretary, Assistant Recording Secretary, Assistant Corresponding Secretary, and Assistant Top Teen Advisor.",
+    "note": ""
    },
    {
     "id": "b7",
-    "topic": "Membership and induction",
-    "summary": "New members are sponsored by a Lady in good standing and inducted according to TLOD ritual; the 2025 induction fee was $800. Add eligibility and requirements.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Who can run for office",
+    "reference": "Article IV, Sections 3 and 4",
+    "source": "Bylaws",
+    "summary": "Active, financial members in good standing for at least one year who have attended meetings regularly.",
+    "note": ""
    },
    {
     "id": "b8",
-    "topic": "Dues and good standing",
-    "summary": "Add annual dues, assessments, deadlines, and what keeps a Lady in good standing.",
-    "reference": "",
-    "source": "Add from the bylaws"
+    "topic": "Elections and terms",
+    "reference": "Article IV, Sections 5 to 8",
+    "source": "Bylaws",
+    "summary": "Elected every two years by secret ballot at the May regular meeting of a Syn-Lod year; installed at the end of the June meeting. Two-year terms; no more than two consecutive terms in the same office. Highest vote count wins.",
+    "note": ""
    },
    {
     "id": "b9",
-    "topic": "Meetings",
-    "summary": "Chapter meetings are held monthly, usually the third Thursday. Add rules for regular, special, and Executive Board meetings and required notice.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Removal and resignation",
+    "reference": "Article IV, Sections 9 and 10",
+    "source": "Bylaws",
+    "summary": "A two-thirds vote of the Executive Board may suspend an elected officer for neglect of duties or conduct unbecoming an officer. Resignations go to the Executive Board, then to the chapter for approval.",
+    "note": ""
    },
    {
     "id": "b10",
-    "topic": "Committees",
-    "summary": "Standing committees include Awards, Bylaws, Finance, Membership, Editor of the Crown, and Scholarship; special committees are formed as needed. Confirm how chairs are appointed.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Officer duties",
+    "reference": "Article V",
+    "source": "Bylaws",
+    "summary": "President presides and appoints committees (ex officio on all but Nominating). First VP assists the President and chairs the program thrusts. Second VP chairs Projects and coordinates public relations and awards. Recording Secretary keeps minutes, rosters, attendance. Financial Secretary collects dues and gives all money to the Treasurer. Treasurer deposits and pays signed orders. Top Teen Advisor supervises the Top Teens Program of Work. Editor of the Crown edits chapter news.",
+    "note": "2025-2026 practice: the Second Vice President has led membership and intake; confirm assignments."
    },
    {
     "id": "b11",
-    "topic": "Amendments",
-    "summary": "The Bylaws Committee solicits and proposes changes to the Bylaws and Standard Operating Procedures. Add the notice period and vote required to amend.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Officer handoff",
+    "reference": "Article VI, Section 6",
+    "source": "Bylaws",
+    "summary": "Every officer except the Treasurer delivers files, supplies, and materials to her successor within 30 days of the first meeting of the new year. The Treasurer turns in her report at the first meeting in September.",
+    "note": ""
    },
    {
     "id": "b12",
-    "topic": "Vacancies and removal",
-    "summary": "Add how officer vacancies are filled and how an officer or member may be removed.",
-    "reference": "",
-    "source": "Add from the bylaws"
+    "topic": "Executive Board",
+    "reference": "Article VII, Section 1",
+    "source": "Bylaws",
+    "summary": "All elected and appointed officers plus the Past Presidents. It oversees all operations; its actions must be presented to the chapter for approval or ratification.",
+    "note": ""
    },
    {
     "id": "b13",
-    "topic": "Top Teens of America",
-    "summary": "Top Teens follow national Top Teens of America guidelines under the Service to Youth thrust. Add the age range, advisor requirements, and teen officer rules.",
-    "reference": "",
-    "source": "Chapter records"
+    "topic": "Budget",
+    "reference": "Article VII, Section 3",
+    "source": "Bylaws",
+    "summary": "The Finance Committee (Treasurer as chair, Financial Secretary, First Vice President, and two appointees) develops the budget before November from the Program Committee's annual programs; the chapter votes in December.",
+    "note": "2025-2026 practice: budget voted September 18, 2025; Finance chaired by Lady Tunia Hughes."
+   },
+   {
+    "id": "b14",
+    "topic": "Nominating Committee",
+    "reference": "Article VII, Section 8",
+    "source": "Bylaws",
+    "summary": "Five members elected from the floor by majority vote at the September meeting; they name their chair. The slate is presented at the April meeting.",
+    "note": "2025-2026 practice: chair and members appointed; confirm the process for the 2027 election."
+   },
+   {
+    "id": "b15",
+    "topic": "Standing and special committees",
+    "reference": "Articles VII and VIII",
+    "source": "Bylaws",
+    "summary": "Standing: Executive Board, Bylaws, Finance, Service to Youth, Projects, Scholarship, Public Relations, Nominating, Membership, Courtesy, Devotion, Senior Citizens, Status of Women, Community Beautification, Community Partnership, Founders Day, Archives, Awards, Social. Special: Protocol, Blue and Silver Ball, Conference, President's Council, Election, Juanita M. Johns Luncheon, Lords, Social Media, Technology.",
+    "note": ""
+   },
+   {
+    "id": "b16",
+    "topic": "Meetings",
+    "reference": "Article IX",
+    "source": "Bylaws",
+    "summary": "The chapter year opens the first Wednesday in September and closes the first Wednesday in June. Meetings are the first Wednesday of each month at 6:00 PM unless changed by majority vote. The President may call additional meetings. Virtual meetings are allowed at the Executive Board's discretion.",
+    "note": "2025-2026 practice: meetings mostly on third Thursdays; confirm the 2026-2027 schedule by vote."
+   },
+   {
+    "id": "b17",
+    "topic": "Quorum",
+    "reference": "Article IX, Sections 1 and 2",
+    "source": "Bylaws",
+    "summary": "One-third of the financial members. Without a quorum, the President may declare an emergency meeting; that business must be ratified once a quorum is present.",
+    "note": ""
+   },
+   {
+    "id": "b18",
+    "topic": "Motto, colors, flower, emblem",
+    "reference": "Article X",
+    "source": "Bylaws",
+    "summary": "Motto: \"Serving Youth and Adults.\" Colors: Gold, Silver, and Pink. Flower: the Orchid. Emblem: the Crown.",
+    "note": ""
+   },
+   {
+    "id": "b19",
+    "topic": "Rules of order",
+    "reference": "Article XI",
+    "source": "Bylaws",
+    "summary": "Robert's Rules of Order, Newly Revised. The chapter bylaws may not conflict with the National Constitution and Bylaws.",
+    "note": ""
+   },
+   {
+    "id": "b20",
+    "topic": "Amendments",
+    "reference": "Article XII",
+    "source": "Bylaws",
+    "summary": "Amended at a regular meeting with one-third of the membership present and a one-third vote in favor, after the proposed amendment has been circulated at least 30 days before the vote.",
+    "note": ""
    }
+  ]
+ },
+ "swot": {
+  "title": "Chapter SWOT: Rooted and Rising Pulse Session",
+  "areas": [
+   "Top Teens of America",
+   "ExCEL Program",
+   "Status of Women",
+   "Senior Citizens",
+   "Community Beautification",
+   "Community Partnerships",
+   "National Projects and Partnerships"
+  ],
+  "cells": {},
+  "healthAreas": [
+   "Unity and Communication",
+   "Program Execution",
+   "Partnership Engagement",
+   "Volunteer Strength",
+   "Leadership Pipeline",
+   "Resource Management",
+   "Visibility"
+  ],
+  "health": {},
+  "priorities": [
+   "Deepen National Thrust engagement across all service areas",
+   "Strengthen community partnerships and volunteer pipelines",
+   "Raise program execution and visibility in our communities",
+   "Advance leadership development and continuity planning",
+   "Strengthen our collective voice through unified communication"
   ]
  }
 }

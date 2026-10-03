@@ -19,50 +19,110 @@ Items marked **Confirm** below are places where chapter or national practice sho
 
 The Dallas Chapter of Top Ladies of Distinction, Inc. serves North Texas through four program thrusts, national partnerships, and its youth affiliate, Top Teens of America (TTA). The chapter is part of Area I and the West Cluster, and works toward 5-Star Chapter recognition each biennium.
 
+### Mission (Bylaws, Article II)
+
+1. Enhance the usefulness in general and advance the standards, ideals, and general welfare of the community through service, by encouraging, promoting, and extending activities conducive to the betterment and welfare of people.
+2. Sponsor Top Teens of America, providing opportunities for the wholesome development of their potential and promoting their educational, social, spiritual, moral, cultural, and economic development.
+3. Assist in the promotion of wholesome and meaningful living for senior citizens.
+4. Improve the status of women.
+5. Develop, promote, and support activities designed to preserve the physical beauty of America.
+6. Engage in collaborative arrangements with community, business, educational, and governmental entities to solve common problems and attain TLOD goals.
+
+### At a glance
+
 | Item | Dallas Chapter detail |
 | --- | --- |
-| Organization | Top Ladies of Distinction, Inc., Dallas Chapter |
-| Chapter motto | "One Sisterhood, One Chapter, One Team, Leading in Service" |
+| Organization | Top Ladies of Distinction, Incorporated, Dallas Chapter (serving youth and adults since 1964) |
+| Motto (Bylaws, Article X) | "Serving Youth and Adults" |
+| Colors, flower, emblem | Gold, Silver, and Pink; the Orchid; the Crown |
 | National theme, 2025-2027 | "Continuity of Service in Action" |
+| Chapter rallying calls | "One Sisterhood, One Chapter, One Team, Leading in Service" and "One TLOD, One Voice... Endless Possibilities" |
 | Area and cluster | Area I (Area I LEADS: Legacy, Equity, Accountability, Diversity, and Service); West Cluster |
 | Current administration | 2025-2027, Lady Marian A. Willard, President |
 | Youth affiliate | Top Teens of America, Dallas Chapter (27 teens on the 2026 roster) |
 | Membership | About 85 active Ladies (2025-2027 directory) |
 | Forms of address | "Lady" for members; "Top Teen" for TTA members; "Lords" for the men who support the Teens |
-| Program thrusts | Service to Youth, Senior Citizens, Status of Women, Community Beautification |
+| Program thrusts | Service to Youth, Senior Citizens, Status of Women, Community Beautification, Community Partnerships |
 | National focus areas, 2025-2027 | Literacy and Education, Mentorship, Sickle Cell Awareness, St. Jude partnership |
 | Home base | St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas, TX 75215 |
-| Mission statement | Confirm: insert the national mission statement |
-
+| Governing documents | TLOD, Inc. National Constitution and Bylaws; Dallas Chapter Bylaws (amended March 8, 2023; approved by the Area One Parliamentarian March 14, 2023) |
 ## Leadership and roles
 
-The Executive Board runs the chapter between meetings, and each officer owns specific records and handoffs so nothing depends on one person's memory. Officers below are the 2025-2027 slate as listed on the September 18, 2025 agenda and the West Cluster registration.
+The Executive Board, made up of all elected and appointed officers plus the Past Presidents, oversees every part of chapter operations, and its actions go to the chapter for approval or ratification (Bylaws, Article VII, Section 1). Names below are the 2025-2027 officers from chapter records.
 
-| Role | 2025-2027 | Owns | Key handoffs |
-| --- | --- | --- | --- |
-| President | Lady Marian A. Willard | Chapter direction, Executive Board and chapter meeting agendas, opening and closing ceremony, national and Area correspondence | Signs off on reports, budget, and submissions |
-| 1st Vice President | Lady Jessica D. Maine-Jackson | Chairs the Program Committee; oversees all thrusts and partnerships; coordinates the Program of Work; manages 5-Star reporting; matches mentors; mentors the TTA 1st Vice President | Consolidated Program of Work to National; monthly 1st VP report |
-| 2nd Vice President | Lady Keyshay Mozee | Membership: intake, induction, retention (with the Membership Committee) | Co-hosts the reporting workshop with the 1st VP; updates the directory |
-| Recording Secretary | Lady Elandra Gilmore | Roll call, minutes, votes, the official record | Posts approved minutes to the shared Drive |
-| Financial Secretary | Lady Shenequa C. Miller | Receives and records all member payments; monthly financial summary | Delivers funds and the ledger to the Treasurer |
-| Treasurer | Lady Tallulah Matthews | Bank accounts, deposits, disbursements, treasurer's report | Monthly report; finance lead for events |
-| Correspondence | Lady Lois Smith | Correspondence report at chapter meetings (Confirm official title) | Shares incoming correspondence with the President |
-| Parliamentarian | Lady Shirley Ison-Newsome | Procedure, bylaws questions, elections process | Advises the President before votes |
-| President's Council Chair | Lady Jearlene Miller | President's Council (Confirm duties) | |
-| TTA Advisors / Leads | Lady LaSheryl Walker and Lady Tiara Tyler (Confirm titles) | Top Teens of America chapter, teen calendar, teen engagement | Report under Service to Youth |
-| Committee Chairs | See Committees and programs | One program or function each | Program of Work, post-event evaluations |
+### Elected officers (Bylaws, Articles IV and V)
+
+| Office | 2025-2027 | Duties under the bylaws |
+| --- | --- | --- |
+| President | Lady Marian A. Willard | Presides with a planned agenda, enforces the Constitution and Bylaws, calls special meetings, appoints committees, serves ex officio on all committees except Nominating |
+| First Vice President | Lady Jessica D. Maine-Jackson | Assists the President, presides in her absence, chairs the program thrusts; in practice also chairs the Program Committee, coordinates the Program of Work and 5-Star reporting, and matches mentors |
+| Second Vice President | Lady Keyshay Mozee | Chairs the Projects Committee, coordinates public relations and awards, presides when the President and First Vice President are absent |
+| Recording Secretary | Lady Elandra Gilmore | Secretary of the chapter and Executive Board: minutes, roster of officers and members, attendance at each meeting |
+| Financial Secretary | Lady Shenequa C. Miller | Collects dues, writes receipts, gives all money to the Treasurer for a receipt, keeps the roll of financial members, prepares financial reports |
+| Treasurer | Lady Tallulah Matthews | Receives money from the Financial Secretary, deposits it, pays properly signed orders, reports through June |
+| Editor of the Crown | Lady Rosalind Baylor-Cosey | Compiles and edits chapter news for the Crown |
+| Top Teen Advisor | Confirm (2026 TTA leads: Lady LaSheryl Walker and Lady Tiara Tyler) | Supervises the Top Teens Program of Work, activities, leadership training, and volunteer service |
+
+### Appointed officers (Bylaws, Articles IV and VI)
+
+| Office | 2025-2027 | Duties under the bylaws |
+| --- | --- | --- |
+| Parliamentarian | Lady Shirley Ison-Newsome | Interprets the National and Chapter bylaws under Robert's Rules of Order; chairs the Bylaws Committee |
+| Corresponding Secretary | Lady Lois Smith (gives the Correspondence Report; Confirm) | Reads and answers chapter correspondence; prepares the newsletter with the President's approval |
+| Chaplain | Confirm | Leads devotion at all regular and public meetings |
+| Sergeant-at-Arms | Confirm | Keeps the meeting room in order and serves on the door |
+| Historian | Confirm | Chapter history (with the Archives Committee) |
+| Assistant Recording Secretary, Assistant Corresponding Secretary, Assistant Top Teen Advisor | Confirm | Assist the officers named |
+
+The chapter also has a President's Council (chair: Lady Jearlene Miller): former presidents who serve as a resource to the President and Executive Board and advise the Archives, Founders' Day, and Protocol Committees (Article VIII, Section 4).
+
+### Eligibility, terms, and changes
+
+- **Eligibility:** active, financial members in good standing for at least one year who have attended meetings regularly (Article IV).
+- **Terms:** two years, elected by secret ballot; no more than two consecutive terms in the same office.
+- **Removal:** a two-thirds vote of the Executive Board may suspend an elected officer for neglect of duties or conduct unbecoming an officer.
+- **Resignation:** presented to the Executive Board, then to the chapter at a regular meeting for approval.
 
 ### Officer transition
 
-The chapter holds transition meetings each summer (June and July 2025). Use this standing checklist:
+Every officer except the Treasurer delivers all files, supplies, and materials to her successor within 30 days of the first meeting of the new year; the Treasurer turns in her report at the first meeting in September (Article VI, Section 6). The chapter also holds transition meetings each summer.
 
-- [ ] Outgoing officer hands over files, passwords, open items, and vendor contacts
+- [ ] Outgoing officer hands over files, passwords, open items, and vendor contacts within 30 days
 - [ ] Shared Drive folders, the GroupMe, and the portal transferred to the incoming officer
 - [ ] Bank signature cards updated (Treasurer and President)
 - [ ] Area I Chapter Leadership Information Form submitted (the 2025 form was submitted; keep the confirmation in Area Submissions)
 - [ ] National office notified of new officers by the national deadline (Confirm date)
-- [ ] New officers review this manual and the chapter calendar
+- [ ] New officers review this manual, the bylaws, and the chapter calendar
 
+## Governance and bylaws
+
+The Dallas Chapter Bylaws (amended March 8, 2023) govern chapter business, under the National Constitution and Bylaws; meetings follow Robert's Rules of Order, Newly Revised (Article XI). The portal's Bylaws tab has a searchable quick reference.
+
+### Key rules
+
+| Topic | Rule | Bylaws |
+| --- | --- | --- |
+| Quorum | One-third of the financial members | Art. IX, Sec. 1 |
+| No quorum | The President may declare an emergency meeting; business is ratified once a quorum is present | Art. IX, Sec. 2 |
+| Chapter year and meetings | Opens the first Wednesday in September, closes the first Wednesday in June; meets the first Wednesday of each month at 6:00 PM unless changed by majority vote; virtual meetings allowed at the Executive Board's discretion | Art. IX |
+| Nominating Committee | Five members elected from the floor at the September meeting; presents the slate at the April meeting | Art. VII, Sec. 8 |
+| Elections | By secret ballot at the May regular meeting of a Syn-Lod year; installation at the end of the June meeting; highest vote count wins | Art. IV, Sec. 5 and 8 |
+| Budget | Finance Committee (Treasurer as chair, Financial Secretary, First Vice President, two appointees) develops the budget before November, built on the Program Committee's annual programs; voted in December | Art. VII, Sec. 3 |
+| New members | Two letters of recommendation; voted on by secret ballot; orientation at least 10 days before induction | Art. III, Sec. 3 |
+| Amendments | At a regular meeting with one-third of members present and a one-third vote in favor; circulated at least 30 days before the vote | Art. XII |
+
+### Where current practice differs from the bylaws
+
+These are not necessarily problems, since several rules allow change by majority vote, but each should be confirmed by vote or brought into line, with the Parliamentarian's guidance.
+
+| Topic | Bylaws say | 2025-2026 practice |
+| --- | --- | --- |
+| Meeting day | First Wednesday, 6:00 PM | Mostly third Thursdays (September to April), then May 7 and June 4 |
+| Budget vote | Developed before November, voted in December | 2025-2026 budget voted at the September 18, 2025 meeting |
+| Finance Committee chair | The Treasurer | Lady Tunia Hughes chairs; the Treasurer serves on it |
+| Second Vice President | Chairs Projects; coordinates public relations and awards | Leads membership and intake; co-chairs Public Relations |
+| Nominating Committee | Five members elected from the floor in September | Chair and members appointed (Lady Cynthia Scott, chair); voted on September 18, 2025 |
+| Elected Top Teen Advisor | An elected office | TTA led by Lady LaSheryl Walker and Lady Tiara Tyler; confirm titles |
 ## Committees and programs
 
 The chapter's service runs through four program thrusts, standing and special committees, and national partnership chairs; every one has a named chair and a Program of Work on file with the 1st Vice President. Full member lists live in the Committee Sign-Up Sheet and the Member Information workbook.
@@ -146,10 +206,10 @@ Chapter business runs on a monthly rhythm. In 2025-2026, most chapter meetings f
 
 | Meeting | When | Who | Output |
 | --- | --- | --- | --- |
-| Chapter meeting | Monthly, usually the third Thursday (Confirm time and location) | All Ladies | Votes, officer and committee reports, minutes |
+| Chapter meeting | Monthly; bylaws set the first Wednesday at 6:00 PM unless changed by majority vote (2025-2026 meetings were mostly third Thursdays; confirm 2026-2027) | All Ladies | Votes, officer and committee reports, minutes |
 | Executive Board | Before each chapter meeting (Confirm day) | Officers | Chapter meeting agenda |
 | Program Committee | Monthly, virtual, 6:30 PM (kickoff Oct 9, 2025) | 1st Vice President, thrust chairs and co-chairs | Reporting compliance, collaboration, goal tracking |
-| Top Teens of America | Every 4th Sunday, 3:00 to 5:00 PM | Top Teens, advisors | TTA activities and planning |
+| Top Teens of America | Third Sunday at 3:00 PM in 2026-2027 (fourth Sunday in 2025-2026) | Top Teens, advisors | TTA activities and planning |
 | Committee meetings | As set by each chair | Committee members | Program of Work progress |
 
 ### Chapter meeting order of business
@@ -174,7 +234,7 @@ From the September 18, 2025 agenda:
 ### Standards
 
 - **Reports:** officers and chairs submit written reports to the President and Recording Secretary before the meeting (Confirm deadline).
-- **Quorum and voting:** follow the national bylaws and Robert's Rules of Order (Confirm quorum number). The Tellers Committee runs elections.
+- **Quorum and voting:** a quorum is one-third of the financial members, and meetings follow Robert's Rules of Order, Newly Revised. Elections are by secret ballot, organized by the Election (Tellers) Committee.
 - **Minutes:** the Recording Secretary drafts; the chapter approves at the next meeting; approved minutes go in the shared Drive.
 - **Virtual meetings:** meeting links go to members by email or GroupMe, never on public pages.
 - **Training:** the 1st and 2nd Vice Presidents host a reporting workshop each year; "Ready, Set, Report!" was held February 10, 2026, for all chairs, co-chairs, and at least one member per committee.
@@ -186,13 +246,13 @@ Every new Lady has a sponsor who brings her in and a separate mentor who walks w
 
 ### From interest to induction
 
-1. A prospective member is sponsored by a Lady in good standing.
-2. The Membership Committee (Lady Stephanie Edwards, Chair) and the 2nd Vice President confirm eligibility.
-3. The candidate pays the induction fee ($800 in 2025) to the Financial Secretary by Zelle, check, cashier's check, money order, or cash, with a receipt.
-4. Orientation on TLOD history, protocol, chapter programs, and this manual.
-5. The Induction Committee (Lady Orethann Price, Chair) plans the ceremony according to TLOD ritual, with the Protocol Committee.
-6. The new Lady is added to the directory, GroupMe, Drive, and portal within 14 days, and chooses a committee on the Committee Sign-Up Sheet.
-7. The 1st Vice President pairs her with a mentor.
+1. **Eligibility (Bylaws, Article III):** candidates subscribe to TLOD principles, bring a range of talents and skills, and are willing to serve their communities. A college degree is not required; a convicted felon is not eligible.
+2. **Application:** the candidate completes the prospective member application, with two letters of recommendation from members, and submits it to the Membership Chair (Lady Stephanie Edwards) by the deadline. Applications are sent to the Area Director.
+3. **Vote:** the chapter votes on prospective members by secret ballot during the fiscal year.
+4. **Notice and fees:** the Membership Chair notifies applicants in writing of acceptance, the induction fee ($800 in 2025), and the due date. Fees are paid to the Financial Secretary by the deadline, are non-refundable, and cannot be transferred.
+5. **Orientation:** held at least 10 days before induction. Approved applicants have two weeks from orientation to accept in writing, and one year to accept the invitation overall; an incomplete process within the National fiscal year voids the application.
+6. **Induction:** in the fall and/or spring, at a local, Cluster, or Area ceremony, conducted by a current National officer or a Parliament-Top appointee using the National TLOD ritual. No pictures are taken during the ceremony. The Induction and Protocol Committees support planning.
+7. **Welcome:** the new Lady is added to the directory, GroupMe, Drive, and portal within 14 days, chooses a committee on the Committee Sign-Up Sheet, and is paired with a mentor by the First Vice President.
 
 ### Ladies Mentorship Program
 
@@ -203,7 +263,7 @@ Every new Lady has a sponsor who brings her in and a separate mentor who walks w
 
 ### Good standing
 
-A Lady is in good standing when dues and assessments are current and she meets national and chapter participation requirements (Confirm exact requirements, such as attendance and service hours). The Financial Secretary keeps the payment record; the Membership Committee keeps participation.
+A regular member has met all chapter obligations, including finance and attendance, pays all chapter, Area, and National dues and assessments, and takes part in chapter programs. A Life Member has 10 or more years of membership, was continuously active the five years before applying, paid the one-time life membership fee, and pays annual chapter dues (Bylaws, Article III, Section 2). Confirm current dues amounts and attendance expectations. The Financial Secretary keeps the payment record; the Membership Committee keeps participation.
 
 ### Care and connection
 
@@ -217,15 +277,30 @@ The 2025-2027 Chapter Directory (master with photos) is the single source for me
 
 ## Top Teens of America
 
-The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet every 4th Sunday from 3:00 to 5:00 PM, and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
+The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet the third Sunday of each month at 3:00 PM in 2026-2027 (the fourth Sunday in 2025-2026), and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
 
-- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. TTA leads for 2026 are Lady LaSheryl Walker and Lady Tiara Tyler (Confirm advisor titles). The chapter 1st Vice President mentors the TTA 1st Vice President.
+- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); TTA leads for 2026 are Lady LaSheryl Walker and Lady Tiara Tyler (confirm who holds each office). The chapter 1st Vice President mentors the TTA 1st Vice President.
 - **Roster:** teen and parent contacts, school, grade, and date joined, kept by the TTA advisor. Updated after each TTA induction (recent classes: March 2025 and December 2025) and each August for grade changes.
 - **Signature events:** TTA Induction Ceremony and Etiquette Workshop (December 7, 2025, 3:00 to 5:00 PM); Blue and Silver Ball (December 13, 2025, with practices from late October at St. Philip's); TTA Speak-Off; Joint TLOD/TTA Retreat.
 - **Scholarship:** the Scholarship Committee awards an annual scholarship to a college-bound Top Teen.
 - **Lords:** the Lords Committee invites the Lords to encourage the Teens, especially the young men.
 - **Reporting:** teen events are reported under both TLOD and TTA for credit; only TLOD and TTA member hours count toward chapter totals.
 - **Mentor pairing:** teens and a parent or guardian complete the TTA Teen Mentorship Assessment Form; the 1st Vice President makes matches.
+
+### 2026-2027 TTA meeting calendar
+
+| Date | Time | Theme |
+| --- | --- | --- |
+| September 20, 2026 | 3:00 PM | TLOD Awards |
+| October 18, 2026 | 3:00 PM | TTA Award participants |
+| November 15, 2026 | 3:00 PM | Thanksgiving |
+| December 13, 2026 | 3:00 PM | Holiday Break |
+| January 17, 2027 | 3:00 PM | |
+| February 21, 2027 | 3:00 PM | Dues due |
+| March 21, 2027 | 3:00 PM | Area Conference |
+| April 18, 2027 | 3:00 PM | Scholarship Application |
+| May 16, 2027 | 3:00 PM | |
+| June 20, 2027 | 3:00 PM | |
 
 ### Youth safety standards
 
@@ -263,7 +338,7 @@ The chapter keeps four bank accounts by purpose: Ladies (operating), Teens (TTA)
 
 ### Budget and controls
 
-- **Budget:** the Finance Committee (Lady Tunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) presents the next year's budget at the September chapter meeting; the chapter votes (the 2025-2026 budget was voted September 18, 2025).
+- **Budget:** the Finance Committee (Lady Tunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) develops the budget from the Program Committee's annual programs. The bylaws name the Treasurer as committee chair and call for the budget before November with a December vote; the 2025-2026 budget was voted September 18, 2025 (see Governance and bylaws).
 - **Approvals:** every expenditure lists who approved it, the purpose, the payee, the account it is paid from, and a receipt (the Officer/Committee Expenditures log in the Finance Tracker).
 - **Reimbursements:** submit a receipt within 30 days; paid only for approved items (Confirm threshold that needs Executive Board approval).
 - **Event finance:** each major event has a finance lead (the Treasurer for the 2026 retreat) for budget tracking and reimbursements.
@@ -303,9 +378,31 @@ The portal calendar is the one chapter calendar: if a date is not there, members
 | Juanita M. Johns Luncheon | Confirm | Juanita M. Johns Luncheon Committee |
 | Founders' Day | Confirm | Founders' Day Committee |
 
+### 2026-2027 dates set so far
+
+| Event | Date | Lead |
+| --- | --- | --- |
+| Grandparents Day photo submissions due | September 1, 2026 | Senior Citizens |
+| National Grandparents Day celebration (photos of Ladies with their grandchildren) | September 13, 2026 | Senior Citizens |
+| TTA meetings | Third Sundays, 3:00 PM, September 20, 2026 to June 20, 2027 | Top Teen Advisor |
+| TTA dues due | February 21, 2027 | Top Teen Advisor |
+| Area Conference | Around March 21, 2027 (Confirm) | Area I |
+| TTA scholarship applications | April 18, 2027 | Scholarship Committee |
+
 ### Retreat model
 
 The 2026 retreat planning document is the template for future retreats: an executive overview, objectives and deliverables, a leadership team (program, TTA, logistics, hospitality, protocol, parliamentarian, communications, finance leads), a task tracker, a timed agenda with joint sessions and separate Ladies and Teens breakouts, and a meeting log. Ticket sales ran June 10 to July 10 at $50.
+
+### Chapter pulse and SWOT
+
+The 2026 retreat included "SWOT and Steady: A Rooted and Rising Dallas Chapter Pulse Session," facilitated by Lady Jessica Maine-Jackson and Lady Marjorie O'Neal. Repeat it each year so the chapter can compare results over time.
+
+1. **Rooted Words, Rising Health:** each Lady names a Rooted word (what grounds her) and a Rising word (how she grows), then rates the chapter from 1 (needs attention) to 5 (thriving) on Unity and Communication, Program Execution, Partnership Engagement, Volunteer Strength, Leadership Pipeline, Resource Management, and Visibility.
+2. **Group SWOT:** groups complete Strengths, Weaknesses, Opportunities, and Threats for Top Teens of America, the ExCEL Program, Status of Women, Senior Citizens, Community Beautification, Community Partnerships, and National Projects and Partnerships, using the chapter SWOT worksheet.
+3. **Synthesis:** each group shares one top item per SWOT category.
+4. **Priorities:** the chapter names 3 to 5 priorities. The session closed on: deepen National Thrust engagement across all service areas; strengthen community partnerships and volunteer pipelines; raise program execution and visibility in the community; advance leadership development and continuity planning; and strengthen the chapter's collective voice through unified communication.
+
+The portal's Programs and Projects tab holds the SWOT grid so results are recorded and revisited.
 
 ## Communications and records
 
@@ -340,7 +437,7 @@ Chapter records belong to the chapter, not to the officer holding them, so they 
 
 ### Feedback loop
 
-Any Lady can leave feedback on the portal. The Executive Board reviews it monthly, marks each item Received, Reviewing, or Addressed, and reports what changed at the next chapter meeting. Event feedback also comes from Post-Event Evaluations and attendee surveys (as with the West Cluster Work Day evaluation, October 2025).
+Any Lady can leave feedback on the portal. The Executive Board reviews it monthly, marks each item Received, Reviewing, or Addressed, and reports what changed at the next chapter meeting. Event feedback also comes from Post-Event Evaluations and attendee surveys (as with the West Cluster Work Day evaluation, October 18, 2025: about 94 responses, 27 exceeded expectations, 64 met, 3 did not; requests included longer, more interactive sessions, cross-chapter collaboration time, new member tips, registration lists, and a session on the bylaws that are most often missed).
 
 ## Reporting and compliance
 
@@ -390,18 +487,18 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 | 2025-2027 Member Information workbook | Committee chairs and members, partner memberships, important links | Shared Drive |
 | Finance Tracker 2025-2027 | Budget, income, expenses, dues, expenditures, audit prep | Shared Drive, Finance Committee |
 | 2026 Joint Retreat Planning Document | Template for future retreats | Shared Drive, Event Information |
-| TLOD, Inc. Constitution and Bylaws | Governing rules | Confirm: add link |
+| TLOD, Inc. Constitution and Bylaws | Governing rules | Dallas Chapter Bylaws amended March 8, 2023 (add the Drive link); quick reference on the portal Bylaws tab |
 
 ### Items to confirm before adoption
 
-- [ ] National mission statement
-- [ ] Correspondence officer title, President's Council duties, and TTA advisor titles
+- [ ] Appointed officers for 2025-2027 (Chaplain, Sergeant-at-Arms, Historian, assistants) and who holds Top Teen Advisor
 - [ ] Service to Youth Chair
-- [ ] Chapter meeting time and location, and Executive Board meeting day
-- [ ] Quorum number and good-standing requirements
+- [ ] 2026-2027 chapter meeting day, time, and location (bylaws: first Wednesday, 6:00 PM, unless changed by vote)
+- [ ] Budget calendar and Finance Committee chair (bylaws: Treasurer chairs; budget voted in December)
+- [ ] Nominating Committee process for the 2027 election (bylaws: five members elected from the floor in September; slate in April; vote in May)
 - [ ] Annual dues and assessments; expenditure approval threshold
 - [ ] National financial reporting deadline and IRS filing type
 - [ ] National youth protection policy for TTA
-- [ ] Link to the bylaws
+- [ ] Drive link to the bylaws PDF
 
-Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms.
+Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers.
