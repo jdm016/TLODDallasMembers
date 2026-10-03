@@ -3,7 +3,8 @@
   "feedbackFormUrl": "",
   "theme": "Continuity of Service in Action",
   "motto": "Serving Youth and Adults",
-  "slogan": "One Sisterhood, One Chapter, One Team, Leading in Service"
+  "slogan": "One Sisterhood, One Chapter, One Team, Leading in Service",
+  "nationalMission": "To enhance and enrich the lives of youth and adults through the implementation of community-based programs and projects. We measure our success by the improved quality of life experienced by the people we serve."
  },
  "announcements": [],
  "events": [
@@ -710,6 +711,61 @@
    "type": "Deadline",
    "contact": "Treasurer",
    "details": "Required for 5-Star status; upload through the national form."
+  },
+  {
+   "id": "n6",
+   "title": "National Recycling Day",
+   "date": "2026-11-15",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Community Beautification",
+   "details": ""
+  },
+  {
+   "id": "n7",
+   "title": "World AIDS Day",
+   "date": "2026-12-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Status of Women",
+   "details": ""
+  },
+  {
+   "id": "n8",
+   "title": "National Wear Red Day (heart health)",
+   "date": "2027-02-05",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Community Partnerships",
+   "details": ""
+  },
+  {
+   "id": "n9",
+   "title": "UNCF Sunday",
+   "date": "2027-02-28",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "UNCF Chair",
+   "details": "Sponsor UNCF Sunday at your church."
+  },
+  {
+   "id": "n10",
+   "title": "Earth Day",
+   "date": "2027-04-22",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Program",
+   "contact": "Community Beautification",
+   "details": ""
   }
  ],
  "projects": [
@@ -977,7 +1033,7 @@
    "group": "References",
    "title": "TLOD Program of Work Resource Guide",
    "url": "https://drive.google.com/file/d/1DFwwHWHDPVubmgDJ12JCvbKPrmfR7ns3/view",
-   "note": "National program requirements, 5-Star levels, and reporting rules (2023-2025 edition)."
+   "note": "National mission, founding history, program requirements, 5-Star levels, observances, and reporting rules (2023-2025 edition)."
   }
  ],
  "heard": [
@@ -1358,7 +1414,7 @@
     "topic": "Mission",
     "reference": "Article II",
     "source": "Bylaws",
-    "summary": "Serve the community; sponsor Top Teens of America; promote meaningful living for senior citizens; improve the status of women; preserve the physical beauty of America; and collaborate with community, business, educational, and governmental partners.",
+    "summary": "Serve the community; sponsor Top Teens of America; promote meaningful living for senior citizens; improve the status of women; preserve the physical beauty of America; and collaborate with community, business, educational, and governmental partners. National mission: \"To enhance and enrich the lives of youth and adults through the implementation of community-based programs and projects.\"",
     "note": ""
    },
    {
@@ -1494,7 +1550,7 @@
     "topic": "Motto, colors, flower, emblem",
     "reference": "Article X",
     "source": "Bylaws",
-    "summary": "Motto: \"Serving Youth and Adults.\" Colors: Gold, Silver, and Pink. Flower: the Orchid. Emblem: the Crown.",
+    "summary": "Motto: \"Serving Youth and Adults.\" Colors: Gold, Silver, and Pink. Flower: the Orchid. Emblem: the Crown. Top Teens flower: the White Carnation (national guide).",
     "note": ""
    },
    {
@@ -1547,38 +1603,58 @@
  },
  "observances": [
   {
-   "when": "January (MLK Day)",
-   "what": "Pink and Blue National Day of Service",
-   "lead": "First Vice President, Senior Citizens"
+   "when": "September",
+   "what": "Sickle Cell Awareness Month and Walk; Sickle Cell Day of Giving (Sept 30); Healthy Aging Month; Childhood Cancer Awareness Month (St. Jude); Grandparents Day",
+   "lead": "Sickle Cell, St. Jude, Senior Citizens"
+  },
+  {
+   "when": "October",
+   "what": "Breast Cancer Awareness Month; Domestic Violence Awareness Month",
+   "lead": "Status of Women"
+  },
+  {
+   "when": "November",
+   "what": "Alzheimer's Disease Month; Diabetes Month; National Recycling Day (Nov 15)",
+   "lead": "Senior Citizens, Beautification"
+  },
+  {
+   "when": "December",
+   "what": "World AIDS Day (Dec 1)",
+   "lead": "Status of Women"
+  },
+  {
+   "when": "January",
+   "what": "Pink and Blue National Day of Service (MLK Day); Blood Donor Month; National Mentoring Month; Reactivation Month",
+   "lead": "First Vice President, Membership"
   },
   {
    "when": "February",
-   "what": "Dorothy Allen Chimney Black History Bowl (chapter competition); National Reactivation Day",
-   "lead": "Top Teen Advisor; Membership"
+   "what": "Black History Bowl; National Wear Red Day (first Friday); Heart Month; UNCF Sunday (last Sunday)",
+   "lead": "Top Teen Advisor, UNCF"
   },
   {
    "when": "March",
-   "what": "Read Across America Week",
-   "lead": "TLOD Literacy"
+   "what": "Women's History Month; Nutrition Month; March for Babies kickoff; Read Across America Week",
+   "lead": "Status of Women, Literacy"
   },
   {
    "when": "April",
-   "what": "Financial Literacy Month (TTA workshop); April 1 financial report with NAACP, NCNW, UNCF contributions",
-   "lead": "TLOD Literacy; Treasurer"
+   "what": "Literacy and Financial Literacy Month; Minority Health Month; Earth Day (Apr 22); Keep America Beautiful Month; April 1 financial report with NAACP, NCNW, UNCF contributions",
+   "lead": "Literacy, Beautification, Treasurer"
   },
   {
-   "when": "May (third Saturday)",
-   "what": "St. Jude Walk",
-   "lead": "St. Jude Chair"
+   "when": "May",
+   "what": "Mental Health Awareness Month; Older Americans Month; March for Babies Walk; St. Jude Walk (third Saturday)",
+   "lead": "All thrusts, St. Jude"
   },
   {
-   "when": "June 19",
-   "what": "World Sickle Cell Day",
-   "lead": "Sickle Cell Chair"
+   "when": "June",
+   "what": "TLOD and TTA Joint Founders' Day; Juneteenth and World Sickle Cell Day (June 19)",
+   "lead": "Founders' Day, Sickle Cell"
   },
   {
    "when": "Summer",
-   "what": "Vivien Coe Richard TTA Leadership Academy (grades 9 to 11; apply winter or spring)",
+   "what": "Vivien Coe Richard TTA Leadership Academy (grades 9 to 11)",
    "lead": "Top Teen Advisor"
   },
   {
@@ -1587,13 +1663,8 @@
    "lead": "Treasurer"
   },
   {
-   "when": "September",
-   "what": "Grandparents Day; National Sickle Cell Day of Giving",
-   "lead": "Senior Citizens; Sickle Cell Chair"
-  },
-  {
    "when": "Ongoing",
-   "what": "Post-Event Evaluation Form after every event; March for Babies walk; Senior Citizens Week and chapter Senior Diva",
+   "what": "Post-Event Evaluation Form after every event; Senior Citizens Week and chapter Senior Diva; planned sisterly relations activities (#TLODSisterlyRelations)",
    "lead": "All chairs"
   }
  ],

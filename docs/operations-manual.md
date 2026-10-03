@@ -19,6 +19,12 @@ Items marked **Confirm** below are places where chapter or national practice sho
 
 The Dallas Chapter of Top Ladies of Distinction, Inc. serves North Texas through four program thrusts, national partnerships, and its youth affiliate, Top Teens of America (TTA). The chapter is part of Area I and the West Cluster, and works toward 5-Star Chapter recognition each biennium.
 
+### National mission and founding
+
+The national mission of Top Ladies of Distinction, Inc. is "to enhance and enrich the lives of youth and adults through the implementation of community-based programs and projects. We measure our success by the improved quality of life experienced by the people we serve."
+
+TLOD was chartered in Texas on September 8, 1964, after a first organizing meeting on June 4, 1964 at Texas College in Tyler. Its eight founders were Mrs. Franchell Boswell (Tyler), Mrs. Ina Bolton Brown (Houston), Mrs. Augusta R. Cash (Memphis), Major Ozell M. Dean (Washington, D.C.), Mrs. Willie Lee Glass (Tyler), Mrs. La Verne R. Madlock (Tyler), Mrs. Ruth Payne Smith (Navasota), and Mrs. Georgia B. Presswood Nelson of Dallas. National headquarters is at 2607 Prospect Street, Houston, Texas.
+
 ### Mission (Bylaws, Article II)
 
 1. Enhance the usefulness in general and advance the standards, ideals, and general welfare of the community through service, by encouraging, promoting, and extending activities conducive to the betterment and welfare of people.
@@ -34,10 +40,10 @@ The Dallas Chapter of Top Ladies of Distinction, Inc. serves North Texas through
 | --- | --- |
 | Organization | Top Ladies of Distinction, Incorporated, Dallas Chapter (serving youth and adults since 1964) |
 | Motto (Bylaws, Article X) | "Serving Youth and Adults" |
-| Colors, flower, emblem | Gold, Silver, and Pink; the Orchid; the Crown |
+| Colors, flower, emblem | Gold, Silver, and Pink; the Orchid (Top Teens flower: the White Carnation); the Crown. Approved logos are on the national website |
 | National theme, 2025-2027 | "Continuity of Service in Action" |
 | Chapter rallying calls | "One Sisterhood, One Chapter, One Team, Leading in Service" and "One TLOD, One Voice... Endless Possibilities" |
-| Area and cluster | Area I (Area I LEADS: Legacy, Equity, Accountability, Diversity, and Service); West Cluster |
+| Area and cluster | Area I (Area I LEADS: Legacy, Equity, Accountability, Diversity, and Service), covering Arkansas, Louisiana, New Mexico, Oklahoma, and Texas; West Cluster |
 | Current administration | 2025-2027, Lady Marian A. Willard, President |
 | Youth affiliate | Top Teens of America, Dallas Chapter (27 teens on the 2026 roster) |
 | Membership | About 85 active Ladies (2025-2027 directory) |
@@ -478,7 +484,7 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 
 ## National programs and 5-Star recognition
 
-The national TLOD Program of Work Resource Guide (2023-2025 edition, pages 16 to 76) sets what chapters deliver and report. Confirm any changes for 2025-2027 with the National First and Second Vice Presidents.
+The national TLOD Program of Work Resource Guide (2023-2025 edition) sets what chapters deliver and report. Confirm any changes for 2025-2027 with the National First and Second Vice Presidents.
 
 ### Programs versus activities
 
@@ -530,6 +536,27 @@ Chapters apply for one level by the stated deadline and are recognized at Syn-Lo
 
 The portal's Programs and Projects tab tracks the chapter against the Orchid requirements.
 
+### National days of observance
+
+The national guide lists these observances so chapters can plan programs around them. Dates shown are the 2026-2027 equivalents where a fixed pattern applies.
+
+| Month | Observances |
+| --- | --- |
+| September | Sickle Cell Awareness Month and National Sickle Cell Walk; Sickle Cell Day of Giving (September 30); Healthy Aging Month; Childhood Cancer Awareness Month (St. Jude); National Grandparents Day |
+| October | Breast Cancer Awareness Month; Domestic Violence Awareness Month |
+| November | Alzheimer's Disease Month; Diabetes Month; National Recycling Day (November 15) |
+| December | World AIDS Day (December 1) |
+| January | Pink and Blue National Day of Service (MLK Day, January 18, 2027); Blood Donor Month; National Mentoring Month; Reactivation Month |
+| February | Dorothy Allen Chimney Black History Bowl; National Wear Red Day (first Friday, February 5, 2027); Heart Month; UNCF Sunday (last Sunday, February 28, 2027) |
+| March | Women's History Month; Nutrition Month; March for Babies kickoff |
+| April | Literacy Month; Minority Health Month; Earth Day (April 22); Keep America Beautiful Month and the Great American Clean-Up |
+| May | Mental Health Awareness Month; Older Americans Month; March for Babies Walk; St. Jude Walk |
+| June | TLOD and TTA Joint Founders' Day; Juneteenth and World Sickle Cell Day (June 19) |
+
+### Sisterly relations
+
+National asks each chapter to host planned sisterly activities to restore, rebuild, reclaim, and redefine sisterly relations, alone or with nearby chapters in the cluster. Ideas include a meal with a Senior Diva, a "Pink Carpet" movie night, a virtual game night, a walk in the park, a paint party, checking on a sick or shut-in Lady, helping a Lady with technology, a wellness activity, brunch, or a sisterhood retreat. Post photos with #TLODSisterlyRelations.
+
 ## Appendices
 
 ### Forms and source documents
@@ -559,4 +586,4 @@ The portal's Programs and Projects tab tracks the chapter against the Orchid req
 - [ ] National youth protection policy for TTA
 - [ ] Drive link to the bylaws PDF
 
-Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers; TLOD Program of Work Resource Guide (2023-2025, pages 16 to 76).
+Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers; TLOD Program of Work Resource Guide (2023-2025).
