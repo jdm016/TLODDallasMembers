@@ -77,13 +77,13 @@ These five thrusts are the heart of our program of work. Top Teens of America is
 - **Focus this year (SWOT):** lean into mental and emotional health programming; hold regular committee meetings; partner with agencies more often; combine projects and programs; strengthen communication.
 
 **Senior Citizens**
-- **Chair:** Lady Johnnie Gales. **Co-Chair:** Lady Florine May.
+- **Chair:** Lady Johnnie Gales. **Co-Chair:** Lady Florene May.
 - **Purpose:** plan programs to aid the optimal living of senior citizens.
 - **National frame:** companionship and outreach, enrichment and educational workshops, support services, intergenerational programs, and health screenings. Recognize Grandparents Day and Senior Citizens Week, and consider crowning a Senior Diva.
 - **Focus this year (SWOT):** boost TLOD and Top Teen participation; extend outreach to residences and housing communities; publish the schedule early to avoid conflicts. (Our Grand Parents Day tribute already fits here.)
 
 **Community Beautification**
-- **Chair:** Lady Sheila Pate.
+- **Chair:** Lady Shelia Pate.
 - **Purpose:** develop and promote activities designed to preserve the physical beauty of America.
 - **National frame:** register the chapter with Keep America Beautiful; pursue green initiatives, public art, cleanups, and beautification grants, engaging Top Teens and Lords.
 - **Focus this year (SWOT):** add exposure and marketing; expand the program; build Parks and Recreation relationships; communicate opportunities to the chapter.
@@ -139,7 +139,7 @@ Mentorship serves both sides of our mission at once, so we run it as one program
 - **Focus this year (SWOT):** this is the engine against our retention threat. Own the written retention plan, the February reactivation push, warm onboarding, and (with Sisterly Relations) the **Sisterly Mentorship** track in A3, pairing new and reinstated Ladies with a seasoned mentor.
 
 **Finance**
-- **Chair:** Lady LaTunia Hughes. **Co-Chair:** Lady Beverly Randall. **Advisor:** Lady Lois Smith.
+- **Chair:** Lady Tunia Hughes. **Co-Chair:** Lady Beverly Randall. **Advisor:** Lady Lois Smith.
 - **Purpose:** present the budget at the September meeting, account for funds received and disbursed, recommend revisions, and file financial reports. (Support the Treasurer in filing Form 990 by August 1, a 5-Star requirement.)
 
 **Bylaws**
@@ -161,7 +161,7 @@ Mentorship serves both sides of our mission at once, so we run it as one program
 - **Focus this year (SWOT):** a lead engine for communication and visibility.
 
 **Archives**
-- **Chair:** Lady Evelyn Hamilton. **Co-Chair:** Lady Kira McCoy.
+- **Chair:** Lady Evelyn Hamilton. **Co-Chair:** Lady Kyra McCoy.
 - **Purpose:** keep an accurate history of the organization and serve as custodian of all records.
 - **Focus this year (SWOT):** documentation backbone; standardize how events are captured.
 

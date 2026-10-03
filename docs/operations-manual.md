@@ -126,7 +126,7 @@ These are not necessarily problems, since several rules allow change by majority
 | --- | --- | --- |
 | Meeting day | First Wednesday, 6:00 PM | Mostly third Thursdays (September to April), then May 7 and June 4 |
 | Budget vote | Developed before November, voted in December | 2025-2026 budget voted at the September 18, 2025 meeting |
-| Finance Committee chair | The Treasurer | Lady LaTunia Hughes chairs; the Treasurer serves on it |
+| Finance Committee chair | The Treasurer | Lady Tunia Hughes chairs; the Treasurer serves on it |
 | Second Vice President | Chairs Projects; coordinates public relations and awards | Leads membership and intake; co-chairs Public Relations |
 | Nominating Committee | Five members elected from the floor in September | Chair and members appointed (Lady Cynthia Scott, chair); voted on September 18, 2025 |
 | Elected Top Teen Advisor | An elected office | Seat in transition after the July 31, 2026 resignation; filling it is the chapter's top leadership priority |
@@ -140,9 +140,9 @@ The chapter's service follows National's structure: five National Program Thrust
 | Thrust | Chair / Co-Chair | 2025-2026 highlights |
 | --- | --- | --- |
 | Top Teens of America (Service to Youth Committee) | Chair in transition (succession in progress) / Lady Cynthia Scott | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
-| Senior Citizens | Lady Johnnie Gales / Lady Florine May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
+| Senior Citizens | Lady Johnnie Gales / Lady Florene May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
 | Status of Women | Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley | Breast Cancer Awareness (October); "Letters to Her" for Mental Health Awareness Month (May 2026) |
-| Community Beautification | Lady Sheila Pate | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
+| Community Beautification | Lady Shelia Pate | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
 | Community Partnerships | Lady Loren Gilbert-Smith / Lady Hertha Echols | Joint Heart Health Community Program with NCNW Dallas Southwest Section, South Dallas BPW, C.V. Roman Medical Society, and Good Health Wins (Feb 14, 2026); Good Coworking partnership in progress |
 
 ### Standing committees
@@ -151,7 +151,7 @@ The chapter's service follows National's structure: five National Program Thrust
 | --- | --- | --- |
 | Awards | Lady Nneka Hobbs / Lady Nettye Medlock | Activity file, award deadlines, scrapbooks, Top Lady of the Year |
 | Bylaws | Lady Shirley Ison-Newsome / Lady Karen Parson | Propose changes to the Bylaws and Standard Operating Procedures |
-| Finance | Lady LaTunia Hughes / Lady Beverly Randall (Advisor: Lady Lois Smith) | Presents next year's budget at the September meeting; accounts for funds; files financial reports |
+| Finance | Lady Tunia Hughes / Lady Beverly Randall (Advisor: Lady Lois Smith) | Presents next year's budget at the September meeting; accounts for funds; files financial reports |
 | Membership | Lady Stephanie Edwards | Recruitment, retention, and reactivation; owns the written retention plan, the February reactivation push, and (with Sisterly Relations) the Sisterly Mentorship track |
 | Editor of the Crown | Lady Rosalind Baylor-Cosey / Lady Tameka Selders | Articles for the Crown and local press releases |
 | Scholarship | Lady Karen Parson / Lady Lisa Curry | Annual scholarship for a college-bound Top Teen |
@@ -160,7 +160,7 @@ The chapter's service follows National's structure: five National Program Thrust
 
 | Committee | Chair / Co-Chair |
 | --- | --- |
-| Archives | Lady Evelyn Hamilton / Lady Kira McCoy |
+| Archives | Lady Evelyn Hamilton / Lady Kyra McCoy |
 | Blue and Silver Ball | Lady Deardra Hayes-Whigham / Lady Jacqueline Anderson-Vaughn |
 | Conference | Lady Marian A. Willard / Lady Johnnie Gales |
 | Courtesy and Gifts | Lady Jacqueline Anderson-Vaughn / Lady Marjorie O'Neal |
@@ -208,7 +208,7 @@ These chapter efforts support a national thrust or project and are reported unde
 | --- | --- | --- |
 | Foster Care | Lady Jearlene Miller / Lady Tallulah Matthews | Top Teens of America: National TTA/TLOD Foster Care Initiative |
 | ACT-SO (with NAACP) | To be named | NAACP |
-| Breast Cancer Awareness | Lady Orethann Price / Lady Florine May | Status of Women |
+| Breast Cancer Awareness | Lady Orethann Price / Lady Florene May | Status of Women |
 | Alzheimer's Walk | Lady Mydes Gordon / Lady Keidra Thompkins | Senior Citizens |
 
 ### Chair and co-chair success kit (2026-2027)
@@ -390,7 +390,7 @@ The chapter keeps four bank accounts by purpose: Ladies (operating), Teens (TTA)
 
 ### Budget and controls
 
-- **Budget:** the Finance Committee (Lady LaTunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) develops the budget from the Program Committee's annual programs. The bylaws name the Treasurer as committee chair and call for the budget before November with a December vote; the 2025-2026 budget was voted September 18, 2025 (see Governance and bylaws).
+- **Budget:** the Finance Committee (Lady Tunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) develops the budget from the Program Committee's annual programs. The bylaws name the Treasurer as committee chair and call for the budget before November with a December vote; the 2025-2026 budget was voted September 18, 2025 (see Governance and bylaws).
 - **Approvals:** every expenditure lists who approved it, the purpose, the payee, the account it is paid from, and a receipt (the Officer/Committee Expenditures log in the Finance Tracker).
 - **Reimbursements:** submit a receipt within 30 days; paid only for approved items (Confirm threshold that needs Executive Board approval).
 - **Event finance:** each major event has a finance lead (the Treasurer for the 2026 retreat) for budget tracking and reimbursements.
@@ -482,7 +482,7 @@ Chapter records belong to the chapter, not to the officer holding them, so they 
 - **Social Media** (Lady Tameka Selders, Lady Velena McRae): chapter social accounts; two Top Teens serve on the committee.
 - **Editor of the Crown** (Lady Rosalind Baylor-Cosey, Lady Tameka Selders): articles for the Crown.
 - **Technology** (Lady Brandy Duncan): digital tools, secure document sharing, online voting, member training.
-- **Archives** (Lady Evelyn Hamilton, Lady Kira McCoy): chapter history and custody of records.
+- **Archives** (Lady Evelyn Hamilton, Lady Kyra McCoy): chapter history and custody of records.
 
 ### Privacy
 
