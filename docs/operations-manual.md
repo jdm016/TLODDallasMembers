@@ -484,7 +484,7 @@ Count all service time: planning, meetings, event time, travel, setup, and admin
 
 ## National programs and 5-Star recognition
 
-The national TLOD Program of Work Resource Guide (2023-2025 edition) sets what chapters deliver and report. Confirm any changes for 2025-2027 with the National First and Second Vice Presidents.
+The national TLOD Program of Work Resource Guide for 2025-2027 sets what chapters deliver and report this biennium. The reporting period runs July 1, 2025 to June 30, 2027, and 5-Star recognition is awarded at Syn-Lod 2027.
 
 ### Programs versus activities
 
@@ -492,70 +492,75 @@ A program is an ongoing plan that meets a need, with short- and long-term object
 
 ### National requirements by thrust and project
 
-| Area | National requirement or expectation |
+| Area | 2025-2027 requirement or expectation |
 | --- | --- |
-| Top Teens of America: ExCEL (Excellence through Culture, Education and Leadership) | Mentoring; Black History Bowl; joint chapter retreats; Teens lead 10 to 15 minute ExCEL workshops at meetings; Teen participation at local, Area, and Syn-Lod; leadership, etiquette, career, and scholastic workshops; fundraising; branding; at least one joint TLOD and TTA program; membership; awards; scholarship and Leadership Academy applications |
-| Me and My Mentor | TTA Advisors and Service to Youth match every Teen with a Top Lady; complete Mentor and Mentee Profile Sheets; quarterly activities and benchmarks; Lords may mentor |
+| Top Teens of America: ExCEL (Excellence through Culture, Education and Leadership) | Mentoring; Black History Bowl; joint chapter retreats; Teens lead 10 to 15 minute ExCEL workshops at meetings; Teen participation at local, Area, and Syn-Lod; leadership, etiquette, career, and scholastic workshops; fundraising (including the Rap Snacks fundraiser launched September 2025); branding; at least one joint TLOD and TTA activity; membership; awards; scholarship and Leadership Academy applications. National notes the detailed ExCEL requirements are under review and will be sent to chapters |
+| TTA Recognition Month | January each year (began January 2026): highlight Top Teens' academic and community accomplishments |
+| Me and My Mentor | Match every Teen with a Top Lady; upload the Mentor and Mentee list to the Post-Event Evaluation and Report Form and complete profile sheets by December 31 each year; quarterly activities and benchmarks; Lords may mentor |
 | Dorothy Allen Chimney Black History Bowl | Annual chapter competition in February; Area and Syn-Lod competitions follow |
-| Vivien Coe Richard Leadership Academy | Week-long summer academy for Top Teens in grades 9 to 11 (first-time applicants); chapters encouraged to submit at least one application |
+| Vivien Coe Richard Leadership Academy | Week-long summer academy for Top Teens in grades 9 to 11 (first-time applicants); applications in winter and spring 2026 |
 | TTA and TLOD Foster Care Initiative | Each chapter adopts a foster care facility or program, signs the agreement form, and runs activities (workshops, Suit Up, luggage drives, donations) |
-| Pink and Blue National Day of Service | Martin Luther King Jr. Day; chapter and TTA First Vice Presidents lead care packages for seniors with the Senior Citizens chairs; report under "Pink and Blue Day of Service" (#TLODPinkandBlue) |
+| Pink and Blue National Day of Service | Martin Luther King Jr. Day (January 18, 2027). Led by the chapter and TTA First Vice Presidents with the Community Partnerships chairs: assemble and deliver First Responder Appreciation Kits to fire stations, police, EMS, or 911 centers, with handwritten thank-you notes; optional preparedness session. Confirm needs with the agency first. Report kits delivered and members engaged; post with #TLODPinkandBlue |
 | Senior Citizens | Recognize Grandparents Day and Senior Citizens Week; crown a chapter Senior Diva |
-| Status of Women, Community Beautification, Community Partnerships | Suggested strategies only; Beautification asks chapters to register with Keep America Beautiful |
-| NAACP, NCNW, UNCF | Each requires a $50 chapter contribution with the April 1 financial report; NAACP asks at least two Top Teens to compete in ACT-SO |
-| St. Jude | Support the St. Jude Walk on the third Saturday in May |
-| March of Dimes | March for Babies walk on the program calendar; Top Teens host a Healthy Choices Conference that includes Sickle Cell awareness |
-| Sickle Cell | National Sickle Cell Day of Giving in September; World Sickle Cell Day (June 19) posts; testing and blood drives |
-| TLOD Literacy | Read Across America Week (March); TTA financial literacy workshop in April (Financial Literacy Month) |
+| Status of Women, Community Beautification, Community Partnerships | Suggested strategies; Beautification asks chapters to register with Keep America Beautiful |
+| NAACP, NCNW, UNCF, Sickle Cell | Each requires a $50 chapter contribution with the April 1 financial report. NAACP and NCNW memberships are reported on each partner's Membership Census Form through the chapter chair; encourage 1 to 2 Top Teens to compete in NAACP ACT-SO |
+| Legislative Action (new project) | Day at the Capitol with NAACP and NCNW; track bills; town halls; legislative writing campaigns with TLOD Literacy and When We All Vote; voter registration in at least one community activity |
+| Sickle Cell | Contribute to the Building Bridges Community Grant Program; host two community blood drives a year with the American Red Cross; Sickle Cell Day of Giving (September 30); World Sickle Cell Day (June 19) |
+| St. Jude | Support the St. Jude Walk in September or October; announce it at meetings in the months before |
+| March of Dimes | March for Babies walk (March or April) on the program calendar; Top Teens host a Healthy Choices Conference that includes Sickle Cell awareness |
+| TLOD Literacy | Read Across America; TTA financial literacy workshop in April |
 | Membership | The 3 Rs: recruitment, retention, reactivation; targets of 90% retention, 20% recruitment, and 10% reclamation a year; National Reactivation Day in February |
 
 ### Post-Event Evaluation reporting
 
-- Submit the national Post-Event Evaluation Form after every program, project, event, or activity, as events happen.
+- All chapters report volunteer hours, whether or not they apply for 5-Star.
+- Submit the 2025-2027 Post-Event Evaluation and Reporting Tool (https://forms.gle/jKnuwknwwnoTYNLE6) after every program, project, event, or activity, as it happens or within 30 days.
 - Volunteer hours = number of TLOD and TTA members x hours, counting planning through follow-up (for example, 15 members x 2 hours = 30 hours). Only member hours count.
 - When two committees collaborate, each submits its own form and they agree in advance how to split hours and attendees so nothing is counted twice.
 - Record donations received, funds allocated or disbursed, and in-kind services.
 - The President, First and Second Vice Presidents, and TTA Advisor agree on who enters data to avoid duplicates. Keep flyers, agendas, social posts, and sign-in sheets as proof.
-- In 2023-2025, the year-one status check was due May 1 and the final check March 31 before Syn-Lod. Confirm the 2025-2027 dates.
+- 5-Star deadlines: year-one status check May 1, 2026; final check March 31, 2027 for recognition at Syn-Lod 2027.
 
-### 5-Star Chapter levels
+### 5-Star Chapter levels (2025-2027)
 
-Chapters apply for one level by the stated deadline and are recognized at Syn-Lod. The levels rise from Orchid to Emerald, Sapphire, Ruby, and Diamond; the national guide recommends working up one level at a time.
+Chapters apply for one level by the stated deadline. The levels rise from Orchid to Emerald, Sapphire, Ruby, and Diamond; the national guide recommends working up one level at a time.
 
 | Requirement | Orchid (entry level) | Diamond (highest) |
 | --- | --- | --- |
-| Joint work with Top Teens | 1 joint meeting a year; annual joint retreat; Founders' Day and Rededication with Teens | 2 joint meetings and 3 joint service activities a year, plus the same |
+| Joint work with Top Teens | 1 joint meeting a year; chapter retreat with Ladies and Teens; Chapter Officer training for Ladies and Teens; Founders' Day and Rededication with Teens | 2 joint meetings and 3 joint service activities a year, plus the same |
 | Operations | Monthly meetings (July and August optional) with opening and closing ceremonies; Form 990 by August 1 | Same |
-| Programs and projects | 3 of 5 thrusts and 3 of 5 projects; a UNCF or HBCU event; 1 health topic (such as heart disease or mental health) | All 5 thrusts and 5 projects; 5 health topics |
-| Partner memberships | 1 Lady in NAACP, NCNW, or the Sickle Cell Disease Association | Chapter, Lady, and Teen memberships in NAACP and NCNW, plus SCDA and an NCNW life membership |
-| Donations | $300 to March for Babies, Alzheimer's Association, Sickle Cell, American Heart Association, or St. Jude | $1,000 |
-| Top Teens | ExCEL requirements 1 to 5; every Teen has a mentor and 10% of Ladies mentor; 1 Leadership Academy applicant; Black History Bowl event and 1 Area participant; March for Babies or other fundraiser; annual chapter TTA scholarship | All 6 ExCEL requirements each year; 50% of Ladies mentor; 2 mentoring activities; Healthy Choices Conference with Sickle Cell; more Bowl and Syn-Lod participants |
+| Programs and projects | 3 of 5 thrusts and 3 of 5 projects; Teens in a UNCF or HBCU college tour or event; 1 health topic (such as heart disease or mental health) | All 5 thrusts and 5 projects; 5 health topics |
+| Partner memberships | 1 Lady in NAACP or NCNW | 2 Ladies and 2 Teens in both NAACP and NCNW, and 2 Ladies with life memberships |
+| Donations | $300 to March for Babies, Alzheimer's Association, Sickle Cell or Building Bridges, UNCF, American Heart Association, or St. Jude | $1,000 |
+| Top Teens | ExCEL requirements 1 to 5 over two years; every Teen has a mentor and 10% of Ladies mentor; 1 mentoring activity; Leadership Academy applicant (or documentation if none eligible); 2 Teens in a chapter and an Area Black History Bowl; a March of Dimes walk or fundraiser; annual chapter TTA scholarship | All 6 ExCEL requirements each year plus 4 National or Area TTA offerings; 50% of Ladies mentor; 2 mentoring activities; 2 Academy applicants; Bowl at Syn-Lod; Healthy Choices Conference featuring Sickle Cell |
 | Membership | At least one induction | Induction with 10% growth, 85% retention, and one reclaimed member |
-| Conferences | 1 Lady and 1 Teen at Area and Syn-Lod; President or designee at ParliamenTop | 5 Ladies and 4 Teens (or 10%) at Syn-Lod; President, TTA Advisor, and two financial officers at ParliamenTop |
-| Publicity and awards | 5 programs advertised publicly; 1 award submission | 10 programs advertised including radio or TV, articles in the Area newsletter, the Crown, and a local paper; chapter, Lady, and 3 Teen award submissions |
+| Conferences and training | 1 Lady and 1 Teen at the Area Conference and Syn-Lod; chapter representatives at 2 National offerings (such as ParliamenTop) | 15% of membership at Area; 5 Ladies and 4 Teens at Syn-Lod; 6 National offerings |
+| Publicity and awards | 5 programs advertised publicly; 1 award submission | 10 programs advertised including radio or TV, a Crown article, and a local newspaper feature; chapter, Lady, and 3 Teen award submissions |
 
 The portal's Programs and Projects tab tracks the chapter against the Orchid requirements.
 
-### National days of observance
-
-The national guide lists these observances so chapters can plan programs around them. Dates shown are the 2026-2027 equivalents where a fixed pattern applies.
+### National days of observance (2025-2027)
 
 | Month | Observances |
 | --- | --- |
-| September | Sickle Cell Awareness Month and National Sickle Cell Walk; Sickle Cell Day of Giving (September 30); Healthy Aging Month; Childhood Cancer Awareness Month (St. Jude); National Grandparents Day |
-| October | Breast Cancer Awareness Month; Domestic Violence Awareness Month |
+| September | Sickle Cell Awareness Month; Sickle Cell Day of Giving (September 30); Healthy Aging Month; Childhood Cancer Awareness Month and St. Jude Walk; National Grandparents Day (September 13, 2026); National Ozone Day (September 16) |
+| October | Breast Cancer Awareness Month; Domestic Violence Awareness Month; St. Jude Walk |
 | November | Alzheimer's Disease Month; Diabetes Month; National Recycling Day (November 15) |
-| December | World AIDS Day (December 1) |
-| January | Pink and Blue National Day of Service (MLK Day, January 18, 2027); Blood Donor Month; National Mentoring Month; Reactivation Month |
-| February | Dorothy Allen Chimney Black History Bowl; National Wear Red Day (first Friday, February 5, 2027); Heart Month; UNCF Sunday (last Sunday, February 28, 2027) |
-| March | Women's History Month; Nutrition Month; March for Babies kickoff |
-| April | Literacy Month; Minority Health Month; Earth Day (April 22); Keep America Beautiful Month and the Great American Clean-Up |
-| May | Mental Health Awareness Month; Older Americans Month; March for Babies Walk; St. Jude Walk |
-| June | TLOD and TTA Joint Founders' Day; Juneteenth and World Sickle Cell Day (June 19) |
+| December | World AIDS Day (December 1); Wreaths Across America (December 12, 2026) |
+| January | Pink and Blue National Day of Service (January 18, 2027); TTA Recognition Month; Blood Donor Month; National Mentoring Month |
+| February | Black History Month and the Black History Bowl; Reactivation Month; National Wear Red Day (February 5, 2027); Heart Month; UNCF Sunday (February 28, 2027) |
+| March | Women's History Month; Nutrition Month; March for Babies Walk |
+| April | Literacy Month; Minority Health Month; Earth Day (April 22); Keep America Beautiful Month and the Great American Clean-Up; March for Babies Walk |
+| May | Mental Health Awareness Month; Older Americans Month; TLOD and TTA Joint Founders' Day |
+| June | Juneteenth and World Sickle Cell Day (June 19) |
 
-### Sisterly relations
+### Sisterly relations: "Lady to Lady Connections: Adjusting Our Crown"
 
-National asks each chapter to host planned sisterly activities to restore, rebuild, reclaim, and redefine sisterly relations, alone or with nearby chapters in the cluster. Ideas include a meal with a Senior Diva, a "Pink Carpet" movie night, a virtual game night, a walk in the park, a paint party, checking on a sick or shut-in Lady, helping a Lady with technology, a wellness activity, brunch, or a sisterhood retreat. Post photos with #TLODSisterlyRelations.
+The 2025-2027 national sisterly relations initiative gives chapters a framework, with national workshops that began at ParliamenTop 2025.
+
+- **Quarterly signature activities:** "Crown Chronicles" story shares, where 2 or 3 Ladies tell how they adjusted their crown through a challenge; "Bridging the Gap" mentorship mixers pairing a Seasoned Diva with a newer Lady; and a "Grace and Mercy Circle" for encouragement.
+- **Monthly ideas:** "Tea and Talk" intergenerational chats; "Empowerment E-Checks" (each Lady checks on 1 or 2 others); "Wellness Walk and Talk"; "Crown Care Collective" self-care sessions; and small-group "Lady Link" lunches.
+- **Ongoing:** "Shine Your Crown" shout-outs at the start of each meeting; "Caring Connections" teams for Ladies facing illness, a new baby, or a loss; uplifting posts in the chapter group chat; and small-group work on chapter projects.
 
 ## Appendices
 
@@ -586,4 +591,4 @@ National asks each chapter to host planned sisterly activities to restore, rebui
 - [ ] National youth protection policy for TTA
 - [ ] Drive link to the bylaws PDF
 
-Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers; TLOD Program of Work Resource Guide (2023-2025).
+Sources: 2025-2027 Member Information workbook, September 18, 2025 agenda, 1st Vice President reports (September 2025 to June 2026), Program Committee kickoff minutes and slides (October 9, 2025), August and September 2025 financial summaries, Finance Tracker, 2026 retreat flyer and planning document, West Cluster files, chapter directory, TTA roster, and mentorship forms; Dallas Chapter Bylaws (amended March 8, 2023); SWOT and Steady pulse session slides; 2026-2027 TTA meeting calendar; Grandparents Day and retreat flyers; TLOD Program of Work Resource Guide (2025-2027, with the 2023-2025 edition for history).
