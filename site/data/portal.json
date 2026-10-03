@@ -1391,9 +1391,9 @@
   {
    "group": "Officers",
    "name": "Top Teen Advisor",
-   "chair": "To be confirmed",
+   "chair": "In transition",
    "cochair": "",
-   "charge": "Elected officer; supervises the Top Teens Program of Work. 2026 TTA leads: Lady LaSheryl Walker and Lady Tiara Tyler."
+   "charge": "Elected officer; supervises the Top Teens Program of Work. Lady LaSheryl Walker resigned July 31, 2026; succession is in progress, and filling this seat is the chapter's top leadership priority."
   },
   {
    "group": "Officers",
@@ -1419,198 +1419,216 @@
   {
    "group": "National Program Thrusts",
    "name": "Top Teens of America (Service to Youth Committee)",
-   "chair": "To be confirmed",
+   "chair": "In transition (succession in progress)",
    "cochair": "Lady Cynthia Scott",
-   "charge": "Oversees the Top Teens Program of Work under national guidelines."
+   "charge": "Oversees the Top Teens Program of Work under national guidelines and plans leadership training and workshops.",
+   "national": "Runs on ExCEL (Excellence through Culture, Education and Leadership), planned with PIVOT-TTA. Anchor programs: Me and My Mentor, the Dorothy Allen Chimney Black History Bowl (February), the Vivien Coe Richard Leadership Academy (STEAM, summer), Teen-led 10 to 15 minute ExCEL workshops at meetings, and at least one joint TTA/TLOD \"KISS\" activity.",
+   "focus": "Fill the advisor seat as the top leadership priority; address affordability (dues named as too high); grow local offerings; keep families informed with timely communication."
   },
   {
    "group": "National Program Thrusts",
    "name": "Senior Citizens",
    "chair": "Lady Johnnie Gales",
-   "cochair": "Lady Florene May",
-   "charge": "Honors, supports, and uplifts senior citizens."
+   "cochair": "Lady Florine May",
+   "charge": "Plans programs to aid the optimal living of senior citizens.",
+   "national": "Companionship and outreach, enrichment and educational workshops, support services, intergenerational programs, and health screenings. Recognize Grandparents Day and Senior Citizens Week, and consider crowning a Senior Diva.",
+   "focus": "Boost TLOD and Top Teen participation; extend outreach to residences and housing communities; publish the schedule early to avoid conflicts. The Grand Parents Day tribute fits here."
   },
   {
    "group": "National Program Thrusts",
    "name": "Status of Women",
    "chair": "Lady Jacqueline Anderson-Vaughn",
    "cochair": "Lady Deitra Mosley",
-   "charge": "Programs and workshops that improve the status of women."
+   "charge": "Selects and implements programs and workshops to improve the status of women.",
+   "national": "Empower women through education, mentorship, and advocacy: empowerment workshops, mentorship and networking, women's health, advocacy, and scholarships.",
+   "focus": "Lean into mental and emotional health programming; hold regular committee meetings; partner with agencies more often; combine projects and programs; strengthen communication."
   },
   {
    "group": "National Program Thrusts",
    "name": "Community Beautification",
-   "chair": "Lady Shelia Pate",
+   "chair": "Lady Sheila Pate",
    "cochair": "",
-   "charge": "Environmental service; Lady Thomasine Beck provides interim support."
+   "charge": "Develops and promotes activities designed to preserve the physical beauty of America.",
+   "national": "Register the chapter with Keep America Beautiful; pursue green initiatives, public art, cleanups, and beautification grants, engaging Top Teens and Lords.",
+   "focus": "Add exposure and marketing; expand the program; build Parks and Recreation relationships; communicate opportunities to the chapter."
   },
   {
    "group": "National Program Thrusts",
    "name": "Community Partnerships",
    "chair": "Lady Loren Gilbert-Smith",
    "cochair": "Lady Hertha Echols",
-   "charge": "Partnerships that advance the mission."
+   "charge": "Seeks equal, collaborative partnerships with community, business, education, and government to attain TLOD's goals.",
+   "national": "Identify common goals, build relationships, develop partnership proposals, run joint events, and sustain long-term commitments.",
+   "focus": "Expand outreach; pursue joint ventures with metroplex chapters; document and report partnerships."
   },
   {
    "group": "Standing committees",
    "name": "Awards",
    "chair": "Lady Nneka Hobbs",
    "cochair": "Lady Nettye Medlock",
-   "charge": "Activity file, award deadlines, scrapbooks, Top Lady of the Year."
+   "charge": "Keeps an active file on chapter activities and member contributions, including scrapbooks and Top Lady of the Year.",
+   "focus": "Central to documentation and 5-Star reporting. Make it simple for chairs to hand you records."
   },
   {
    "group": "Standing committees",
    "name": "Bylaws",
    "chair": "Lady Shirley Ison-Newsome",
    "cochair": "Lady Karen Parson",
-   "charge": "Proposes changes to the Bylaws and SOPs."
+   "charge": "Solicits and proposes changes to the Bylaws and Standard Operating Procedures."
   },
   {
    "group": "Standing committees",
    "name": "Finance",
-   "chair": "Lady Tunia Hughes",
+   "chair": "Lady LaTunia Hughes",
    "cochair": "Lady Beverly Randall",
-   "charge": "Presents the budget at the September meeting; financial reports."
+   "charge": "Presents the budget at the September meeting, accounts for funds received and disbursed, recommends revisions, and files financial reports. Supports the Treasurer in filing Form 990 by August 1 (a 5-Star requirement). Advisor: Lady Lois Smith."
   },
   {
    "group": "Standing committees",
    "name": "Membership",
    "chair": "Lady Stephanie Edwards",
    "cochair": "",
-   "charge": "Recruitment, retention, and re-activation."
+   "charge": "Promotes recruitment, retention, and reactivation of members. Members include Lady Evelyn Hamilton, Lady Elandra Gilmore, and Lady Sonya Bracken.",
+   "focus": "The engine against the retention threat: own the written retention plan, the February reactivation push, warm onboarding, and (with Sisterly Relations) the Sisterly Mentorship track."
   },
   {
    "group": "Standing committees",
    "name": "Editor of the Crown",
    "chair": "Lady Rosalind Baylor-Cosey",
    "cochair": "Lady Tameka Selders",
-   "charge": "Articles for the Crown and local press releases."
+   "charge": "Compiles, edits, and mails articles for the Crown and local press releases.",
+   "focus": "A lead engine for communication and visibility."
   },
   {
    "group": "Standing committees",
    "name": "Scholarship",
    "chair": "Lady Karen Parson",
    "cochair": "Lady Lisa Curry",
-   "charge": "Annual scholarship for a college-bound Top Teen."
+   "charge": "Sets criteria for the annual Top Teens scholarship, reviews applications, selects judges, and announces winners."
   },
   {
    "group": "Special committees",
    "name": "Archives",
    "chair": "Lady Evelyn Hamilton",
-   "cochair": "Lady Kyra McCoy",
-   "charge": ""
+   "cochair": "Lady Kira McCoy",
+   "charge": "Keeps an accurate history of the organization and serves as custodian of all records.",
+   "focus": "Documentation backbone; standardize how events are captured."
   },
   {
    "group": "Special committees",
    "name": "Blue and Silver Ball",
    "chair": "Lady Deardra Hayes-Whigham",
-   "cochair": "Lady Bridgette Grosvenor",
-   "charge": ""
+   "cochair": "Lady Jacqueline Anderson-Vaughn",
+   "charge": "Oversees all aspects of the Ball for the Teens."
   },
   {
    "group": "Special committees",
    "name": "Conference",
    "chair": "Lady Marian A. Willard",
    "cochair": "Lady Johnnie Gales",
-   "charge": ""
+   "charge": "Operates when the chapter hosts an Area or National meeting."
   },
   {
    "group": "Special committees",
    "name": "Courtesy and Gifts",
    "chair": "Lady Jacqueline Anderson-Vaughn",
    "cochair": "Lady Marjorie O'Neal",
-   "charge": ""
+   "charge": "Extends courtesies in accordance with chapter guidelines."
   },
   {
    "group": "Special committees",
    "name": "Devotion",
    "chair": "Lady Thomasine Beck",
    "cochair": "Lady Harnell Williams",
-   "charge": ""
+   "charge": "Provides devotion and spiritual support at meetings and in times of need."
   },
   {
    "group": "Special committees",
    "name": "Founders' Day",
    "chair": "Lady Bonnie Barrett",
    "cochair": "Lady Stephanie Edwards",
-   "charge": ""
+   "charge": "Plans the program honoring the eight Founders, paired with Rededication (a 5-Star operations item)."
   },
   {
    "group": "Special committees",
    "name": "Juanita M. Johns Luncheon",
    "chair": "Lady Verna Farmer",
    "cochair": "Lady Karen Parson",
-   "charge": ""
+   "charge": "Organizes the luncheon, budget, and program."
   },
   {
    "group": "Special committees",
    "name": "Lords",
    "chair": "Lady Lois Smith",
-   "cochair": "",
-   "charge": ""
+   "cochair": "Lady LaSheryl Walker",
+   "charge": "Engages the Lords in program activities and in the Me and My Mentor track."
   },
   {
    "group": "Special committees",
    "name": "Protocol",
    "chair": "Lady Beverly Randall",
    "cochair": "Lady Jacqueline Anderson-Vaughn",
-   "charge": ""
+   "charge": "Ensures chapter and TLOD tradition and protocol are properly performed at local, area, and national levels, including the monthly opening and closing ceremonies."
   },
   {
    "group": "Special committees",
    "name": "Sisterly Relations",
    "chair": "Lady Alicia Bell",
    "cochair": "",
-   "charge": ""
+   "charge": "Ensures the traditions and protocol of the chapter and TLOD are upheld, and stewards the bonds of sisterhood.",
+   "focus": "A direct lever on retention and unity. With Membership, co-leads the Sisterly Mentorship track, pairing seasoned Ladies with new, reinstated, and emerging-leader Ladies."
   },
   {
    "group": "Special committees",
    "name": "Social Media",
    "chair": "Lady Tameka Selders",
    "cochair": "Lady Velena McRae",
-   "charge": ""
+   "charge": "Manages the chapter's social outlets to advertise, educate, and promote the TLOD mission and events. Two Top Teens serve (not as chair).",
+   "focus": "A primary channel for both communication and visibility."
   },
   {
    "group": "Special committees",
    "name": "Technology",
    "chair": "Lady Brandy Duncan",
    "cochair": "",
-   "charge": ""
+   "charge": "Oversees chapter technology, including Zoom and the website.",
+   "focus": "The infrastructure that makes better communication possible."
   },
   {
    "group": "Special committees",
    "name": "TTA Speak-Off",
    "chair": "Lady Stephanie Brooks",
    "cochair": "Lady Ardina Colby",
-   "charge": ""
+   "charge": "Plans and runs the Top Teens Speak-Off."
   },
   {
    "group": "Special committees",
    "name": "Public Relations",
    "chair": "Lady Tameka Selders",
    "cochair": "Lady Keyshay Mozee",
-   "charge": ""
+   "charge": "Publicity and press releases for chapter functions.",
+   "focus": "Drive visibility."
   },
   {
    "group": "Special committees",
    "name": "Induction",
-   "chair": "Lady Orethann Price",
-   "cochair": "",
-   "charge": ""
+   "chair": "To be named",
+   "cochair": "Lady Orethann Price",
+   "charge": "Coordinates membership induction."
   },
   {
    "group": "Special committees",
    "name": "Decorations",
    "chair": "Lady Tarrance Jones",
-   "cochair": "",
-   "charge": ""
+   "cochair": "Lady Tiara Tyler",
+   "charge": "Co-chairs Lady Tarrance Jones and Lady Tiara Tyler."
   },
   {
    "group": "Special committees",
    "name": "Nominating",
    "chair": "Lady Cynthia Scott",
    "cochair": "",
-   "charge": ""
+   "charge": "Five members elected from the floor at the September meeting; presents a slate of officers for the April vote."
   },
   {
    "group": "Special committees",
@@ -1623,36 +1641,36 @@
    "group": "Chapter partnerships",
    "name": "Alzheimer's Walk",
    "chair": "Lady Mydes Gordon",
-   "cochair": "",
-   "charge": ""
+   "cochair": "Lady Keidra Thompkins",
+   "charge": "Chapter partnership reported under the Senior Citizens thrust."
   },
   {
    "group": "National Strategic Partners",
    "name": "March of Dimes",
    "chair": "Lady Lisa Curry",
-   "cochair": "",
-   "charge": ""
+   "cochair": "Lady Orethann Price",
+   "charge": "National Strategic Partner: March for Babies walk (March or April) and the TTA Healthy Choices Conference."
   },
   {
    "group": "National Projects",
    "name": "NAACP",
    "chair": "Lady Marilynn Mayse",
    "cochair": "Lady Bertchell Green",
-   "charge": ""
+   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; promote ACT-SO and voter registration."
   },
   {
    "group": "National Projects",
    "name": "National Council of Negro Women (NCNW)",
    "chair": "Lady Racquel Davis",
    "cochair": "",
-   "charge": ""
+   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; share information on issues affecting African-American women and families."
   },
   {
    "group": "National Strategic Partners",
    "name": "St. Jude Children's Research Hospital",
    "chair": "Lady Harnell Williams",
    "cochair": "",
-   "charge": ""
+   "charge": "National Strategic Partner: support the St. Jude Walk (September or October)."
   },
   {
    "group": "Chapter partnerships",
@@ -1666,21 +1684,21 @@
    "name": "TLOD Literacy",
    "chair": "Lady Stephanie Edwards",
    "cochair": "",
-   "charge": ""
+   "charge": "Literacy programs and book drives that count toward the TLOD Literacy national project."
   },
   {
    "group": "National Projects",
    "name": "UNCF",
    "chair": "Lady Karen Fowler",
    "cochair": "",
-   "charge": ""
+   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; support the UNCF North Texas Walk (September 19) and a UNCF or HBCU college tour or fair for Teens."
   },
   {
    "group": "National Projects",
    "name": "Sickle Cell Disease Awareness",
    "chair": "Lady Yvonne Brown",
    "cochair": "Lady Mari Hamilton",
-   "charge": ""
+   "charge": "Submit the required $50 chapter contribution with the April 1 financial report; take part in the National TLOD Sickle Cell Day of Giving in September; consider testing drives and a blood-donation partnership."
   },
   {
    "group": "National Projects",
@@ -1709,6 +1727,14 @@
    "chair": "To be named",
    "cochair": "",
    "charge": "Supports the NAACP national project."
+  },
+  {
+   "group": "Special committees",
+   "name": "Chapter Mentorship Program",
+   "chair": "Service to Youth with the Lords (teens track)",
+   "cochair": "Membership with Sisterly Relations (Ladies track)",
+   "charge": "One program, two tracks. Me and My Mentor (Teens): pair every Top Teen with a Top Lady mentor (and a Lord where possible), complete a Mentor/Mentee Profile Sheet, hold quarterly activities, gather at TLC (Teens and Ladies Connecting) events, and submit a profile/activity sheet to National. Sisterly Mentorship (Ladies): pair seasoned Ladies with new, reinstated, and emerging-leader Ladies, check in monthly, and celebrate pairs at chapter gatherings.",
+   "focus": "Me and My Mentor lifts the Leadership Pipeline; Sisterly Mentorship is a direct lever on retention and lifts Volunteer Strength and Unity."
   }
  ],
  "bylaws": {
@@ -2234,5 +2260,130 @@
    "chair": "Executive Board and Program Committee",
    "national": "Programs of Work, 5-Star reporting, retreat, membership, sisterly relations, chapter tools"
   }
- ]
+ ],
+ "successKit": {
+  "title": "Committee Chair and Co-Chair Success Kit, 2026-2027",
+  "preparedBy": "Lady Jessica D. Maine-Jackson, First Vice President",
+  "summary": "Plan it, fund it, do it, and report it.",
+  "expectations": [
+   [
+    "Own a Program of Work",
+    "Plan your committee's activities for the year, aligned to the chapter calendar and mission, and build it with PIVOT. Submit it on the chapter's Program of Work Submission Form."
+   ],
+   [
+    "Budget your work",
+    "Give the Finance Committee your anticipated needs, and operate within your approved line."
+   ],
+   [
+    "Communicate to the chapter",
+    "The chapter's number one gap. Give a brief monthly update, and announce activities with enough lead time that no Lady is surprised."
+   ],
+   [
+    "Report and document",
+    "File a post-event report after every activity, and send records and photos to Awards and Archives. This is how service counts toward 5-Star recognition. If it is not reported, it did not happen."
+   ],
+   [
+    "Recruit and involve your members",
+    "Pull committee members in, share the load, and build bench strength. Involvement is the answer to the retention threat."
+   ],
+   [
+    "Partner with your co-chair",
+    "Split the work, cover each other, and keep continuity so no seat goes dark."
+   ],
+   [
+    "Follow the bylaws and protocol",
+    "Honor chapter traditions, deadlines, and TLOD guidelines in everything your committee does."
+   ]
+  ],
+  "rhythm": [
+   [
+    "September",
+    "Submit your Program of Work. Confirm your budget line with Finance. Introduce your committee and its plan to the chapter."
+   ],
+   [
+    "Monthly",
+    "Deliver a brief chapter update (done / next / need). Carry out your planned activities."
+   ],
+   [
+    "After each activity",
+    "File a post-event report within one week. Send photos to Archives and Social Media."
+   ],
+   [
+    "Quarterly",
+    "Check progress against your Program of Work; adjust as needed."
+   ],
+   [
+    "January",
+    "Contribute your committee's input to the mid-year SWOT pulse."
+   ],
+   [
+    "June (Founders' Day)",
+    "Close out the year, submit final reports, and hand your files to your successor within 30 days (per bylaws)."
+   ]
+  ],
+  "pivot": [
+   [
+    "P",
+    "Plan",
+    "programs and projects with and through partnerships."
+   ],
+   [
+    "I",
+    "Implement",
+    "innovative steps to complete them."
+   ],
+   [
+    "V",
+    "Value",
+    "the service you give, and validate it through surveys."
+   ],
+   [
+    "O",
+    "Operations",
+    "outreach, and occurrences, noting changes (additions or deletions)."
+   ],
+   [
+    "T",
+    "Timing and Teamwork",
+    "that keep partnerships sustainable."
+   ]
+  ],
+  "templates": [
+   [
+    "Program of Work (one page, built with PIVOT)",
+    [
+     "Committee",
+     "Chair / Co-Chair",
+     "Mission link (mission aim, thrust, or national project served)",
+     "Plan (P): activities and partnerships (activity, target date, lead)",
+     "Implement (I): steps to complete each activity",
+     "Value / validate (V): how impact is measured (survey, count served)",
+     "Operations / outreach (O): who we reach, and changes to note",
+     "Timing / teamwork (T): schedule and partners",
+     "Budget ask (amount and purpose)",
+     "Committee members"
+    ]
+   ],
+   [
+    "Monthly Chair Update (three lines)",
+    [
+     "Done: what we accomplished this month",
+     "Next: what is coming, and the date",
+     "Need: what we need from the chapter or board"
+    ]
+   ],
+   [
+    "Post-Event Report (within one week)",
+    [
+     "Event and date",
+     "Number served / attendance",
+     "Partners involved",
+     "Spend vs. budget",
+     "Outcome and highlights",
+     "Photos submitted to Archives / Social Media (yes / no)",
+     "What we would do differently next time"
+    ]
+   ]
+  ]
+ }
 }

@@ -11,6 +11,7 @@ site/
   robots.txt          keeps search engines out
 docs/
   operations-manual.md   repository copy of the Chapter Operations Manual
+  committee-success-kit.md   Committee Chair and Co-Chair Success Kit, 2026-2027
 netlify.toml          Netlify settings (publish the site/ folder)
 tools/build_artifact.py   builds the single-file Claude artifact version
 ```

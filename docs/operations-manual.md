@@ -68,7 +68,7 @@ The Executive Board, made up of all elected and appointed officers plus the Past
 | Financial Secretary | Lady Shenequa C. Miller | Collects dues, writes receipts, gives all money to the Treasurer for a receipt, keeps the roll of financial members, prepares financial reports |
 | Treasurer | Lady Tallulah Matthews | Receives money from the Financial Secretary, deposits it, pays properly signed orders, reports through June |
 | Editor of the Crown | Lady Rosalind Baylor-Cosey | Compiles and edits chapter news for the Crown |
-| Top Teen Advisor | Confirm (2026 TTA leads: Lady LaSheryl Walker and Lady Tiara Tyler) | Supervises the Top Teens Program of Work, activities, leadership training, and volunteer service |
+| Top Teen Advisor | In transition: Lady LaSheryl Walker resigned July 31, 2026; succession in progress | Supervises the Top Teens Program of Work, activities, leadership training, and volunteer service |
 
 ### Appointed officers (Bylaws, Articles IV and VI)
 
@@ -126,10 +126,10 @@ These are not necessarily problems, since several rules allow change by majority
 | --- | --- | --- |
 | Meeting day | First Wednesday, 6:00 PM | Mostly third Thursdays (September to April), then May 7 and June 4 |
 | Budget vote | Developed before November, voted in December | 2025-2026 budget voted at the September 18, 2025 meeting |
-| Finance Committee chair | The Treasurer | Lady Tunia Hughes chairs; the Treasurer serves on it |
+| Finance Committee chair | The Treasurer | Lady LaTunia Hughes chairs; the Treasurer serves on it |
 | Second Vice President | Chairs Projects; coordinates public relations and awards | Leads membership and intake; co-chairs Public Relations |
 | Nominating Committee | Five members elected from the floor in September | Chair and members appointed (Lady Cynthia Scott, chair); voted on September 18, 2025 |
-| Elected Top Teen Advisor | An elected office | TTA led by Lady LaSheryl Walker and Lady Tiara Tyler; confirm titles |
+| Elected Top Teen Advisor | An elected office | Seat in transition after the July 31, 2026 resignation; filling it is the chapter's top leadership priority |
 
 ## Committees and programs
 
@@ -139,10 +139,10 @@ The chapter's service follows National's structure: five National Program Thrust
 
 | Thrust | Chair / Co-Chair | 2025-2026 highlights |
 | --- | --- | --- |
-| Top Teens of America (Service to Youth Committee) | Co-Chair: Lady Cynthia Scott (Chair: Confirm) | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
-| Senior Citizens | Lady Johnnie Gales / Lady Florene May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
+| Top Teens of America (Service to Youth Committee) | Chair in transition (succession in progress) / Lady Cynthia Scott | TTA Induction and Etiquette Workshop (Dec 7, 2025), Blue and Silver Ball (March 7, 2026), cards for seniors (May 2026) |
+| Senior Citizens | Lady Johnnie Gales / Lady Florine May | Two Grandparents Day celebrations and a Senior Soiree at St. Philip's (more than 40 seniors served, Sept 2025); Fair Park Rehab Thanksgiving and Christmas outreach; Senior Citizens gathering (May 30, 2026) |
 | Status of Women | Lady Jacqueline Anderson-Vaughn / Lady Deitra Mosley | Breast Cancer Awareness (October); "Letters to Her" for Mental Health Awareness Month (May 2026) |
-| Community Beautification | Lady Shelia Pate (Lady Thomasine Beck, interim support) | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
+| Community Beautification | Lady Sheila Pate | Gwen's Garden service project (Nov 15, 2025); "Plant something" campaign (May 2026) |
 | Community Partnerships | Lady Loren Gilbert-Smith / Lady Hertha Echols | Joint Heart Health Community Program with NCNW Dallas Southwest Section, South Dallas BPW, C.V. Roman Medical Society, and Good Health Wins (Feb 14, 2026); Good Coworking partnership in progress |
 
 ### Standing committees
@@ -151,8 +151,8 @@ The chapter's service follows National's structure: five National Program Thrust
 | --- | --- | --- |
 | Awards | Lady Nneka Hobbs / Lady Nettye Medlock | Activity file, award deadlines, scrapbooks, Top Lady of the Year |
 | Bylaws | Lady Shirley Ison-Newsome / Lady Karen Parson | Propose changes to the Bylaws and Standard Operating Procedures |
-| Finance | Lady Tunia Hughes / Lady Beverly Randall | Presents next year's budget at the September meeting; accounts for funds; files financial reports |
-| Membership | Lady Stephanie Edwards | Recruitment, retention, and re-activation |
+| Finance | Lady LaTunia Hughes / Lady Beverly Randall (Advisor: Lady Lois Smith) | Presents next year's budget at the September meeting; accounts for funds; files financial reports |
+| Membership | Lady Stephanie Edwards | Recruitment, retention, and reactivation; owns the written retention plan, the February reactivation push, and (with Sisterly Relations) the Sisterly Mentorship track |
 | Editor of the Crown | Lady Rosalind Baylor-Cosey / Lady Tameka Selders | Articles for the Crown and local press releases |
 | Scholarship | Lady Karen Parson / Lady Lisa Curry | Annual scholarship for a college-bound Top Teen |
 
@@ -160,22 +160,22 @@ The chapter's service follows National's structure: five National Program Thrust
 
 | Committee | Chair / Co-Chair |
 | --- | --- |
-| Archives | Lady Evelyn Hamilton / Lady Kyra McCoy |
-| Blue and Silver Ball | Lady Deardra Hayes-Whigham / Lady Bridgette Grosvenor |
+| Archives | Lady Evelyn Hamilton / Lady Kira McCoy |
+| Blue and Silver Ball | Lady Deardra Hayes-Whigham / Lady Jacqueline Anderson-Vaughn |
 | Conference | Lady Marian A. Willard / Lady Johnnie Gales |
 | Courtesy and Gifts | Lady Jacqueline Anderson-Vaughn / Lady Marjorie O'Neal |
 | Devotion | Lady Thomasine Beck / Lady Harnell Williams |
 | Founders' Day | Lady Bonnie Barrett / Lady Stephanie Edwards |
 | Juanita M. Johns Luncheon | Lady Verna Farmer / Lady Karen Parson |
-| Lords | Lady Lois Smith |
+| Lords | Lady Lois Smith / Lady LaSheryl Walker |
 | Protocol | Lady Beverly Randall / Lady Jacqueline Anderson-Vaughn |
 | Sisterly Relations | Lady Alicia Bell |
 | Social Media | Lady Tameka Selders / Lady Velena McRae |
 | Technology | Lady Brandy Duncan |
 | TTA Speak-Off | Lady Stephanie Brooks / Lady Ardina Colby |
 | Public Relations | Lady Tameka Selders / Lady Keyshay Mozee |
-| Induction | Lady Orethann Price |
-| Decorations | Lady Tarrance Jones |
+| Induction | Co-Chair: Lady Orethann Price (Chair: to be named) |
+| Decorations | Lady Tarrance Jones / Lady Tiara Tyler (co-chairs) |
 | Nominating | Lady Cynthia Scott |
 | Tellers | To be named |
 
@@ -183,7 +183,7 @@ The chapter's service follows National's structure: five National Program Thrust
 
 | Strategic Partner | Chair | National expectation |
 | --- | --- | --- |
-| March of Dimes | Lady Lisa Curry | March for Babies walk (March or April); TTA Healthy Choices Conference with Sickle Cell awareness |
+| March of Dimes | Lady Lisa Curry / Lady Orethann Price | March for Babies walk (March or April); TTA Healthy Choices Conference with Sickle Cell awareness |
 | St. Jude Children's Research Hospital | Lady Harnell Williams | St. Jude Walk (September or October) |
 
 The Pink and Blue National Day of Service (MLK Day) is also a National Program, led by the First Vice President with the Community Partnerships Chair.
@@ -208,8 +208,35 @@ These chapter efforts support a national thrust or project and are reported unde
 | --- | --- | --- |
 | Foster Care | Lady Jearlene Miller / Lady Tallulah Matthews | Top Teens of America: National TTA/TLOD Foster Care Initiative |
 | ACT-SO (with NAACP) | To be named | NAACP |
-| Breast Cancer Awareness | Lady Orethann Price / Lady Florene May | Status of Women |
-| Alzheimer's Walk | Lady Mydes Gordon | Senior Citizens |
+| Breast Cancer Awareness | Lady Orethann Price / Lady Florine May | Status of Women |
+| Alzheimer's Walk | Lady Mydes Gordon / Lady Keidra Thompkins | Senior Citizens |
+
+### Chair and co-chair success kit (2026-2027)
+
+Every chair and co-chair works from the Committee Chair and Co-Chair Success Kit, found in the Member Portal on the Leadership and Committees tab and in the repository. In one line: plan it, fund it, do it, and report it.
+
+1. **Own a Program of Work.** Plan the year with PIVOT, aligned to the chapter calendar and mission, and submit it on the Program of Work Submission Form.
+2. **Budget your work.** Give Finance your anticipated needs and operate within the approved line.
+3. **Communicate to the chapter.** Give a brief monthly update and announce activities with enough lead time that no Lady is surprised.
+4. **Report and document.** File a post-event report after every activity and send records and photos to Awards and Archives. If it is not reported, it did not happen.
+5. **Recruit and involve your members.** Share the load and build bench strength.
+6. **Partner with your co-chair.** Split the work, cover each other, and keep continuity so no seat goes dark.
+7. **Follow the bylaws and protocol.** Honor chapter traditions, deadlines, and TLOD guidelines.
+
+| When | What every chair does |
+| --- | --- |
+| September | Submit the Program of Work; confirm the budget line with Finance; introduce the committee and its plan to the chapter |
+| Monthly | Brief chapter update (done / next / need); carry out planned activities |
+| After each activity | Post-event report within one week; photos to Archives and Social Media |
+| Quarterly | Check progress against the Program of Work and adjust |
+| January | Committee input to the mid-year SWOT pulse |
+| June (Founders' Day) | Close out the year, submit final reports, and hand files to your successor within 30 days (per bylaws) |
+
+**PIVOT:** Plan programs and projects with and through partnerships; Implement innovative steps to complete them; Value the service and validate it through surveys; Operations, outreach, and occurrences, noting changes; Timing and Teamwork that keep partnerships sustainable.
+
+**Chapter Mentorship Program, two tracks.** Me and My Mentor (Teens), owned by Service to Youth with the Lords: every Top Teen paired with a Top Lady mentor (and a Lord where possible), a Mentor/Mentee Profile Sheet for each pair, quarterly activities, TLC (Teens and Ladies Connecting) events, and a profile/activity sheet to National. Sisterly Mentorship (Ladies), owned by Membership and Sisterly Relations: seasoned Ladies paired with new, reinstated, and emerging-leader Ladies, with monthly check-ins.
+
+**Focus this year (from the SWOT).** Each committee's card in the portal carries its national frame and its focus for 2026-2027. The shared themes: fill the Top Teen Advisor seat, communicate earlier and more often, document every activity for 5-Star, and involve more Ladies to strengthen retention.
 
 ### Program lifecycle
 
@@ -303,7 +330,7 @@ The 2025-2027 Chapter Directory (master with photos) is the single source for me
 
 The Dallas TTA chapter has 27 teens on the 2026 roster. Teens meet on Sundays at 3:00 PM, usually the fourth Sunday, with joint TLOD and TTA meetings in December and June, and every Top Teen is paired with a TLOD mentor through the Me and My Mentor program.
 
-- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); TTA leads for 2026 are Lady LaSheryl Walker and Lady Tiara Tyler (confirm who holds each office). The chapter 1st Vice President mentors the TTA 1st Vice President.
+- **Oversight:** the Service to Youth thrust oversees the Top Teens Program of Work under national TTA guidelines. The Top Teen Advisor is an elected chapter officer and the Assistant Top Teen Advisor is appointed (Bylaws, Article IV); the Top Teen Advisor seat is in transition after Lady LaSheryl Walker's resignation on July 31, 2026, and filling it is the chapter's top leadership priority. The chapter 1st Vice President mentors the TTA 1st Vice President.
 - **Roster:** teen and parent contacts, school, grade, and date joined, kept by the TTA advisor. Updated after each TTA induction (recent classes: March 2025 and December 2025) and each August for grade changes.
 - **Signature events:** TTA Induction Ceremony and Etiquette Workshop (December 7, 2025, 3:00 to 5:00 PM); Blue and Silver Ball (moved from December 13, 2025 to March 7, 2026, with practices from late October at St. Philip's); TTA Speak-Off; Joint TLOD/TTA Retreat.
 - **Scholarship:** the Scholarship Committee awards an annual scholarship to a college-bound Top Teen.
@@ -363,7 +390,7 @@ The chapter keeps four bank accounts by purpose: Ladies (operating), Teens (TTA)
 
 ### Budget and controls
 
-- **Budget:** the Finance Committee (Lady Tunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) develops the budget from the Program Committee's annual programs. The bylaws name the Treasurer as committee chair and call for the budget before November with a December vote; the 2025-2026 budget was voted September 18, 2025 (see Governance and bylaws).
+- **Budget:** the Finance Committee (Lady LaTunia Hughes, Chair; Lady Beverly Randall, Co-Chair; Lady Lois Smith, Advisor) develops the budget from the Program Committee's annual programs. The bylaws name the Treasurer as committee chair and call for the budget before November with a December vote; the 2025-2026 budget was voted September 18, 2025 (see Governance and bylaws).
 - **Approvals:** every expenditure lists who approved it, the purpose, the payee, the account it is paid from, and a receipt (the Officer/Committee Expenditures log in the Finance Tracker).
 - **Reimbursements:** submit a receipt within 30 days; paid only for approved items (Confirm threshold that needs Executive Board approval).
 - **Event finance:** each major event has a finance lead (the Treasurer for the 2026 retreat) for budget tracking and reimbursements.
@@ -455,7 +482,7 @@ Chapter records belong to the chapter, not to the officer holding them, so they 
 - **Social Media** (Lady Tameka Selders, Lady Velena McRae): chapter social accounts; two Top Teens serve on the committee.
 - **Editor of the Crown** (Lady Rosalind Baylor-Cosey, Lady Tameka Selders): articles for the Crown.
 - **Technology** (Lady Brandy Duncan): digital tools, secure document sharing, online voting, member training.
-- **Archives** (Lady Evelyn Hamilton, Lady Kyra McCoy): chapter history and custody of records.
+- **Archives** (Lady Evelyn Hamilton, Lady Kira McCoy): chapter history and custody of records.
 
 ### Privacy
 
