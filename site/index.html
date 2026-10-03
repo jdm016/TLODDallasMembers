@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Member portal for Top Ladies of Distinction, Inc., Dallas Chapter.">
+<style>
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<title>TLOD Dallas Member Portal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style id="portal-style">
+/* Layout: a chapter "binder": a garnet masthead, tabbed sections, content in one readable column with side panels on wide screens. */
+:root {
+  --ground: #f8f5f4;
+  --surface: #ffffff;
+  --ink: #241a1c;
+  --muted: #6b5b5e;
+  --line: #e6dcdc;
+  --garnet: #7d1d2c;
+  --garnet-soft: #f3e4e6;
+  --gold: #9a7431;
+  --on-garnet: #fff7f2;
+  --good: #2f6b4a;
+  --warn: #8a5a12;
+  --hold: #5b5b6b;
+  --font-display: "Marcellus", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #161113; --surface: #211a1c; --ink: #f3ebe9; --muted: #b9a9ab; --line: #3a2e31;
+    --garnet: #e27f8d; --garnet-soft: #3a2228; --gold: #d8b46e; --on-garnet: #1b1012;
+    --good: #7fc79e; --warn: #e2b260; --hold: #a9a9bb; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #161113; --surface: #211a1c; --ink: #f3ebe9; --muted: #b9a9ab; --line: #3a2e31;
+  --garnet: #e27f8d; --garnet-soft: #3a2228; --gold: #d8b46e; --on-garnet: #1b1012;
+  --good: #7fc79e; --warn: #e2b260; --hold: #a9a9bb; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55; }
+a { color: var(--garnet); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; margin: 0; }
+.wrap { max-width: 1080px; margin: 0 auto; padding-inline: 16px; }
+.masthead { background: var(--garnet); color: var(--on-garnet); padding-block: 28px 0; }
+.masthead .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
+.masthead h1 { font-size: clamp(28px, 5vw, 42px); line-height: 1.15; margin-top: 4px; }
+.masthead p { margin: 6px 0 0; opacity: .9; max-width: 60ch; }
+.masthead .motto { font-family: var(--font-display); font-size: 15px; opacity: .85; }
+nav.tabs { display: flex; gap: 4px; margin-top: 22px; overflow-x: auto; scrollbar-width: none; }
+nav.tabs button { font: 600 15px var(--font-body); color: var(--on-garnet); background: transparent; border: 0; padding: 10px 14px; border-radius: 8px 8px 0 0; cursor: pointer; white-space: nowrap; opacity: .85; }
+nav.tabs button[aria-selected="true"] { background: var(--ground); color: var(--ink); opacity: 1; }
+main { padding-block: 28px 64px; }
+.section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.section-head h2 { font-size: 28px; }
+.section-head p { margin: 4px 0 0; color: var(--muted); max-width: 62ch; }
+.grid-home { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 20px; }
+@media (max-width: 760px) { .grid-home { grid-template-columns: minmax(0, 1fr); } }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; min-width: 0; }
+.panel h3 { font-size: 19px; margin-bottom: 12px; }
+.stack { display: grid; gap: 20px; align-content: start; }
+.muted { color: var(--muted); }
+.small { font-size: 14px; }
+.empty { color: var(--muted); font-size: 15px; padding: 10px 0; }
+.btn { font: 600 14px var(--font-body); border-radius: 8px; padding: 8px 14px; cursor: pointer; border: 1px solid var(--garnet); background: var(--garnet); color: var(--on-garnet); }
+.btn.ghost { background: transparent; color: var(--garnet); }
+.btn.quiet { background: transparent; color: var(--muted); border-color: var(--line); }
+.btn.danger { background: transparent; color: var(--garnet); border-color: var(--line); }
+.btn[disabled] { opacity: .5; cursor: default; }
+.row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+/* event list */
+.evt { display: grid; grid-template-columns: 58px minmax(0, 1fr) auto; gap: 14px; padding: 12px 0; border-top: 1px solid var(--line); align-items: start; }
+.evt:first-child { border-top: 0; }
+.datechip { text-align: center; border: 1px solid var(--line); border-radius: 8px; padding: 4px 0; font-variant-numeric: tabular-nums; }
+.datechip .m { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--garnet); font-weight: 700; }
+.datechip .d { font-family: var(--font-display); font-size: 24px; line-height: 1.1; }
+.evt h4 { margin: 0; font-size: 16px; }
+.evt .meta { color: var(--muted); font-size: 14px; }
+.tag { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
+.tag.chapter { color: var(--garnet); border-color: var(--garnet); }
+.tag.tta { color: var(--gold); border-color: var(--gold); }
+.tag.deadline { color: var(--warn); border-color: var(--warn); }
+/* calendar */
+.cal-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.cal-bar .month { font-family: var(--font-display); font-size: 22px; min-width: 190px; }
+.cal-scroll { overflow-x: auto; }
+.cal { display: grid; grid-template-columns: repeat(7, minmax(40px, 1fr)); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
+.cal .dow { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); padding: 8px; border-bottom: 1px solid var(--line); }
+.cal .day { min-height: 84px; padding: 6px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); font-variant-numeric: tabular-nums; min-width: 0; }
+.cal .day:nth-child(7n+1) { border-left: 0; }
+.cal .day.out { background: var(--ground); color: var(--muted); }
+.cal .day.today .n { background: var(--garnet); color: var(--on-garnet); border-radius: 99px; padding: 0 7px; }
+.cal .n { font-size: 13px; font-weight: 600; }
+.cal .pill { display: block; margin-top: 4px; font-size: 12px; line-height: 1.3; padding: 2px 6px; border-radius: 6px; background: var(--garnet-soft); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border: 0; width: 100%; text-align: left; cursor: pointer; font-family: var(--font-body); }
+@media (max-width: 560px) { .cal .day { min-height: 56px; } .cal .pill { font-size: 0; height: 8px; padding: 0; } }
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.chipbtn { font: 600 13px var(--font-body); padding: 5px 12px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); cursor: pointer; }
+.chipbtn[aria-pressed="true"] { border-color: var(--garnet); color: var(--garnet); background: var(--garnet-soft); }
+/* projects */
+.summary { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.proj-list { display: grid; gap: 12px; }
+.proj { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 16px; }
+.proj h4 { margin: 0; font-size: 17px; }
+.status { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700; padding: 3px 10px; border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
+.status::before { content: ""; width: 7px; height: 7px; border-radius: 99px; background: currentColor; }
+.st-idea { color: var(--muted); } .st-planning { color: var(--gold); } .st-progress { color: var(--garnet); } .st-complete { color: var(--good); } .st-hold { color: var(--hold); }
+.bar { height: 6px; border-radius: 99px; background: var(--line); overflow: hidden; margin-top: 8px; }
+.bar span { display: block; height: 100%; background: var(--garnet); }
+.kv { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 14px; color: var(--muted); margin-top: 4px; font-variant-numeric: tabular-nums; }
+.kv b { color: var(--ink); font-weight: 600; }
+.confirm { font-size: 12px; font-weight: 700; color: var(--warn); }
+/* resources */
+.res-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.res { padding: 10px 0; border-top: 1px solid var(--line); display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+.res:first-of-type { border-top: 0; }
+.res a { font-weight: 600; text-decoration: none; }
+.res a:hover { text-decoration: underline; }
+.res p { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+/* announcements */
+.ann { padding: 12px 0; border-top: 1px solid var(--line); }
+.ann:first-child { border-top: 0; }
+.ann h4 { margin: 0; font-size: 16px; }
+.ann p { margin: 4px 0 0; white-space: pre-wrap; }
+/* forms */
+dialog { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); padding: 0; width: min(560px, calc(100vw - 32px)); }
+dialog::backdrop { background: rgba(20, 10, 12, .45); }
+dialog form { padding: 20px; display: grid; gap: 12px; }
+dialog h3 { font-size: 22px; }
+label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+input, select, textarea { font: 15px var(--font-body); color: var(--ink); background: var(--ground); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
+textarea { min-height: 84px; resize: vertical; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .two { grid-template-columns: 1fr; } }
+.toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); background: var(--ink); color: var(--ground); padding: 10px 16px; border-radius: 8px; font-size: 14px; max-width: calc(100vw - 32px); }
+.editor-note { font-size: 13px; color: var(--muted); }
+.detail dt { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-top: 8px; }
+.detail dd { margin: 2px 0 0; white-space: pre-wrap; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+</head>
+<body>
+<div id="app"></div>
+
+<script id="portal-app">
+(() => {
+  const STATUSES = ["Idea", "Planning", "In progress", "Complete", "On hold"];
+  const STATUS_CLASS = { "Idea": "st-idea", "Planning": "st-planning", "In progress": "st-progress", "Complete": "st-complete", "On hold": "st-hold" };
+  const TYPES = ["Chapter", "Executive Board", "Committee", "Program", "Top Teens", "Training", "Deadline", "Area / National", "Social"];
+  const GROUPS = ["Governance", "Members", "Forms", "Programs", "Officers and advisors", "References"];
+  const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["resources","Resources"],["feedback","Feedback"]];
+  const COMMITTEE_GROUPS = ["Officers", "Program thrusts", "Standing committees", "Special committees", "Projects and partnerships"];
+
+  let state = {};
+  const embedded = document.getElementById("portal-state");
+  let loaded = !!embedded;
+  if (embedded) { try { state = JSON.parse(embedded.textContent); } catch (e) { state = {}; } }
+  function normalize() {
+    for (const k of ["announcements","events","projects","resources","heard","committees"]) if (!Array.isArray(state[k])) state[k] = [];
+    if (!state.settings) state.settings = { feedbackFormUrl: "" };
+  }
+  normalize();
+
+  let canEdit = false, artifactApi = null, commentsApi = null, saving = false;
+  const now = new Date();
+  const todayStr = ymd(now);
+  let tab = (location.hash || "").replace("#", "");
+  if (!TABS.some(t => t[0] === tab)) tab = "home";
+  let calY = now.getFullYear(), calM = now.getMonth();
+  let typeFilter = "All", statusFilter = "All", showPast = false;
+
+  function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function parse(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
+  function niceDate(s) { if (!s) return ""; const d = parse(s); return MONTHS[d.getMonth()].slice(0, 3) + " " + d.getDate() + ", " + d.getFullYear(); }
+  function niceTime(t) { if (!t) return ""; let [h, m] = t.split(":").map(Number); const ap = h >= 12 ? "pm" : "am"; h = h % 12 || 12; return h + (m ? ":" + String(m).padStart(2, "0") : "") + " " + ap; }
+  function uid(p) { return p + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+  function el(tag, attrs, ...kids) {
+    const n = document.createElement(tag);
+    if (attrs) for (const [k, v] of Object.entries(attrs)) {
+      if (v == null || v === false) continue;
+      if (k === "class") n.className = v;
+      else if (k.startsWith("on")) n.addEventListener(k.slice(2), v);
+      else n.setAttribute(k, v === true ? "" : v);
+    }
+    for (const kid of kids.flat()) if (kid != null && kid !== false) n.append(kid instanceof Node ? kid : document.createTextNode(String(kid)));
+    return n;
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+  function toast(msg) {
+    const t = el("div", { class: "toast", role: "status" }, msg);
+    document.body.append(t);
+    setTimeout(() => t.remove(), 3200);
+  }
+  function sortEvents(list) { return [...list].sort((a, b) => (a.date + (a.start || "")).localeCompare(b.date + (b.start || ""))); }
+  function upcoming() { return sortEvents(state.events.filter(e => e.date >= todayStr)); }
+  function past() { return sortEvents(state.events.filter(e => e.date < todayStr)).reverse(); }
+
+  // ---------- saving: regenerate the whole page from state ----------
+  async function save(msg) {
+    if (!artifactApi || saving) return;
+    saving = true;
+    const json = JSON.stringify(state).replace(/</g, "\\u003c");
+    const head = document.querySelector('head meta[charset]')?.outerHTML + (document.querySelector('head meta[name="viewport"]')?.outerHTML || "") + (document.head.querySelector("style")?.outerHTML || "");
+    const fonts = '<link rel="preconnect" href="https://fonts.googleapis.com">' + (document.querySelector('link[href*="fonts.googleapis.com/css2"]')?.outerHTML || "");
+    const html = "<!doctype html><html><head>" + head + "</head><body>" +
+      "<title>TLOD Dallas Member Portal</title>\n" + fonts + "\n" +
+      document.getElementById("portal-style").outerHTML + "\n\n<div id=\"app\"></div>\n\n" +
+      '<script type="application/json" id="portal-state">' + json + "<\/script>\n\n" +
+      '<script id="portal-app">' + document.getElementById("portal-app").textContent + "<\/script>" +
+      "</body></html>";
+    try {
+      await artifactApi.publish(html);
+      toast(msg || "Saved for everyone");
+    } catch (e) {
+      const code = e && e.code;
+      if (code === "conflict") toast("Someone saved at the same moment. The page is reloading to their version; please make your change again.");
+      else if (code === "not_granted" || code === "not_writer") toast("Only officers with edit access can save changes.");
+      else toast("Could not save. Check your connection and try again.");
+    } finally { saving = false; }
+  }
+
+  // ---------- dialogs ----------
+  function openDialog(title, fields, values, onSubmit, onDelete) {
+    const dlg = el("dialog");
+    const form = el("form", { method: "dialog" });
+    form.append(el("h3", null, title));
+    const inputs = {};
+    const rows = [];
+    for (const f of fields) {
+      let input;
+      const id = "f-" + f.name;
+      if (f.type === "select") { input = el("select", { id, name: f.name }, f.options.map(o => el("option", { value: o, selected: values[f.name] === o }, o))); }
+      else if (f.type === "textarea") { input = el("textarea", { id, name: f.name }); input.value = values[f.name] || ""; }
+      else { input = el("input", { id, name: f.name, type: f.type || "text", required: f.required, min: f.min, max: f.max, placeholder: f.placeholder }); input.value = values[f.name] ?? ""; }
+      inputs[f.name] = input;
+      const lab = el("label", { for: id }, f.label, input);
+      if (f.half) rows.push(lab); else { if (rows.length) { form.append(el("div", { class: "two" }, rows.splice(0))); } form.append(lab); }
+      if (rows.length === 2) form.append(el("div", { class: "two" }, rows.splice(0)));
+    }
+    if (rows.length) form.append(el("div", { class: "two" }, rows.splice(0)));
+    const del = onDelete ? el("button", { type: "button", class: "btn danger", onclick: () => {
+      if (del.dataset.armed) { dlg.close(); dlg.remove(); onDelete(); }
+      else { del.dataset.armed = "1"; del.textContent = "Tap again to delete"; }
+    } }, "Delete") : null;
+    form.append(el("div", { class: "row-actions" },
+      el("button", { type: "submit", class: "btn" }, "Save"),
+      el("button", { type: "button", class: "btn quiet", onclick: () => { dlg.close(); dlg.remove(); } }, "Cancel"),
+      del));
+    form.addEventListener("submit", ev => {
+      ev.preventDefault();
+      const out = {};
+      for (const [k, inp] of Object.entries(inputs)) out[k] = inp.value.trim();
+      dlg.close(); dlg.remove();
+      onSubmit(out);
+    });
+    dlg.append(form);
+    document.body.append(dlg);
+    dlg.showModal();
+  }
+
+  function showEvent(e) {
+    const dlg = el("dialog");
+    const close = () => { dlg.close(); dlg.remove(); };
+    const when = niceDate(e.date) + (e.start ? ", " + niceTime(e.start) + (e.end ? " to " + niceTime(e.end) : "") : "");
+    dlg.append(el("form", { method: "dialog" },
+      el("h3", null, e.title),
+      el("dl", { class: "detail" },
+        el("dt", null, "When"), el("dd", null, when),
+        e.location ? [el("dt", null, "Where"), el("dd", null, e.location)] : null,
+        el("dt", null, "Type"), el("dd", null, e.type || "Chapter"),
+        e.contact ? [el("dt", null, "Contact"), el("dd", null, e.contact)] : null,
+        e.details ? [el("dt", null, "Details"), el("dd", null, e.details)] : null),
+      el("div", { class: "row-actions" },
+        canEdit ? el("button", { type: "button", class: "btn ghost", onclick: () => { close(); editEvent(e); } }, "Edit") : null,
+        el("button", { type: "button", class: "btn quiet", onclick: close }, "Close"))));
+    document.body.append(dlg);
+    dlg.showModal();
+  }
+
+  function editEvent(e) {
+    const isNew = !e;
+    openDialog(isNew ? "Add event" : "Edit event", [
+      { name: "title", label: "Title", required: true },
+      { name: "date", label: "Date", type: "date", required: true, half: true },
+      { name: "type", label: "Type", type: "select", options: TYPES, half: true },
+      { name: "start", label: "Start time", type: "time", half: true },
+      { name: "end", label: "End time", type: "time", half: true },
+      { name: "location", label: "Location (share meeting links by email, not here)" },
+      { name: "contact", label: "Contact person" },
+      { name: "details", label: "Details", type: "textarea" }
+    ], e || { date: todayStr, type: "Chapter" }, v => {
+      if (isNew) state.events.push({ id: uid("e"), ...v });
+      else Object.assign(state.events.find(x => x.id === e.id), v);
+      render(); save(isNew ? "Event added" : "Event updated");
+    }, isNew ? null : () => { state.events = state.events.filter(x => x.id !== e.id); render(); save("Event deleted"); });
+  }
+
+  function editProject(p) {
+    const isNew = !p;
+    openDialog(isNew ? "Add program or project" : "Update project", [
+      { name: "name", label: "Name", required: true },
+      { name: "committee", label: "Committee or owner group", half: true },
+      { name: "lead", label: "Chair or lead", half: true },
+      { name: "status", label: "Status", type: "select", options: STATUSES, half: true },
+      { name: "progress", label: "Progress (%)", type: "number", min: 0, max: 100, half: true },
+      { name: "start", label: "Start date", type: "date", half: true },
+      { name: "due", label: "Due date", type: "date", half: true },
+      { name: "notes", label: "Notes and next steps", type: "textarea" }
+    ], p || { status: "Idea", progress: 0 }, v => {
+      v.progress = Math.max(0, Math.min(100, Number(v.progress) || 0));
+      if (isNew) state.projects.push({ id: uid("p"), confirm: false, ...v });
+      else Object.assign(state.projects.find(x => x.id === p.id), v, { confirm: false });
+      render(); save(isNew ? "Project added" : "Project updated");
+    }, isNew ? null : () => { state.projects = state.projects.filter(x => x.id !== p.id); render(); save("Project deleted"); });
+  }
+
+  function editAnnouncement(a) {
+    const isNew = !a;
+    openDialog(isNew ? "Post announcement" : "Edit announcement", [
+      { name: "title", label: "Headline", required: true },
+      { name: "date", label: "Date posted", type: "date", half: true },
+      { name: "author", label: "Posted by", half: true },
+      { name: "body", label: "Message", type: "textarea" }
+    ], a || { date: todayStr }, v => {
+      if (isNew) state.announcements.unshift({ id: uid("a"), ...v });
+      else Object.assign(state.announcements.find(x => x.id === a.id), v);
+      render(); save(isNew ? "Announcement posted" : "Announcement updated");
+    }, isNew ? null : () => { state.announcements = state.announcements.filter(x => x.id !== a.id); render(); save("Announcement removed"); });
+  }
+
+  function editResource(r) {
+    const isNew = !r;
+    openDialog(isNew ? "Add resource" : "Edit resource", [
+      { name: "title", label: "Title", required: true },
+      { name: "group", label: "Section", type: "select", options: GROUPS },
+      { name: "url", label: "Link (https://...)", type: "url" },
+      { name: "note", label: "Short description" }
+    ], r || { group: "References" }, v => {
+      if (isNew) state.resources.push({ id: uid("r"), ...v });
+      else Object.assign(state.resources.find(x => x.id === r.id), v);
+      render(); save(isNew ? "Resource added" : "Resource updated");
+    }, isNew ? null : () => { state.resources = state.resources.filter(x => x.id !== r.id); render(); save("Resource removed"); });
+  }
+
+  function editHeard(h) {
+    const isNew = !h;
+    openDialog(isNew ? "Log feedback" : "Update feedback", [
+      { name: "heard", label: "What we heard", type: "textarea", required: true },
+      { name: "status", label: "Status", type: "select", options: ["Received", "Reviewing", "Addressed"], half: true },
+      { name: "date", label: "Date", type: "date", half: true },
+      { name: "response", label: "What changed (shared with members)", type: "textarea" }
+    ], h || { status: "Received", date: todayStr }, v => {
+      if (isNew) state.heard.unshift({ id: uid("h"), ...v });
+      else Object.assign(state.heard.find(x => x.id === h.id), v);
+      render(); save("Feedback log updated");
+    }, isNew ? null : () => { state.heard = state.heard.filter(x => x.id !== h.id); render(); save("Entry removed"); });
+  }
+
+  function editSettings() {
+    openDialog("Feedback form link", [
+      { name: "feedbackFormUrl", label: "Link to a Google Form or other survey (optional)", type: "url", placeholder: "https://" }
+    ], state.settings, v => { state.settings.feedbackFormUrl = v.feedbackFormUrl; render(); save("Feedback link saved"); });
+  }
+
+  // ---------- views ----------
+  function eventRow(e) {
+    const d = parse(e.date);
+    const when = [e.start ? niceTime(e.start) + (e.end ? " to " + niceTime(e.end) : "") : "", e.location].filter(Boolean).join(" · ");
+    const typeClass = e.type === "Chapter" ? "tag chapter" : e.type === "Top Teens" ? "tag tta" : e.type === "Deadline" ? "tag deadline" : "tag";
+    return el("div", { class: "evt" },
+      el("div", { class: "datechip", "aria-hidden": "true" }, el("div", { class: "m" }, MONTHS[d.getMonth()].slice(0, 3)), el("div", { class: "d" }, d.getDate())),
+      el("div", null,
+        el("h4", null, el("a", { href: "#calendar", onclick: ev => { ev.preventDefault(); showEvent(e); } }, e.title)),
+        el("div", { class: "meta" }, niceDate(e.date) + (when ? " · " + when : ""))),
+      el("span", { class: typeClass }, e.type || "Chapter"));
+  }
+
+  function statusPill(s) { return el("span", { class: "status " + (STATUS_CLASS[s] || "st-idea") }, s); }
+
+  function projectCard(p) {
+    return el("article", { class: "panel proj" },
+      el("div", { style: "min-width:0" },
+        el("h4", null, p.name),
+        el("div", { class: "kv" },
+          p.committee ? el("span", null, "Committee: ", el("b", null, p.committee)) : null,
+          el("span", null, "Lead: ", el("b", null, p.lead || "To be named")),
+          p.start ? el("span", null, "Started: ", el("b", null, niceDate(p.start))) : null,
+          p.due ? el("span", null, "Due: ", el("b", null, niceDate(p.due))) : null),
+        p.notes ? el("p", { class: "small", style: "margin:8px 0 0" }, p.notes) : null,
+        p.confirm ? el("div", { class: "confirm" }, "Details to confirm by the chair") : null,
+        el("div", { class: "bar", role: "img", "aria-label": (p.progress || 0) + " percent complete" }, el("span", { style: "width:" + (p.progress || 0) + "%" }))),
+      el("div", { style: "display:grid;gap:8px;justify-items:end;align-content:start" },
+        statusPill(p.status),
+        el("span", { class: "small muted", style: "font-variant-numeric:tabular-nums" }, (p.progress || 0) + "%"),
+        canEdit ? el("button", { class: "btn ghost", onclick: () => editProject(p) }, "Update") : null));
+  }
+
+  function viewHome() {
+    const up = upcoming().slice(0, 5);
+    const counts = STATUSES.map(s => [s, state.projects.filter(p => p.status === s).length]).filter(x => x[1]);
+    return el("div", { class: "grid-home" },
+      el("div", { class: "stack" },
+        el("section", { class: "panel" },
+          el("div", { class: "section-head", style: "margin-bottom:8px" }, el("h3", { style: "margin:0" }, "Coming up"),
+            canEdit ? el("button", { class: "btn ghost", onclick: () => editEvent(null) }, "Add event") : null),
+          up.length ? up.map(eventRow) : [
+            el("p", { class: "empty" }, "No upcoming dates are on the calendar yet. Officers add the 2026-2027 dates here as they are set. Most recent:"),
+            past().slice(0, 3).map(eventRow)],
+          el("p", { class: "small", style: "margin:10px 0 0" }, el("a", { href: "#calendar", onclick: ev => { ev.preventDefault(); go("calendar"); } }, "Open the full calendar"))),
+        el("section", { class: "panel" },
+          el("div", { class: "section-head", style: "margin-bottom:8px" }, el("h3", { style: "margin:0" }, "Announcements"),
+            canEdit ? el("button", { class: "btn ghost", onclick: () => editAnnouncement(null) }, "Post") : null),
+          state.announcements.length ? state.announcements.slice(0, 6).map(a => el("div", { class: "ann" },
+            el("h4", null, a.title),
+            el("div", { class: "small muted" }, [niceDate(a.date), a.author].filter(Boolean).join(" · ")),
+            a.body ? el("p", null, a.body) : null,
+            canEdit ? el("button", { class: "btn quiet", style: "margin-top:6px", onclick: () => editAnnouncement(a) }, "Edit") : null))
+            : el("p", { class: "empty" }, "Chapter announcements will appear here."))),
+      el("div", { class: "stack" },
+        el("section", { class: "panel" },
+          el("h3", null, "Programs at a glance"),
+          el("div", { class: "summary" }, counts.length ? counts.map(([s, n]) => el("span", { class: "status " + STATUS_CLASS[s] }, n + " " + s)) : el("span", { class: "muted" }, "No projects yet")),
+          state.projects.filter(p => p.status === "In progress").slice(0, 4).map(p => el("div", { style: "padding:8px 0;border-top:1px solid var(--line)" },
+            el("div", { style: "font-weight:600" }, p.name), el("div", { class: "bar" }, el("span", { style: "width:" + (p.progress || 0) + "%" })))),
+          el("p", { class: "small", style: "margin:10px 0 0" }, el("a", { href: "#projects", onclick: ev => { ev.preventDefault(); go("projects"); } }, "See all programs and projects"))),
+        el("section", { class: "panel" },
+          el("h3", null, "Quick links"),
+          state.resources.filter(r => safeUrl(r.url)).slice(0, 5).map(r => el("div", { style: "padding:6px 0" },
+            el("a", { href: safeUrl(r.url), target: "_blank", rel: "noopener" }, r.title))))));
+  }
+
+  function viewCalendar() {
+    const first = new Date(calY, calM, 1);
+    const startOffset = first.getDay();
+    const gridStart = new Date(calY, calM, 1 - startOffset);
+    const events = state.events.filter(e => typeFilter === "All" || e.type === typeFilter);
+    const byDay = {};
+    for (const e of events) (byDay[e.date] = byDay[e.date] || []).push(e);
+    const cells = [];
+    for (const d of ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]) cells.push(el("div", { class: "dow" }, d));
+    const weeks = Math.ceil((startOffset + new Date(calY, calM + 1, 0).getDate()) / 7);
+    for (let i = 0; i < weeks * 7; i++) {
+      const d = new Date(gridStart.getFullYear(), gridStart.getMonth(), gridStart.getDate() + i);
+      const key = ymd(d);
+      const list = sortEvents(byDay[key] || []);
+      cells.push(el("div", { class: "day" + (d.getMonth() !== calM ? " out" : "") + (key === todayStr ? " today" : "") },
+        el("span", { class: "n" }, d.getDate()),
+        list.map(e => el("button", { class: "pill", title: e.title, onclick: () => showEvent(e) }, (e.start ? niceTime(e.start) + " " : "") + e.title))));
+    }
+    const monthKey = calY + "-" + String(calM + 1).padStart(2, "0");
+    const monthList = sortEvents(events.filter(e => e.date.startsWith(monthKey)));
+    const earlier = past().filter(e => typeFilter === "All" || e.type === typeFilter);
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Chapter calendar"), el("p", null, "Chapter meetings, committee meetings, programs, and Top Teens activities in one place. Select an event for details.")),
+        canEdit ? el("button", { class: "btn", onclick: () => editEvent(null) }, "Add event") : null),
+      el("div", { class: "filters", role: "group", "aria-label": "Filter by type" },
+        ["All", ...TYPES].map(t => el("button", { class: "chipbtn", "aria-pressed": String(typeFilter === t), onclick: () => { typeFilter = t; render(); } }, t))),
+      el("div", null,
+        el("div", { class: "cal-bar" },
+          el("div", { class: "month", "aria-live": "polite" }, MONTHS[calM] + " " + calY),
+          el("div", { class: "row-actions" },
+            el("button", { class: "btn quiet", onclick: () => { calM--; if (calM < 0) { calM = 11; calY--; } render(); } }, "Previous"),
+            el("button", { class: "btn quiet", onclick: () => { calY = now.getFullYear(); calM = now.getMonth(); render(); } }, "Today"),
+            el("button", { class: "btn quiet", onclick: () => { calM++; if (calM > 11) { calM = 0; calY++; } render(); } }, "Next"))),
+        el("div", { class: "cal-scroll" }, el("div", { class: "cal" }, cells))),
+      el("section", { class: "panel" },
+        el("h3", null, "In " + MONTHS[calM]),
+        monthList.length ? monthList.map(eventRow) : el("p", { class: "empty" }, "Nothing scheduled this month yet.")),
+      el("section", { class: "panel" },
+        el("div", { class: "section-head", style: "margin-bottom:4px" }, el("h3", { style: "margin:0" }, "Earlier events"),
+          el("button", { class: "btn quiet", "aria-expanded": String(showPast), onclick: () => { showPast = !showPast; render(); } }, showPast ? "Hide" : "Show " + earlier.length)),
+        showPast ? (earlier.length ? earlier.map(eventRow) : el("p", { class: "empty" }, "No earlier events.")) : null));
+  }
+
+  function viewProjects() {
+    const list = state.projects.filter(p => statusFilter === "All" || p.status === statusFilter)
+      .sort((a, b) => STATUSES.indexOf(a.status) - STATUSES.indexOf(b.status) || a.name.localeCompare(b.name));
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Programs and projects"), el("p", null, "Every program has a chair, dates, and a status so the whole chapter can see where things stand. Chairs update their own entries; results feed the annual report.")),
+        canEdit ? el("button", { class: "btn", onclick: () => editProject(null) }, "Add project") : null),
+      el("div", { class: "filters", role: "group", "aria-label": "Filter by status" },
+        ["All", ...STATUSES].map(s => el("button", { class: "chipbtn", "aria-pressed": String(statusFilter === s), onclick: () => { statusFilter = s; render(); } },
+          s + (s === "All" ? " (" + state.projects.length + ")" : " (" + state.projects.filter(p => p.status === s).length + ")")))),
+      el("div", { class: "proj-list" }, list.length ? list.map(projectCard) : el("p", { class: "empty" }, "No projects with this status.")));
+  }
+
+  function viewResources() {
+    const groups = GROUPS.map(g => [g, state.resources.filter(r => r.group === g)]).filter(x => x[1].length);
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Resources"), el("p", null, "Governing documents, forms, directories, and references. Contact lists open only for Ladies who have access; request access through the link if it asks.")),
+        canEdit ? el("button", { class: "btn", onclick: () => editResource(null) }, "Add resource") : null),
+      el("div", { class: "res-groups" }, groups.map(([g, list]) => el("section", { class: "panel" },
+        el("h3", null, g),
+        list.map(r => el("div", { class: "res" },
+          el("div", { style: "min-width:0" },
+            safeUrl(r.url) ? el("a", { href: safeUrl(r.url), target: "_blank", rel: "noopener" }, r.title) : el("span", { style: "font-weight:600" }, r.title),
+            r.note ? el("p", null, r.note) : null),
+          canEdit ? el("button", { class: "btn quiet", onclick: () => editResource(r) }, "Edit") : null))))));
+  }
+
+  function viewFeedback() {
+    const formUrl = safeUrl(state.settings.feedbackFormUrl);
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Feedback"), el("p", null, "Ideas, questions, and suggestions help the chapter grow. The Executive Board reviews feedback at each monthly meeting and reports back on what changed."))),
+      el("div", { class: "grid-home" },
+        el("section", { class: "panel", id: "feedback-box" },
+          el("h3", null, "Share your feedback"),
+          el("p", { class: "small" }, "Choose the option that works for you:"),
+          el("div", { class: "row-actions", style: "margin:8px 0" },
+            commentsApi ? el("button", { class: "btn", onclick: async () => {
+              try { await commentsApi.openComposer({ element: document.getElementById("feedback-box") }); }
+              catch (e) { toast("Commenting is not available for your view. Use the form link or tell any officer."); }
+            } }, "Leave a comment") : null,
+            formUrl ? el("a", { class: "btn ghost", href: formUrl, target: "_blank", rel: "noopener", style: "text-decoration:none" }, "Open the feedback form") : null),
+          !commentsApi && !formUrl ? el("p", { class: "empty" }, "Share feedback with any officer or at the next chapter meeting. A feedback form link will be added here.") : null,
+          canEdit ? el("div", { class: "editor-note", style: "margin-top:10px" }, "Officers: comments appear in this page's comment panel. ",
+            el("button", { class: "btn quiet", onclick: editSettings }, formUrl ? "Change form link" : "Add a form link")) : null),
+        el("section", { class: "panel" },
+          el("div", { class: "section-head", style: "margin-bottom:8px" }, el("h3", { style: "margin:0" }, "What we heard"),
+            canEdit ? el("button", { class: "btn ghost", onclick: () => editHeard(null) }, "Log") : null),
+          state.heard.length ? state.heard.map(h => el("div", { class: "ann" },
+            el("div", { style: "display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap" },
+              el("span", { class: "small muted" }, niceDate(h.date)),
+              el("span", { class: "status " + (h.status === "Addressed" ? "st-complete" : h.status === "Reviewing" ? "st-planning" : "st-idea") }, h.status)),
+            el("p", null, h.heard),
+            h.response ? el("p", { class: "small" }, el("b", null, "What changed: "), h.response) : null,
+            canEdit ? el("button", { class: "btn quiet", style: "margin-top:6px", onclick: () => editHeard(h) }, "Update") : null))
+            : el("p", { class: "empty" }, "As feedback comes in, the board posts a summary here along with what changed."))));
+  }
+
+  function viewCommittees() {
+    const groups = COMMITTEE_GROUPS.map(g => [g, state.committees.filter(c => c.group === g)]).filter(x => x[1].length);
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Leadership and committees"), el("p", null, "The 2025-2027 officers and the chairs who lead each thrust, committee, and partnership. Committee member lists are in the Committee Sign-Up Sheet."))),
+      groups.length ? el("div", { class: "res-groups" }, groups.map(([g, list]) => el("section", { class: "panel" },
+        el("h3", null, g),
+        list.map(c => el("div", { class: "res" },
+          el("div", { style: "min-width:0" },
+            el("span", { style: "font-weight:600" }, c.name),
+            el("p", null, [c.chair, c.cochair].filter(Boolean).join(" / ")),
+            c.charge ? el("p", null, c.charge) : null)))))) : el("p", { class: "empty" }, "Leadership and committee listings will appear here."));
+  }
+
+  function go(t) { tab = t; try { history.replaceState(null, "", "#" + t); } catch (e) {} render(); window.scrollTo(0, 0); }
+
+  function render() {
+    const app = document.getElementById("app");
+    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, resources: viewResources, feedback: viewFeedback }[tab]();
+    app.replaceChildren(
+      el("header", { class: "masthead" },
+        el("div", { class: "wrap" },
+          el("div", { class: "eyebrow" }, "Top Ladies of Distinction, Inc. · Dallas Chapter"),
+          el("h1", null, "Member Portal"),
+          el("p", null, "Calendar, programs, resources, and feedback for the Ladies of the Dallas Chapter and our Top Teens of America."),
+          state.settings.motto ? el("p", { class: "motto" }, "\u201C" + state.settings.motto + "\u201D" + (state.settings.theme ? " \u00B7 National theme: " + state.settings.theme : "")) : null,
+          el("nav", { class: "tabs", role: "tablist", "aria-label": "Portal sections" },
+            TABS.map(([k, label]) => el("button", { role: "tab", "aria-selected": String(tab === k), onclick: () => go(k) }, label))))),
+      el("main", { class: "wrap" }, view,
+        canEdit ? el("p", { class: "editor-note", style: "margin-top:28px" }, "You have edit access. Saving a change updates the portal for every member.") : null));
+  }
+
+  window.addEventListener("hashchange", () => {
+    const t = (location.hash || "").replace("#", "");
+    if (t !== tab && TABS.some(x => x[0] === t)) { tab = t; render(); }
+  });
+
+  render();
+
+  if (!loaded) {
+    fetch("data/portal.json", { cache: "no-store" })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(d => { state = d || {}; normalize(); loaded = true; render(); })
+      .catch(() => { document.getElementById("app").append(el("p", { class: "wrap empty" }, "The portal data could not load. Refresh the page, or contact the 1st Vice President.")); });
+  }
+
+  (async () => {
+    try {
+      const user = await window.claude?.use?.("user");
+      canEdit = (await user?.canEdit?.()) ?? false;
+      if (canEdit) artifactApi = await window.claude.use("artifact");
+      if (!artifactApi) canEdit = false;
+    } catch (e) { canEdit = false; }
+    try { commentsApi = await window.claude?.use?.("comments"); } catch (e) { commentsApi = null; }
+    render();
+  })();
+})();
+</script>
+</body>
+</html>

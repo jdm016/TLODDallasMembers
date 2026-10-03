@@ -1,0 +1,935 @@
+{
+ "settings": {
+  "feedbackFormUrl": "",
+  "theme": "Continuity of Service in Action",
+  "motto": "One Sisterhood, One Chapter, One Team, Leading in Service"
+ },
+ "announcements": [],
+ "events": [
+  {
+   "id": "e1",
+   "title": "Senior Citizen Committee Meeting",
+   "date": "2024-10-07",
+   "start": "19:00",
+   "end": "20:00",
+   "location": "Zoom (link from the committee chair)",
+   "type": "Committee",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e2",
+   "title": "Induction and Brunch",
+   "date": "2025-02-09",
+   "start": "09:00",
+   "end": "14:00",
+   "location": "Crowne Plaza Dallas Market Center, Love Field",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e3",
+   "title": "Literacy Committee Meeting",
+   "date": "2025-04-09",
+   "start": "18:30",
+   "end": "19:30",
+   "location": "Zoom (link from the committee chair)",
+   "type": "Committee",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e4",
+   "title": "Resume Writing Workshop",
+   "date": "2025-05-14",
+   "start": "12:15",
+   "end": "16:15",
+   "location": "Wilmer Hutchins High School, Dallas",
+   "type": "Program",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e5",
+   "title": "Officer Transition Meeting",
+   "date": "2025-06-23",
+   "start": "16:00",
+   "end": "17:30",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e6",
+   "title": "Officer Transition Meeting",
+   "date": "2025-07-21",
+   "start": "17:00",
+   "end": "19:00",
+   "location": "Zoom",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e7",
+   "title": "Sisterly Competition Rehearsal",
+   "date": "2025-10-14",
+   "start": "19:00",
+   "end": "20:00",
+   "location": "Zoom",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e8",
+   "title": "Ready, Set, Report! Reporting Workshop",
+   "date": "2026-02-10",
+   "start": "18:30",
+   "end": "19:30",
+   "location": "Zoom",
+   "type": "Training",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e9",
+   "title": "TLOD/TTA Joint Retreat Planning Committee",
+   "date": "2026-05-27",
+   "start": "18:30",
+   "end": "19:30",
+   "location": "Zoom",
+   "type": "Committee",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e10",
+   "title": "Chapter Meeting",
+   "date": "2025-09-18",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": "Budget 2025-2026 vote; Nominating and Teller Committees."
+  },
+  {
+   "id": "e11",
+   "title": "Program Committee Kickoff",
+   "date": "2025-10-09",
+   "start": "18:30",
+   "end": "",
+   "location": "Virtual",
+   "type": "Committee",
+   "contact": "Lady Jessica D. Maine-Jackson, 1st Vice President",
+   "details": ""
+  },
+  {
+   "id": "e12",
+   "title": "Chapter Meeting",
+   "date": "2025-10-16",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e13",
+   "title": "West Cluster Work Day",
+   "date": "2025-10-18",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Area / National",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e14",
+   "title": "Programs of Work due to the 1st Vice President",
+   "date": "2025-10-21",
+   "start": "23:59",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "",
+   "details": "Each thrust and committee submits its biennium plan through the Program of Work Submission Form."
+  },
+  {
+   "id": "e15",
+   "title": "Chapter Program of Work submitted to National",
+   "date": "2025-10-23",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "1st Vice President",
+   "details": ""
+  },
+  {
+   "id": "e16",
+   "title": "Program Committee Meeting",
+   "date": "2025-11-13",
+   "start": "",
+   "end": "",
+   "location": "Virtual",
+   "type": "Committee",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e17",
+   "title": "Community Beautification: Gwen's Garden",
+   "date": "2025-11-15",
+   "start": "09:00",
+   "end": "11:00",
+   "location": "Gwen's Garden, Panama Street, Dallas",
+   "type": "Program",
+   "contact": "Lady Shelia Pate",
+   "details": ""
+  },
+  {
+   "id": "e18",
+   "title": "Top Teens Induction Ceremony and Etiquette Workshop",
+   "date": "2025-12-07",
+   "start": "15:00",
+   "end": "17:00",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Service to Youth",
+   "details": ""
+  },
+  {
+   "id": "e19",
+   "title": "Blue and Silver Ball",
+   "date": "2025-12-13",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Top Teens",
+   "contact": "Blue and Silver Ball Committee",
+   "details": ""
+  },
+  {
+   "id": "e20",
+   "title": "Joint Heart Health Community Program",
+   "date": "2026-02-14",
+   "start": "",
+   "end": "",
+   "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas",
+   "type": "Program",
+   "contact": "Lady Loren Gilbert-Smith",
+   "details": "With NCNW Dallas Southwest Section, South Dallas Business and Professional Women's Club, C.V. Roman Medical Society, and Good Health Wins."
+  },
+  {
+   "id": "e21",
+   "title": "Chapter Meeting",
+   "date": "2026-02-19",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e22",
+   "title": "Chapter Meeting",
+   "date": "2026-03-19",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e23",
+   "title": "Chapter Meeting",
+   "date": "2026-04-16",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e24",
+   "title": "Chapter Meeting",
+   "date": "2026-05-07",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e25",
+   "title": "Chapter Meeting",
+   "date": "2026-06-04",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Chapter",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e26",
+   "title": "Senior Diva nominee due to Area I",
+   "date": "2026-03-01",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Senior Citizens Chair and 1st Vice President",
+   "details": ""
+  },
+  {
+   "id": "e27",
+   "title": "Area I Conference (April 16 to 19)",
+   "date": "2026-04-16",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Area / National",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e28",
+   "title": "\"Letters to Her\" submissions due",
+   "date": "2026-05-25",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "Lady Jessica D. Maine-Jackson",
+   "details": "Status of Women initiative for Mental Health Awareness Month."
+  },
+  {
+   "id": "e29",
+   "title": "Senior Citizens Gathering",
+   "date": "2026-05-30",
+   "start": "13:00",
+   "end": "14:30",
+   "location": "",
+   "type": "Program",
+   "contact": "Senior Citizens Committee",
+   "details": "Refreshments and BINGO. Each Lady brings two pairs of socks for Fair Park Rehabilitation Center residents; Top Teens bring handwritten cards."
+  },
+  {
+   "id": "e30",
+   "title": "End-of-year event reports due",
+   "date": "2026-05-31",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "1st Vice President",
+   "details": ""
+  },
+  {
+   "id": "e31",
+   "title": "Joint Retreat ticket sales open",
+   "date": "2026-06-10",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "",
+   "details": "$50 per ticket; sales run through July 10."
+  },
+  {
+   "id": "e32",
+   "title": "Joint Retreat ticket sales close",
+   "date": "2026-07-10",
+   "start": "",
+   "end": "",
+   "location": "",
+   "type": "Deadline",
+   "contact": "",
+   "details": ""
+  },
+  {
+   "id": "e33",
+   "title": "Joint TLOD/TTA Retreat: Rooted and Rising",
+   "date": "2026-08-01",
+   "start": "10:00",
+   "end": "14:30",
+   "location": "St. Philip's School and Community Center, 1600 Pennsylvania Ave, Dallas",
+   "type": "Top Teens",
+   "contact": "Lady Jessica D. Maine-Jackson, Retreat Chair",
+   "details": "Check-in at 9:30 AM. 90s-inspired dress. Leadership, protocol, parliamentary procedure, mentorship, and program year planning for Ladies and Teens."
+  }
+ ],
+ "projects": [
+  {
+   "id": "p1",
+   "name": "Ladies Mentorship Program",
+   "committee": "1st Vice President",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "In progress",
+   "start": "2026-08-01",
+   "due": "",
+   "progress": 25,
+   "notes": "Assessment forms are ready. Ladies return them to the 1st Vice President for matching. Mentors are always someone other than the sponsor; pairs connect at least monthly.",
+   "confirm": true
+  },
+  {
+   "id": "p2",
+   "name": "Me and My Mentor (Top Teens)",
+   "committee": "Service to Youth",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "In progress",
+   "start": "2026-08-01",
+   "due": "",
+   "progress": 25,
+   "notes": "Every Top Teen is paired with a TLOD mentor. Teen and parent complete the assessment form.",
+   "confirm": true
+  },
+  {
+   "id": "p3",
+   "name": "Operations Manual adoption",
+   "committee": "Executive Board",
+   "lead": "",
+   "status": "Planning",
+   "start": "2026-10-03",
+   "due": "",
+   "progress": 15,
+   "notes": "Draft updated with chapter records. Fill the items marked Confirm, then adopt by board vote.",
+   "confirm": false
+  },
+  {
+   "id": "p4",
+   "name": "Member Portal launch",
+   "committee": "Executive Board",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "Planning",
+   "start": "2026-10-03",
+   "due": "",
+   "progress": 30,
+   "notes": "Add officers as editors, enter the 2026-2027 calendar, and share the link with members.",
+   "confirm": false
+  },
+  {
+   "id": "p5",
+   "name": "2025-2027 Program of Work",
+   "committee": "Program Committee",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "Complete",
+   "start": "2025-10-09",
+   "due": "2025-10-23",
+   "progress": 100,
+   "notes": "Thrust and committee plans collected by October 21 and submitted to National October 23, 2025.",
+   "confirm": false
+  },
+  {
+   "id": "p6",
+   "name": "Joint Heart Health Community Program",
+   "committee": "Community Partnerships",
+   "lead": "Lady Loren Gilbert-Smith",
+   "status": "Complete",
+   "start": "2025-10-09",
+   "due": "2026-02-14",
+   "progress": 100,
+   "notes": "Held February 14, 2026 at St. Philip's with NCNW Dallas Southwest Section, South Dallas BPW, C.V. Roman Medical Society, and Good Health Wins.",
+   "confirm": false
+  },
+  {
+   "id": "p7",
+   "name": "Good Coworking partnership",
+   "committee": "Community Partnerships",
+   "lead": "",
+   "status": "In progress",
+   "start": "2026-05-01",
+   "due": "",
+   "progress": 20,
+   "notes": "15-month partnership giving the chapter a second community event space alongside St. Philip's.",
+   "confirm": true
+  },
+  {
+   "id": "p8",
+   "name": "Senior outreach at Fair Park Rehab Center",
+   "committee": "Senior Citizens",
+   "lead": "Lady Johnnie Gales",
+   "status": "In progress",
+   "start": "2025-11-01",
+   "due": "",
+   "progress": 50,
+   "notes": "Thanksgiving and Christmas outreach (2025); sock drive at the May 30, 2026 gathering.",
+   "confirm": true
+  },
+  {
+   "id": "p9",
+   "name": "Fancy Hat Tea for Seniors",
+   "committee": "Senior Citizens",
+   "lead": "Lady Johnnie Gales",
+   "status": "Planning",
+   "start": "",
+   "due": "",
+   "progress": 0,
+   "notes": "Planned for spring 2026 at St. Philip's; date to be set.",
+   "confirm": true
+  },
+  {
+   "id": "p10",
+   "name": "Technology and AI Learning Workshop for Seniors",
+   "committee": "Senior Citizens",
+   "lead": "Lady Johnnie Gales",
+   "status": "Planning",
+   "start": "",
+   "due": "",
+   "progress": 0,
+   "notes": "Planned for spring 2026; date to be set.",
+   "confirm": true
+  },
+  {
+   "id": "p11",
+   "name": "Letters to Her",
+   "committee": "Status of Women",
+   "lead": "Lady Jacqueline Anderson-Vaughn",
+   "status": "In progress",
+   "start": "2026-05-01",
+   "due": "",
+   "progress": 75,
+   "notes": "Letters collected through May 25, 2026 for women in Dallas shelters and community centers; delivery date to be announced.",
+   "confirm": true
+  },
+  {
+   "id": "p12",
+   "name": "Plant Something campaign",
+   "committee": "Community Beautification",
+   "lead": "Lady Shelia Pate",
+   "status": "Complete",
+   "start": "2026-05-01",
+   "due": "2026-05-31",
+   "progress": 100,
+   "notes": "Ladies and Teens planted for themselves or a neighbor in May 2026 and shared photos for a chapter collage.",
+   "confirm": true
+  },
+  {
+   "id": "p13",
+   "name": "Joint TLOD/TTA Retreat 2026: Rooted and Rising",
+   "committee": "Retreat Planning Committee",
+   "lead": "Lady Jessica D. Maine-Jackson",
+   "status": "Complete",
+   "start": "2026-05-27",
+   "due": "2026-08-01",
+   "progress": 100,
+   "notes": "Held August 1, 2026 at St. Philip's. Post-event evaluation due within 30 days.",
+   "confirm": true
+  }
+ ],
+ "resources": [
+  {
+   "id": "r1",
+   "group": "Governance",
+   "title": "Chapter Operations Manual",
+   "url": "https://claude.ai/code/artifact/e5d4125c-57da-4a48-9228-0416f954c1f8",
+   "note": "How the chapter runs: roles, committees, meetings, finance, reporting."
+  },
+  {
+   "id": "r2",
+   "group": "Governance",
+   "title": "TLOD, Inc. Constitution and Bylaws",
+   "url": "",
+   "note": "Link to be added by the Parliamentarian."
+  },
+  {
+   "id": "r3",
+   "group": "Members",
+   "title": "Chapter Directory 2025-2027",
+   "url": "https://docs.google.com/spreadsheets/d/1dVv3Yq6yGs3e6ZNcl8K_FQsP5GzNuFaiBdemOo2J_QE/edit",
+   "note": "Member contact list. Opens for Ladies with access; request access if needed."
+  },
+  {
+   "id": "r4",
+   "group": "Forms",
+   "title": "Program of Work Submission Form",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfWYLGyx7lhAkhxBDq7p_GPx4uOlQ9RPA8cd1WXotbtQImoGw/viewform",
+   "note": "Thrust and committee biennium plans, due to the 1st Vice President."
+  },
+  {
+   "id": "r5",
+   "group": "Forms",
+   "title": "Care, Condolences and Compassion Form",
+   "url": "https://docs.google.com/forms/d/e/1FAIpQLSfaJrwGmtNBqSBQbCDrmOP6cLWKt8l9RrFKKDPjrjbrc5tUIQ/viewform",
+   "note": "Let the chapter know about an illness, bereavement, or a Lady in need of encouragement."
+  },
+  {
+   "id": "r6",
+   "group": "Forms",
+   "title": "Ladies Mentorship Assessment Form",
+   "url": "https://drive.google.com/file/d/1FtusWzVic2iy-Jaj550i96UcffyogmK0/view",
+   "note": "Return to the 1st Vice President."
+  },
+  {
+   "id": "r7",
+   "group": "Forms",
+   "title": "Top Teens Mentorship Assessment Form",
+   "url": "https://drive.google.com/file/d/1bnwRwl-g35zJQhtZlAK-QsKXgqknbfs0/view",
+   "note": "Teen and parent or guardian complete; return to the 1st Vice President."
+  },
+  {
+   "id": "r8",
+   "group": "References",
+   "title": "Reporting essentials",
+   "url": "",
+   "note": "If we do it, we report it. Hours, attendance, photos, and a summary within 7 days; Post-Event Evaluation within 30 days."
+  },
+  {
+   "id": "r9",
+   "group": "Officers and advisors",
+   "title": "2026 Top Teens of America Roster",
+   "url": "https://docs.google.com/spreadsheets/d/12xtHArzHBiRF93pT9xIZH1E_XGMSmnHUHNlYKSBqAiM/edit",
+   "note": "Teen and parent contacts. Advisors and board only."
+  },
+  {
+   "id": "r10",
+   "group": "Officers and advisors",
+   "title": "TTA 2026 Retreat Call List",
+   "url": "https://docs.google.com/spreadsheets/d/1riBSB0kx21kBypOuGO92nRgxP5ccABT775Z9S5X94zc/edit",
+   "note": "Retreat outreach tracking."
+  }
+ ],
+ "heard": [],
+ "committees": [
+  {
+   "group": "Officers",
+   "name": "President",
+   "chair": "Lady Marian A. Willard",
+   "cochair": "",
+   "charge": "Leads the chapter, Executive Board, and chapter meetings."
+  },
+  {
+   "group": "Officers",
+   "name": "1st Vice President",
+   "chair": "Lady Jessica D. Maine-Jackson",
+   "cochair": "",
+   "charge": "Chairs the Program Committee; Programs of Work, 5-Star reporting, mentorship."
+  },
+  {
+   "group": "Officers",
+   "name": "2nd Vice President",
+   "chair": "Lady Keyshay Mozee",
+   "cochair": "",
+   "charge": "Membership, intake, and induction."
+  },
+  {
+   "group": "Officers",
+   "name": "Recording Secretary",
+   "chair": "Lady Elandra Gilmore",
+   "cochair": "",
+   "charge": "Roll call, minutes, and the official record."
+  },
+  {
+   "group": "Officers",
+   "name": "Financial Secretary",
+   "chair": "Lady Shenequa C. Miller",
+   "cochair": "",
+   "charge": "Receives and records member payments; monthly financial summary."
+  },
+  {
+   "group": "Officers",
+   "name": "Treasurer",
+   "chair": "Lady Tallulah Matthews",
+   "cochair": "",
+   "charge": "Bank accounts, deposits, disbursements, treasurer's report."
+  },
+  {
+   "group": "Officers",
+   "name": "Parliamentarian",
+   "chair": "Lady Shirley Ison-Newsome",
+   "cochair": "",
+   "charge": "Procedure, bylaws questions, elections."
+  },
+  {
+   "group": "Program thrusts",
+   "name": "Service to Youth (Top Teens of America)",
+   "chair": "To be confirmed",
+   "cochair": "Lady Cynthia Scott",
+   "charge": "Oversees the Top Teens Program of Work under national guidelines."
+  },
+  {
+   "group": "Program thrusts",
+   "name": "Senior Citizens",
+   "chair": "Lady Johnnie Gales",
+   "cochair": "Lady Florene May",
+   "charge": "Honors, supports, and uplifts senior citizens."
+  },
+  {
+   "group": "Program thrusts",
+   "name": "Status of Women",
+   "chair": "Lady Jacqueline Anderson-Vaughn",
+   "cochair": "Lady Deitra Mosley",
+   "charge": "Programs and workshops that improve the status of women."
+  },
+  {
+   "group": "Program thrusts",
+   "name": "Community Beautification",
+   "chair": "Lady Shelia Pate",
+   "cochair": "",
+   "charge": "Environmental service; Lady Thomasine Beck provides interim support."
+  },
+  {
+   "group": "Program thrusts",
+   "name": "Community Partnerships",
+   "chair": "Lady Loren Gilbert-Smith",
+   "cochair": "Lady Hertha Echols",
+   "charge": "Partnerships that advance the mission."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Awards",
+   "chair": "Lady Nneka Hobbs",
+   "cochair": "Lady Nettye Medlock",
+   "charge": "Activity file, award deadlines, scrapbooks, Top Lady of the Year."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Bylaws",
+   "chair": "Lady Shirley Ison-Newsome",
+   "cochair": "Lady Karen Parson",
+   "charge": "Proposes changes to the Bylaws and SOPs."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Finance",
+   "chair": "Lady Tunia Hughes",
+   "cochair": "Lady Beverly Randall",
+   "charge": "Presents the budget at the September meeting; financial reports."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Membership",
+   "chair": "Lady Stephanie Edwards",
+   "cochair": "",
+   "charge": "Recruitment, retention, and re-activation."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Editor of the Crown",
+   "chair": "Lady Rosalind Baylor-Cosey",
+   "cochair": "Lady Tameka Selders",
+   "charge": "Articles for the Crown and local press releases."
+  },
+  {
+   "group": "Standing committees",
+   "name": "Scholarship",
+   "chair": "Lady Karen Parson",
+   "cochair": "Lady Lisa Curry",
+   "charge": "Annual scholarship for a college-bound Top Teen."
+  },
+  {
+   "group": "Special committees",
+   "name": "Archives",
+   "chair": "Lady Evelyn Hamilton",
+   "cochair": "Lady Kyra McCoy",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Blue and Silver Ball",
+   "chair": "Lady Deardra Hayes-Whigham",
+   "cochair": "Lady Bridgette Grosvenor",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Conference",
+   "chair": "Lady Marian A. Willard",
+   "cochair": "Lady Johnnie Gales",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Courtesy and Gifts",
+   "chair": "Lady Jacqueline Anderson-Vaughn",
+   "cochair": "Lady Marjorie O'Neal",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Devotion",
+   "chair": "Lady Thomasine Beck",
+   "cochair": "Lady Harnell Williams",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Founders' Day",
+   "chair": "Lady Bonnie Barrett",
+   "cochair": "Lady Stephanie Edwards",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Juanita M. Johns Luncheon",
+   "chair": "Lady Verna Farmer",
+   "cochair": "Lady Karen Parson",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Lords",
+   "chair": "Lady Lois Smith",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Protocol",
+   "chair": "Lady Beverly Randall",
+   "cochair": "Lady Jacqueline Anderson-Vaughn",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Sisterly Relations",
+   "chair": "Lady Alicia Bell",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Social Media",
+   "chair": "Lady Tameka Selders",
+   "cochair": "Lady Velena McRae",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Technology",
+   "chair": "Lady Brandy Duncan",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "TTA Speak-Off",
+   "chair": "Lady Stephanie Brooks",
+   "cochair": "Lady Ardina Colby",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Public Relations",
+   "chair": "Lady Tameka Selders",
+   "cochair": "Lady Keyshay Mozee",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Induction",
+   "chair": "Lady Orethann Price",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Decorations",
+   "chair": "Lady Tarrance Jones",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Nominating",
+   "chair": "Lady Cynthia Scott",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Special committees",
+   "name": "Tellers",
+   "chair": "To be named",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "Alzheimer's Walk",
+   "chair": "Lady Mydes Gordon",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "March of Dimes",
+   "chair": "Lady Lisa Curry",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "NAACP",
+   "chair": "Lady Marilynn Mayse",
+   "cochair": "Lady Bertchell Green",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "NCNW",
+   "chair": "Lady Racquel Davis",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "St. Jude Children's Research Hospital",
+   "chair": "Lady Harnell Williams",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "Breast Cancer Awareness",
+   "chair": "Lady Orethann Price",
+   "cochair": "Lady Florene May",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "TLOD Literacy",
+   "chair": "Lady Stephanie Edwards",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "UNCF",
+   "chair": "Lady Karen Fowler",
+   "cochair": "",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "Sickle Cell",
+   "chair": "Lady Yvonne Brown",
+   "cochair": "Lady Mari Hamilton",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "Foster Care",
+   "chair": "Lady Jearlene Miller",
+   "cochair": "Lady Tallulah Matthews",
+   "charge": ""
+  },
+  {
+   "group": "Projects and partnerships",
+   "name": "ACT-SO (with NAACP)",
+   "chair": "To be named",
+   "cochair": "",
+   "charge": ""
+  }
+ ]
+}
