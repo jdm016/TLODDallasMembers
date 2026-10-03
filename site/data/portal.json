@@ -541,7 +541,7 @@
    "group": "Governance",
    "title": "TLOD, Inc. Constitution and Bylaws",
    "url": "",
-   "note": "Link to be added by the Parliamentarian."
+   "note": "Quick reference is on the Bylaws tab. The Parliamentarian adds the document link."
   },
   {
    "id": "r3",
@@ -931,5 +931,103 @@
    "cochair": "",
    "charge": ""
   }
- ]
+ ],
+ "bylaws": {
+  "documentUrl": "",
+  "documentTitle": "TLOD, Inc. Constitution and Bylaws (with Dallas Chapter bylaws or SOPs)",
+  "keeper": "Parliamentarian (Lady Shirley Ison-Newsome) and Bylaws Committee (Lady Shirley Ison-Newsome, Lady Karen Parson)",
+  "sections": [
+   {
+    "id": "b1",
+    "topic": "Officers and terms",
+    "summary": "Elected officers serve a two-year administration (2025-2027): President, 1st Vice President, 2nd Vice President, Recording Secretary, Financial Secretary, Treasurer, and Parliamentarian. Confirm the full list of elected offices and term limits.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b2",
+    "topic": "Elections",
+    "summary": "The Nominating Committee presents a slate of qualified candidates; the Tellers Committee collects, counts, and reports votes. Confirm eligibility rules, timing, and voting method.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b3",
+    "topic": "Quorum",
+    "summary": "Every chapter meeting includes a quorum check before business. Add the quorum number.",
+    "reference": "",
+    "source": "Add from the bylaws"
+   },
+   {
+    "id": "b4",
+    "topic": "Order of business",
+    "summary": "Call to order, opening ceremony, agenda, quorum check, meditation, roll call, minutes, correspondence, officer reports, financial and committee reports, unfinished business, new business, announcements, closing ceremony.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b5",
+    "topic": "Parliamentary authority",
+    "summary": "Add the parliamentary authority named in the bylaws (for example, Robert's Rules of Order).",
+    "reference": "",
+    "source": "Add from the bylaws"
+   },
+   {
+    "id": "b6",
+    "topic": "Budget and finances",
+    "summary": "The Finance Committee presents the next year's budget at the September chapter meeting and the chapter votes. Add signature, approval, and audit requirements.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b7",
+    "topic": "Membership and induction",
+    "summary": "New members are sponsored by a Lady in good standing and inducted according to TLOD ritual; the 2025 induction fee was $800. Add eligibility and requirements.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b8",
+    "topic": "Dues and good standing",
+    "summary": "Add annual dues, assessments, deadlines, and what keeps a Lady in good standing.",
+    "reference": "",
+    "source": "Add from the bylaws"
+   },
+   {
+    "id": "b9",
+    "topic": "Meetings",
+    "summary": "Chapter meetings are held monthly, usually the third Thursday. Add rules for regular, special, and Executive Board meetings and required notice.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b10",
+    "topic": "Committees",
+    "summary": "Standing committees include Awards, Bylaws, Finance, Membership, Editor of the Crown, and Scholarship; special committees are formed as needed. Confirm how chairs are appointed.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b11",
+    "topic": "Amendments",
+    "summary": "The Bylaws Committee solicits and proposes changes to the Bylaws and Standard Operating Procedures. Add the notice period and vote required to amend.",
+    "reference": "",
+    "source": "Chapter records"
+   },
+   {
+    "id": "b12",
+    "topic": "Vacancies and removal",
+    "summary": "Add how officer vacancies are filled and how an officer or member may be removed.",
+    "reference": "",
+    "source": "Add from the bylaws"
+   },
+   {
+    "id": "b13",
+    "topic": "Top Teens of America",
+    "summary": "Top Teens follow national Top Teens of America guidelines under the Service to Youth thrust. Add the age range, advisor requirements, and teen officer rules.",
+    "reference": "",
+    "source": "Chapter records"
+   }
+  ]
+ }
 }

@@ -136,6 +136,7 @@ dialog::backdrop { background: rgba(20, 10, 12, .45); }
 dialog form { padding: 20px; display: grid; gap: 12px; }
 dialog h3 { font-size: 22px; }
 label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+#bylaws-search { max-width: 520px; }
 input, select, textarea { font: 15px var(--font-body); color: var(--ink); background: var(--ground); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
 textarea { min-height: 84px; resize: vertical; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
@@ -158,7 +159,7 @@ textarea { min-height: 84px; resize: vertical; }
   const TYPES = ["Chapter", "Executive Board", "Committee", "Program", "Top Teens", "Training", "Deadline", "Area / National", "Social"];
   const GROUPS = ["Governance", "Members", "Forms", "Programs", "Officers and advisors", "References"];
   const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["resources","Resources"],["feedback","Feedback"]];
+  const TABS = [["home","Home"],["calendar","Calendar"],["projects","Programs & Projects"],["committees","Leadership & Committees"],["bylaws","Bylaws"],["resources","Resources"],["feedback","Feedback"]];
   const COMMITTEE_GROUPS = ["Officers", "Program thrusts", "Standing committees", "Special committees", "Projects and partnerships"];
 
   let state = {};
@@ -168,6 +169,8 @@ textarea { min-height: 84px; resize: vertical; }
   function normalize() {
     for (const k of ["announcements","events","projects","resources","heard","committees"]) if (!Array.isArray(state[k])) state[k] = [];
     if (!state.settings) state.settings = { feedbackFormUrl: "" };
+    if (!state.bylaws || typeof state.bylaws !== "object") state.bylaws = {};
+    if (!Array.isArray(state.bylaws.sections)) state.bylaws.sections = [];
   }
   normalize();
 
@@ -177,7 +180,7 @@ textarea { min-height: 84px; resize: vertical; }
   let tab = (location.hash || "").replace("#", "");
   if (!TABS.some(t => t[0] === tab)) tab = "home";
   let calY = now.getFullYear(), calM = now.getMonth();
-  let typeFilter = "All", statusFilter = "All", showPast = false;
+  let typeFilter = "All", statusFilter = "All", showPast = false, bylawsQuery = "";
 
   function ymd(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
   function parse(s) { const [y, m, d] = s.split("-").map(Number); return new Date(y, m - 1, d); }
@@ -556,11 +559,59 @@ textarea { min-height: 84px; resize: vertical; }
             c.charge ? el("p", null, c.charge) : null)))))) : el("p", { class: "empty" }, "Leadership and committee listings will appear here."));
   }
 
+  function editBylawSection(b) {
+    const isNew = !b;
+    openDialog(isNew ? "Add bylaws topic" : "Edit bylaws topic", [
+      { name: "topic", label: "Topic", required: true },
+      { name: "reference", label: "Article and section (for example, Article IV, Section 2)" },
+      { name: "source", label: "Source", type: "select", options: ["Bylaws", "Chapter records", "Add from the bylaws"] },
+      { name: "summary", label: "Quick-reference summary", type: "textarea" }
+    ], b || { source: "Bylaws" }, v => {
+      if (isNew) state.bylaws.sections.push({ id: uid("b"), ...v });
+      else Object.assign(state.bylaws.sections.find(x => x.id === b.id), v);
+      render(); save(isNew ? "Topic added" : "Topic updated");
+    }, isNew ? null : () => { state.bylaws.sections = state.bylaws.sections.filter(x => x.id !== b.id); render(); save("Topic removed"); });
+  }
+
+  function editBylawsLink() {
+    openDialog("Bylaws document", [
+      { name: "documentTitle", label: "Document title" },
+      { name: "documentUrl", label: "Link to the bylaws (https://...)", type: "url" }
+    ], state.bylaws, v => { Object.assign(state.bylaws, v); render(); save("Bylaws link saved"); });
+  }
+
+  function viewBylaws() {
+    const by = state.bylaws, url = safeUrl(by.documentUrl);
+    const q = bylawsQuery.trim().toLowerCase();
+    const list = by.sections.filter(b => !q || [b.topic, b.summary, b.reference].join(" ").toLowerCase().includes(q));
+    const srcClass = s => s === "Bylaws" ? "status st-complete" : s === "Chapter records" ? "status st-planning" : "status st-idea";
+    const search = el("input", { id: "bylaws-search", type: "search", placeholder: "Search topics, for example quorum or dues", "aria-label": "Search bylaws topics" });
+    search.value = bylawsQuery;
+    search.addEventListener("input", () => { bylawsQuery = search.value; const pos = search.selectionStart; render(); const s2 = document.getElementById("bylaws-search"); if (s2) { s2.focus(); try { s2.setSelectionRange(pos, pos); } catch (e) {} } });
+    return el("div", { class: "stack" },
+      el("div", { class: "section-head" },
+        el("div", null, el("h2", null, "Bylaws quick reference"), el("p", null, "The rules the chapter uses most, in plain language with the article and section to cite. The full bylaws always govern; where national and chapter documents differ, national governs.")),
+        el("div", { class: "row-actions" },
+          url ? el("a", { class: "btn", href: url, target: "_blank", rel: "noopener", style: "text-decoration:none" }, "Open the full bylaws") : null,
+          canEdit ? el("button", { class: "btn ghost", onclick: editBylawsLink }, url ? "Change link" : "Add bylaws link") : null,
+          canEdit ? el("button", { class: "btn ghost", onclick: () => editBylawSection(null) }, "Add topic") : null)),
+      !url ? el("p", { class: "panel small" }, "The bylaws document has not been linked yet. ", by.keeper ? "Keepers: " + by.keeper + "." : "", " Topics marked \u201CChapter records\u201D come from chapter agendas and reports and should be checked against the bylaws; topics marked \u201CAdd from the bylaws\u201D are waiting for the text.") : null,
+      search,
+      el("div", { class: "proj-list" }, list.length ? list.map(b => el("article", { class: "panel" },
+        el("div", { style: "display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline" },
+          el("h4", { style: "margin:0;font-size:17px" }, b.topic),
+          el("span", { class: srcClass(b.source) }, b.source || "Bylaws")),
+        b.reference ? el("div", { class: "small muted", style: "margin-top:2px" }, b.reference) : null,
+        b.summary ? el("p", { style: "margin:8px 0 0" }, b.summary) : null,
+        canEdit ? el("button", { class: "btn quiet", style: "margin-top:8px", onclick: () => editBylawSection(b) }, "Edit") : null))
+        : el("p", { class: "empty" }, q ? "No topics match that search." : "Bylaws topics will appear here.")));
+  }
+
   function go(t) { tab = t; try { history.replaceState(null, "", "#" + t); } catch (e) {} render(); window.scrollTo(0, 0); }
 
   function render() {
     const app = document.getElementById("app");
-    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, resources: viewResources, feedback: viewFeedback }[tab]();
+    const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, committees: viewCommittees, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
     app.replaceChildren(
       el("header", { class: "masthead" },
         el("div", { class: "wrap" },

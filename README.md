@@ -9,6 +9,8 @@ site/
   index.html          the portal page
   data/portal.json    everything the page shows (events, projects, committees, resources)
   robots.txt          keeps search engines out
+docs/
+  operations-manual.md   repository copy of the Chapter Operations Manual
 netlify.toml          Netlify settings (publish the site/ folder)
 tools/build_artifact.py   builds the single-file Claude artifact version
 ```
@@ -41,10 +43,15 @@ Edit `site/data/portal.json` on GitHub (open the file, select the pencil icon, m
 | Announcements | `announcements` | `title`, `date`, `author`, `body` |
 | Feedback log | `heard` | `heard`, `status` (Received, Reviewing, Addressed), `date`, `response` |
 | Feedback form link | `settings.feedbackFormUrl` | any https link |
+| Bylaws quick reference | `bylaws` | `documentUrl` (link to the full bylaws), `sections` with `topic`, `reference` (article and section), `source` (Bylaws, Chapter records, or Add from the bylaws), `summary` |
 
 Event types: Chapter, Executive Board, Committee, Program, Top Teens, Training, Deadline, Area / National, Social.
 
 Give each new item a unique `id` (for example `e34`, `p14`). Keep commas between items; GitHub shows an error if the file stops being valid JSON.
+
+## Operations Manual
+
+`docs/operations-manual.md` is the repository copy. The living version, where Ladies comment and edit, is the Claude doc linked at the top of the file. When the doc changes, refresh this copy so both match.
 
 ## Claude artifact version
 
