@@ -17,13 +17,18 @@ img{max-width:100%}
 <style id="portal-style">
 /* Layout: a chapter handbook. A navy sidebar lists every section, grouped the way the chapter works (chapter, service, people, reference); content reads in one column with side panels on wide screens. Blue and silver, the colors of the Blue and Silver Ball. */
 :root {
-  --ground: #f4f6f9;
+  --ground: #ffffff;
+  --sunk: #f6f7fa;
   --surface: #ffffff;
   --ink: #17203a;
   --muted: #4f5b73;
-  --line: #d9dfe8;
-  --accent: #23468f;
-  --accent-soft: #e6edf8;
+  --line: #dfe3ea;
+  --accent: #1f2f5c;
+  --accent-soft: #eceff6;
+  --lady: #b0285f;
+  --lady-soft: #fdebf3;
+  --tta: #1565c0;
+  --tta-soft: #e5effc;
   --on-accent: #ffffff;
   --gold: #8a6514;
   --nav-bg: #14244a;
@@ -41,15 +46,15 @@ img{max-width:100%}
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --ground: #0f1524; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
-    --accent: #93b2ee; --accent-soft: #1f2d4d; --on-accent: #0f1524; --gold: #dcb86a;
+    --ground: #0f1524; --sunk: #131a2b; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
+    --accent: #b3c4ea; --accent-soft: #1f2d4d; --lady: #f49ac1; --lady-soft: #3b1d2c; --tta: #8ec2ff; --tta-soft: #15304f; --on-accent: #0f1524; --gold: #dcb86a;
     --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
     --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --ground: #0f1524; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
-  --accent: #93b2ee; --accent-soft: #1f2d4d; --on-accent: #0f1524; --gold: #dcb86a;
+  --ground: #0f1524; --sunk: #131a2b; --surface: #172036; --ink: #e9edf5; --muted: #a7b2c8; --line: #2a3651;
+  --accent: #b3c4ea; --accent-soft: #1f2d4d; --lady: #f49ac1; --lady-soft: #3b1d2c; --tta: #8ec2ff; --tta-soft: #15304f; --on-accent: #0f1524; --gold: #dcb86a;
   --nav-bg: #0b1120; --nav-ink: #d2d9e7; --nav-dim: #8391ad; --nav-active: #93b2ee; --nav-active-ink: #0b1120; --nav-hover: rgba(255, 255, 255, .06);
   --good: #82cfa4; --warn: #e6b566; --hold: #a9b1c4; color-scheme: dark;
 }
@@ -115,8 +120,15 @@ main { padding-block: 32px 64px; }
 .evt h4 { margin: 0; font-size: 16px; }
 .evt .meta { color: var(--muted); font-size: 14px; }
 .tag { display: inline-block; font-size: 12px; font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 99px; border: 1px solid var(--line); color: var(--muted); white-space: nowrap; }
-.tag.chapter { color: var(--accent); border-color: var(--accent); }
-.tag.tta { color: var(--gold); border-color: var(--gold); }
+.tag.chapter { color: var(--lady); border-color: var(--lady); }
+.tag.tta { color: var(--tta); border-color: var(--tta); }
+.lady { color: var(--lady); }
+.tta-text { color: var(--tta); }
+.datechip.tta .m { color: var(--tta); }
+.datechip.lady .m { color: var(--lady); }
+.cal .pill.tta { background: var(--tta-soft); }
+.cal .pill.lady { background: var(--lady-soft); }
+.tta-chip { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--tta); background: var(--tta-soft); border-radius: 99px; padding: 2px 8px; }
 .tag.deadline { color: var(--warn); border-color: var(--warn); }
 /* calendar */
 .cal-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; margin-bottom: 12px; }
@@ -126,7 +138,7 @@ main { padding-block: 32px 64px; }
 .cal .dow { font-size: 12px; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); padding: 8px; border-bottom: 1px solid var(--line); }
 .cal .day { min-height: 84px; padding: 6px; border-top: 1px solid var(--line); border-left: 1px solid var(--line); font-variant-numeric: tabular-nums; min-width: 0; }
 .cal .day:nth-child(7n+1) { border-left: 0; }
-.cal .day.out { background: var(--ground); color: var(--muted); }
+.cal .day.out { background: var(--sunk); color: var(--muted); }
 .cal .day.today .n { background: var(--accent); color: var(--on-accent); border-radius: 99px; padding: 0 7px; }
 .cal .n { font-size: 13px; font-weight: 600; }
 .cal .pill { display: block; margin-top: 4px; font-size: 12px; line-height: 1.3; padding: 2px 6px; border-radius: 6px; background: var(--accent-soft); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; border: 0; width: 100%; text-align: left; cursor: pointer; font-family: var(--font-body); }
@@ -174,7 +186,7 @@ table.swot thead th { background: var(--accent-soft); font-size: 13px; text-tran
 table.swot tbody th { width: 180px; font-weight: 600; }
 .swot-cell { all: unset; display: block; width: 100%; min-height: 40px; cursor: pointer; }
 .swot-cell:focus-visible { outline: 2px solid var(--gold); }
-input, select, textarea { font: 15px var(--font-body); color: var(--ink); background: var(--ground); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
+input, select, textarea { font: 15px var(--font-body); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; width: 100%; }
 textarea { min-height: 84px; resize: vertical; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 480px) { .two { grid-template-columns: 1fr; } }
@@ -200,7 +212,7 @@ textarea { min-height: 84px; resize: vertical; }
 .su-choice input { width: auto; margin: 0; }
 .su-req { border-top: 1px solid var(--line); padding: 10px 0; }
 .su-req:first-of-type { border-top: 0; }
-.su-msg { margin-top: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--ground); }
+.su-msg { margin-top: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--sunk); }
 .su-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 6px 0 10px; }
 /* leadership and committees */
 .h-sub { font-size: 22px; }
@@ -228,6 +240,12 @@ textarea { min-height: 84px; resize: vertical; }
 .com-card details { border-top: 1px solid var(--line); padding-top: 8px; }
 .com-card summary { cursor: pointer; font-weight: 600; font-size: 14px; color: var(--accent); }
 .com-card details p { margin: 8px 0 0; font-size: 14px; }
+/* Ladies in pink, Top Teens in blue */
+.area-block.area-lady { border-left-color: var(--lady); }
+.area-block.area-tta { border-left-color: var(--tta); }
+.proj-tta { border-color: var(--tta); }
+.person.is-tta, .com-card.is-tta { border-color: var(--tta); background: var(--tta-soft); }
+.person.is-tta .role { color: var(--tta); }
 </style>
 
 </head>
@@ -495,9 +513,10 @@ textarea { min-height: 84px; resize: vertical; }
   function eventRow(e) {
     const d = parse(e.date);
     const when = [e.start ? niceTime(e.start) + (e.end ? " to " + niceTime(e.end) : "") : "", e.location].filter(Boolean).join(" · ");
-    const typeClass = e.type === "Chapter" ? "tag chapter" : e.type === "Top Teens" ? "tag tta" : e.type === "Deadline" ? "tag deadline" : "tag";
+    const teen = e.type === "Top Teens" || (e.type !== "Chapter" && isTTA(e.title));
+    const typeClass = teen ? "tag tta" : e.type === "Chapter" ? "tag chapter" : e.type === "Deadline" ? "tag deadline" : "tag";
     return el("div", { class: "evt" },
-      el("div", { class: "datechip", "aria-hidden": "true" }, el("div", { class: "m" }, MONTHS[d.getMonth()].slice(0, 3)), el("div", { class: "d" }, d.getDate())),
+      el("div", { class: "datechip " + (teen ? "tta" : "lady"), "aria-hidden": "true" }, el("div", { class: "m" }, MONTHS[d.getMonth()].slice(0, 3)), el("div", { class: "d" }, d.getDate())),
       el("div", null,
         el("h4", null, el("a", { href: "#calendar", onclick: ev => { ev.preventDefault(); showEvent(e); } }, e.title)),
         el("div", { class: "meta" }, niceDate(e.date) + (when ? " · " + when : ""))),
@@ -507,12 +526,13 @@ textarea { min-height: 84px; resize: vertical; }
   function statusPill(s) { return el("span", { class: "status " + (STATUS_CLASS[s] || "st-idea") }, s); }
 
   function projectCard(p) {
-    return el("article", { class: "panel proj" },
+    const teen = p.area === "tta" || isTTA(p.name);
+    return el("article", { class: "panel proj" + (teen ? " proj-tta" : "") },
       el("div", { style: "min-width:0" },
-        el("h4", null, p.name),
+        el("h4", null, p.name, teen ? [" ", el("span", { class: "tta-chip" }, "Top Teens")] : null),
         el("div", { class: "kv" },
           p.committee ? el("span", null, "Committee: ", el("b", null, p.committee)) : null,
-          el("span", null, "Lead: ", el("b", null, p.lead || "To be named")),
+          el("span", null, "Lead: ", el("b", null, ladyText(p.lead || "To be named"))),
           p.start ? el("span", null, "Started: ", el("b", null, niceDate(p.start))) : null,
           p.due ? el("span", null, "Due: ", el("b", null, niceDate(p.due))) : null),
         p.notes ? el("p", { class: "small", style: "margin:8px 0 0" }, p.notes) : null,
@@ -575,7 +595,7 @@ textarea { min-height: 84px; resize: vertical; }
       const list = sortEvents(byDay[key] || []);
       cells.push(el("div", { class: "day" + (d.getMonth() !== calM ? " out" : "") + (key === todayStr ? " today" : "") },
         el("span", { class: "n" }, d.getDate()),
-        list.map(e => el("button", { class: "pill", title: e.title, onclick: () => showEvent(e) }, (e.start ? niceTime(e.start) + " " : "") + e.title))));
+        list.map(e => el("button", { class: "pill " + (e.type === "Top Teens" || (e.type !== "Chapter" && isTTA(e.title)) ? "tta" : "lady"), title: e.title, onclick: () => showEvent(e) }, (e.start ? niceTime(e.start) + " " : "") + e.title))));
     }
     const monthKey = calY + "-" + String(calM + 1).padStart(2, "0");
     const monthList = sortEvents(events.filter(e => e.date.startsWith(monthKey)));
@@ -626,11 +646,11 @@ textarea { min-height: 84px; resize: vertical; }
         areas.map(a => {
           const list = sortP(state.projects.filter(p => p.area === a.id && matches(p)));
           const also = state.projects.filter(p => (p.alsoCounts || []).includes(a.id) && p.area !== a.id);
-          return el("div", { class: "area-block" },
+          return el("div", { class: "area-block " + (a.id === "tta" ? "area-tta" : "area-lady") },
             el("div", { class: "area-head" },
               el("div", { style: "min-width:0" },
                 el("h4", { style: "margin:0;font-size:18px" }, a.name),
-                el("div", { class: "small muted" }, "Chair: " + a.chair),
+                el("div", { class: "small muted" }, "Chair: ", ladyText(a.chair)),
                 el("div", { class: "small", style: "margin-top:2px" }, el("b", null, "National: "), a.national)),
               canEdit ? el("button", { class: "btn quiet", onclick: () => { projectsAreaDefault = a.id; editProject(null); } }, "Add") : null),
             list.length ? el("div", { class: "proj-list" }, list.map(projectCard))
@@ -769,6 +789,14 @@ textarea { min-height: 84px; resize: vertical; }
     path.setAttribute("d", ICONS[k] || ""); svg.append(path);
     return svg;
   }
+  function isTTA(t) { return /\b(TTA|Top Teens?|Teen Advisor)\b|Blue and Silver Ball/i.test(t || ""); }
+  function ladyText(t) {
+    const out = []; let last = 0; const re = /\bLady(?:\s+(?:[A-Z][A-Za-z.'\u2019-]*))+/g; let m;
+    t = String(t || "");
+    while ((m = re.exec(t))) { if (m.index > last) out.push(t.slice(last, m.index)); out.push(el("span", { class: "lady" }, m[0])); last = m.index + m[0].length; }
+    if (last < t.length) out.push(t.slice(last));
+    return out;
+  }
   function navLink(k, text) { return el("a", { href: "#" + k, onclick: ev => { ev.preventDefault(); go(k); } }, text); }
 
   function viewLeadership() {
@@ -776,17 +804,17 @@ textarea { min-height: 84px; resize: vertical; }
     const names = g => state.committees.filter(c => c.group === g).map(c => c.name.replace(/ \(.*\)$/, ""));
     const orgCol = (role, who, groups) => el("section", { class: "panel org-col" },
       el("div", { class: "role" }, role),
-      el("div", { class: "who" }, who || "To be confirmed"),
-      groups.map(([label, list]) => list.length ? el("div", null, el("h4", null, label), el("ul", null, list.map(n => el("li", null, n)))) : null));
+      el("div", { class: "who" }, ladyText(who || "To be confirmed")),
+      groups.map(([label, list]) => list.length ? el("div", null, el("h4", null, label), el("ul", null, list.map(n => el("li", { class: isTTA(n) ? "tta-text" : null }, n)))) : null));
     const find = n => (officers.find(o => o.name === n) || {}).chair;
     const committeesCount = state.committees.filter(c => c.group === "Standing committees" || c.group === "Special committees").length;
     return el("div", { class: "stack" },
       el("div", { class: "section-head" },
         el("div", null, el("h2", null, "Chapter leadership"),
           el("p", null, "The 2025-2027 elected and appointed officers, and how the chapter’s service is organized under them. Looking for a committee chair? See ", navLink("committees", "Committees"), "."))),
-      el("div", { class: "officer-grid" }, officers.map(o => el("article", { class: "person" },
+      el("div", { class: "officer-grid" }, officers.map(o => el("article", { class: "person" + (isTTA(o.name) ? " is-tta" : "") },
         el("div", { class: "role" }, o.name),
-        el("div", { class: "who" }, o.chair || "To be confirmed"),
+        el("div", { class: "who" }, ladyText(o.chair || "To be confirmed")),
         o.charge ? el("p", null, o.charge) : null))),
       el("div", { class: "section-head", style: "margin:12px 0 0" },
         el("div", null, el("h3", { class: "h-sub" }, "How service is organized"),
@@ -796,7 +824,7 @@ textarea { min-height: 84px; resize: vertical; }
         orgCol("Second Vice President", find("2nd Vice President"), [["National Projects", names("National Projects")], ["Chapter partnerships", names("Chapter partnerships")]]),
         el("section", { class: "panel org-col" },
           el("div", { class: "role" }, "President"),
-          el("div", { class: "who" }, find("President") || "To be confirmed"),
+          el("div", { class: "who" }, ladyText(find("President") || "To be confirmed")),
           el("div", null, el("h4", null, "Standing and special committees"),
             el("p", { class: "small", style: "margin:0" }, committeesCount + " committees, each with a chair and a Program of Work. The President appoints committee chairs."),
             el("p", { class: "small", style: "margin:8px 0 0" }, navLink("committees", "Browse all committees"))))),
@@ -826,12 +854,12 @@ textarea { min-height: 84px; resize: vertical; }
       el("div", { class: "com-tools" }, search,
         el("div", { class: "filters" }, chip("All", "All", all.length),
           groups.map(g => { const n = all.filter(c => c.group === g).length; return n ? chip(g, g, n) : null; }))),
-      list.length ? el("div", { class: "com-grid" }, list.map(c => el("article", { class: "com-card" },
-        el("div", { class: "grp" }, c.group),
+      list.length ? el("div", { class: "com-grid" }, list.map(c => el("article", { class: "com-card" + (isTTA(c.name) ? " is-tta" : "") },
+        el("div", { class: "grp" }, c.group, isTTA(c.name) ? [" ", el("span", { class: "tta-chip" }, "Top Teens")] : null),
         el("h4", null, c.name),
         el("dl", { class: "people-rows" },
-          el("dt", null, "Chair"), el("dd", null, c.chair || "To be named"),
-          c.cochair ? [el("dt", null, "Co-Chair"), el("dd", null, c.cochair)] : null),
+          el("dt", null, "Chair"), el("dd", null, ladyText(c.chair || "To be named")),
+          c.cochair ? [el("dt", null, "Co-Chair"), el("dd", null, ladyText(c.cochair))] : null),
         c.charge ? el("p", { class: "charge" }, c.charge) : null,
         c.national || c.focus ? el("details", null, el("summary", null, "National frame and focus"),
           c.national ? el("p", null, el("b", null, "National frame: "), c.national) : null,
@@ -1058,7 +1086,7 @@ textarea { min-height: 84px; resize: vertical; }
     const view = !loaded ? el("p", { class: "empty" }, "Loading the portal...") : { home: viewHome, calendar: viewCalendar, projects: viewProjects, leadership: viewLeadership, committees: viewCommittees, signup: viewSignup, kit: viewKit, bylaws: viewBylaws, resources: viewResources, feedback: viewFeedback }[tab]();
     const label = Object.fromEntries(TABS);
     const hello = tab === "home" && loaded ? el("div", { class: "section-head page-hello" },
-      el("div", null, el("h2", null, "Welcome, Ladies"),
+      el("div", null, el("h2", null, "Welcome, ", el("span", { class: "lady" }, "Ladies")),
         el("p", null, "Calendar, programs, resources, and feedback for the Ladies of the Dallas Chapter and our Top Teens of America."))) : null;
     app.replaceChildren(el("div", { class: "shell" },
       el("div", { class: "topbar" },
